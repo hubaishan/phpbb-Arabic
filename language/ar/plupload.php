@@ -4,8 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
-* @copyright (c) 2010-2013 Moxiecode Systems AB
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>* @copyright (c) 2010-2013 Moxiecode Systems AB
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -45,11 +45,11 @@ $lang = array_merge($lang, array(
 	'PLUPLOAD_CLOSE'			=> 'إغلاق',
 	'PLUPLOAD_DRAG'				=> 'قم بسحب الملفات لهنا.',
 	'PLUPLOAD_DUPLICATE_ERROR'	=> 'خطأ ملف مكرر.',
-	'PLUPLOAD_DRAG_TEXTAREA'	=> 'يمكنك أيضاً إرفاق الملفات عن طريق سحبهم والقائهم في مربع الرسالة.',
+	'PLUPLOAD_DRAG_TEXTAREA'	=> 'يمكنك أيضًا إرفاق الملفات عن طريق سحبهم والقائهم في مربع الرسالة.',
 	'PLUPLOAD_ERR_INPUT'		=> 'تعذر فتح مجرى الإدخال.',
 	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'تعذر نقل الملف المرفوع.',
 	'PLUPLOAD_ERR_OUTPUT'		=> 'تعذر فتح مجرى الإخراج.',
-	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'الملف كبير جداً:',
+	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'الملف كبير جدًا:',
 	'PLUPLOAD_ERR_FILE_COUNT'	=> 'خطأ في عدد الملفات.',
 	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'امتداد ملف غير صالح:',
 	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'الذاكرة المتوفرة نفذت أثناء التشغيل.',

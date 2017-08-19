@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -59,9 +60,10 @@ $lang = array_merge($lang, array(
 
 	'EDITED_TIMES_TOTAL'	=> array(
 		1	=> 'آخر تعديل بواسطة %2$s في %3$s، تم التعديل مرة واحدة.',
-		2	=> 'آخر تعديل بواسطة %2$s في %3$s، تم التعديل مرتان في المجمل.',
+		2	=> 'آخر تعديل بواسطة %2$s في %3$s، تم التعديل مرتتن في المجمل.',
 		3	=> 'آخر تعديل بواسطة %2$s في %3$s، تم التعديل %1$d مرات في المجمل.',
 		4	=> 'آخر تعديل بواسطة %2$s في %3$s، تم التعديل %1$d مرة في المجمل.',
+		5	=> 'آخر تعديل بواسطة %2$s في %3$s، تم التعديل %1$d مرة في المجمل.',
 		),
 	'EMAIL_TOPIC'			=> 'أرسِل لصديق',
 	'ERROR_NO_ATTACHMENT'	=> 'المرفق المطلوب لم يعد موجود',
@@ -72,7 +74,7 @@ $lang = array_merge($lang, array(
 
 	'LINKAGE_FORBIDDEN'		=> 'غير مصرح لك بمشاهدة أو تحميل أو الربط من و إلى هذا الموقع',
 	'LOGIN_NOTIFY_TOPIC'	=> 'لديك تنبيه حول هذا الموضوع رجاءً سجل الدخول للاطلاع عليه',
-	'LOGIN_VIEWTOPIC'		=> 'ينبغي أن تكون عضواً مسجلاً لتتمكن من مشاهدة هذا الموضوع',
+	'LOGIN_VIEWTOPIC'		=> 'ينبغي أن تكون عضوًا مسجلًا لتتمكن من مشاهدة هذا الموضوع',
 
 	'MAKE_ANNOUNCE'				=> 'تحويل إلى "إعلان"',
 	'MAKE_GLOBAL'				=> 'تحويل إلى "إعلان عام"',
@@ -80,9 +82,9 @@ $lang = array_merge($lang, array(
 	'MAKE_STICKY'				=> 'تحويل إلى "مثبت"',
 	'MAX_OPTIONS_SELECT'		=> array(
 		1	=> 'يمكنك اختيار خيار واحد',
-		2	=> 'يمكنك اختيار حتى خياران',
+		2	=> 'يمكنك اختيار حتى خيارين',
 		3	=> 'يمكنك اختيار حتى <strong>%d</strong> خيارات',
-		4	=> 'يمكنك اختيار حتى <strong>%d</strong> خياراً',
+		4	=> 'يمكنك اختيار حتى <strong>%d</strong> خيارًا',
 		5	=> 'يمكنك اختيار حتى <strong>%d</strong> خيار',
 		),
 	'MISSING_INLINE_ATTACHMENT'	=> 'المرفق <strong>%s</strong> لم يعد موجود',

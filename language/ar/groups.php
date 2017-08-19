@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -38,9 +39,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALREADY_DEFAULT_GROUP'		=> 'المجموعة التي اخترتها محددة كمجموعة افتراضية سابقاً',
-	'ALREADY_IN_GROUP'			=> 'لا يمكنك الانضمام لهذه المجموعة لأنك منضم إليها سابقاً',
-	'ALREADY_IN_GROUP_PENDING'	=> 'لقد طلبت الانضمام لهذه المجموعة مسبقاً',
+	'ALREADY_DEFAULT_GROUP'		=> 'المجموعة التي اخترتها محددة كمجموعة افتراضية سابقًا',
+	'ALREADY_IN_GROUP'			=> 'لا يمكنك الانضمام لهذه المجموعة لأنك منضم إليها سابقًا',
+	'ALREADY_IN_GROUP_PENDING'	=> 'لقد طلبت الانضمام لهذه المجموعة مسبقًا',
 
 	'CANNOT_JOIN_GROUP'			=> 'لا يمكنك الانضمام إلى هذه المجموعة، فقط الانضمام إلى مجموعة مفتوحة',
 	'CANNOT_RESIGN_GROUP'		=> 'لا يمكنك الاستقالة من هذه المجموعة فقط يمكنك الاستقالة من مجموعة مفتوحة',
@@ -52,7 +53,7 @@ $lang = array_merge($lang, array(
 	'GROUP_DESC'						=> 'وصف المجموعة',
 	'GROUP_HIDDEN'						=> 'مجموعة مخفية',
 	'GROUP_INFORMATION'					=> 'معلومات أعضاء المجموعة',
-	'GROUP_IS_CLOSED'					=> 'هذه المجموعة مغلقة، لا يستطيع المستخدمون الانضمام إليها تلقائياً',
+	'GROUP_IS_CLOSED'					=> 'هذه المجموعة مغلقة، لا يستطيع المستخدمون الانضمام إليها تلقائيًا',
 	'GROUP_IS_FREE'						=> 'هذه المجموعة مفتوحة للجميع، يمكن للأعضاء الانضمام إليها',
 	'GROUP_IS_HIDDEN'					=> 'هذه المجموعة مخفية، أعضاء المجموعة هم من يستطيعون مشاهدتها فقط',
 	'GROUP_IS_OPEN'						=> 'هذه المجموعة مفتوحة، يستطيع الأعضاء تقديم طلب الانضمام إليها',
@@ -80,9 +81,9 @@ $lang = array_merge($lang, array(
 
 	'LOGIN_EXPLAIN_GROUP'	=> 'تحتاج لتسجيل الدخول لمشاهدة تفاصيل المجموعة',
 
-	'NO_LEADERS'					=> 'لست مديراً لأي مجموعة',
-	'NOT_LEADER_OF_GROUP'			=> 'لا يمكنك القيام بهذه العملية لأنك لست مديراً لهذه المجموعة',
-	'NOT_MEMBER_OF_GROUP'			=> 'لا يمكنك القيام بهذه العملية لأنك لست عضواً في هذه المجموعة',
+	'NO_LEADERS'					=> 'لست مديرًا لأي مجموعة',
+	'NOT_LEADER_OF_GROUP'			=> 'لا يمكنك القيام بهذه العملية لأنك لست مديرًا لهذه المجموعة',
+	'NOT_MEMBER_OF_GROUP'			=> 'لا يمكنك القيام بهذه العملية لأنك لست عضوًا في هذه المجموعة',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'غير مسموح لك بترك مجموعتك الافتراضية',
 
 	'PRIMARY_GROUP'		=> 'المجموعة الأساسية',

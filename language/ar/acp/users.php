@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -39,25 +40,25 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ADMIN_SIG_PREVIEW'		=> 'معاينة التوقيع',
-	'AT_LEAST_ONE_FOUNDER'	=> 'لا يمكنك تحويل هذا المؤسس إلى عضو، ينبغي أن يكون هناك مؤسس واحد على الأقل لهذا المنتدى، إذا أردت تغيير هذا المؤسس إلى عضو عادي ينبغي عليك أولاً أن ترقّي عضوا آخر إلى مؤسس',
+	'AT_LEAST_ONE_FOUNDER'	=> 'لا يمكنك تحويل هذا المؤسس إلى عضو، ينبغي أن يكون هناك مؤسس واحد على الأقل لهذا المنتدى، إذا أردت تغيير هذا المؤسس إلى عضو عادي ينبغي عليك أولًا أن ترقّي عضوا آخر إلى مؤسس',
 
-	'BAN_ALREADY_ENTERED'	=> 'لقد حظرتَ مسبقاً بنجاح. لم يحدث أي تغيير في قائمة الحظر',
+	'BAN_ALREADY_ENTERED'	=> 'لقد حظرتَ مسبقًا بنجاح. لم يحدث أي تغيير في قائمة الحظر',
 	'BAN_SUCCESSFUL'		=> 'تم الحظر بنجاح',
 
 	'CANNOT_BAN_ANONYMOUS'			=> 'لا يمكنك حظر حساب الزائر. بإمكانك تحديد صلاحيات الزوّار من قسم "الصلاحيات"',
 	'CANNOT_BAN_FOUNDER'			=> 'لا يمكنك حظر حسابات المؤسسين',
 	'CANNOT_BAN_YOURSELF'			=> 'لا يمكنك حظر نفسك',
-	'CANNOT_DEACTIVATE_BOT'			=> 'لا يمكنك تعطيل حسابات bot. رجاءً عطل bot نفسه بدلاً من ذلك',
+	'CANNOT_DEACTIVATE_BOT'			=> 'لا يمكنك تعطيل حسابات bot. رجاءً عطل bot نفسه بدلًا من ذلك',
 	'CANNOT_DEACTIVATE_FOUNDER'		=> 'لا يمكنك تعطيل حساب المؤسس',
 	'CANNOT_DEACTIVATE_YOURSELF'	=> 'لا يمكنك تعطيل عضويتك',
-	'CANNOT_FORCE_REACT_BOT'		=> 'لا يمكنك إجبار botعلى إعادة تفعيل حسابه، رجاءً عطل bot نفسه بدلاً من ذلك',
+	'CANNOT_FORCE_REACT_BOT'		=> 'لا يمكنك إجبار botعلى إعادة تفعيل حسابه، رجاءً عطل bot نفسه بدلًا من ذلك',
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'لا يمكنك إجبار المؤسس على إعادة تفعيل حسابه',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'لا يمكنك إجبار نفسك على إعادة تفعيل حسابك',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'لا يمكنك حذف عضوية الزائر',
 	'CANNOT_REMOVE_FOUNDER'			=> 'غير مسموح لك بحذف حسابات المؤسسين.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'لا يمكنك حذف عضويتك',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'لا يمكنك ترقية الأعضاء المتجاهلين إلى حالة المؤسس',
-	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'لا يمكنك ترقية عضو غير مفعل إلى مؤسس، ينبغي تفعيل عضويته أولاً',
+	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'لا يمكنك ترقية عضو غير مفعل إلى مؤسس، ينبغي تفعيل عضويته أولًا',
 	'CONFIRM_EMAIL_EXPLAIN'			=> 'تحتاج لضبط هذه إذا كنت تغير البريد الالكتروني للعضو فقط',
 
 	'DELETE_POSTS'			=> 'حذف المشاركات',
@@ -96,7 +97,7 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN'					=> 'إدارة العضو',
 	'USER_ADMIN_ACTIVATE'			=> 'تفعيل العضوية',
 	'USER_ADMIN_ACTIVATED'			=> 'تفعل العضو بنجاح',
-	'USER_ADMIN_AVATAR_REMOVED'		=> 'حذفت الصورة الشخصية للعضو بنجاح',
+	'USER_ADMIN_AVATAR_REMOVED'		=> 'حذفت الصورة الرمزية للعضو بنجاح',
 	'USER_ADMIN_BAN_EMAIL'			=> 'حظر البريد الإلكتروني',
 	'USER_ADMIN_BAN_EMAIL_REASON'	=> 'حُظِر البريد الإلكتروني عن طريق إدارة الأعضاء',
 	'USER_ADMIN_BAN_IP'				=> 'حظر الـ IP',
@@ -106,7 +107,7 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN_DEACTIVATE'			=> 'تعطيل العضوية',
 	'USER_ADMIN_DEACTIVED'			=> 'تعطلت العضوية بنجاح',
 	'USER_ADMIN_DEL_ATTACH'			=> 'حذف جميع المرفقات',
-	'USER_ADMIN_DEL_AVATAR'			=> 'حذف الصورة الشخصية',
+	'USER_ADMIN_DEL_AVATAR'			=> 'حذف الصورة الرمزية',
 	'USER_ADMIN_DEL_OUTBOX'			=> 'تفريغ الصندوق الصادر للرسائل الخاصة',
 	'USER_ADMIN_DEL_POSTS'			=> 'حذف جميع المشاركات',
 	'USER_ADMIN_DEL_SIG'			=> 'حذف التوقيع',
@@ -116,9 +117,9 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN_MOVE_POSTS'			=> 'نقل جميع المشاركات',
 	'USER_ADMIN_SIG_REMOVED'		=> 'حذِف التوقيع بنجاح',
 	'USER_ATTACHMENTS_REMOVED'		=> 'حذِفـَت جميع المرفقات الخاصة بهذا العضو بنجاح',
-	'USER_AVATAR_NOT_ALLOWED'		=> 'لا يمكن عرض الصورة الشخصية لأن خاصية الصور الشخصية مُعطلة.',
-	'USER_AVATAR_UPDATED'			=> 'تحدثت معلومات الصورة الشخصية بنجاح',
-	'USER_AVATAR_TYPE_NOT_ALLOWED'	=> 'لا يُمكن عرض الصورة الشخصية لأن امتدادها غير مسموح.',
+	'USER_AVATAR_NOT_ALLOWED'		=> 'لا يمكن عرض الصورة الرمزية لأن خاصية الصور الرمزية مُعطلة.',
+	'USER_AVATAR_UPDATED'			=> 'تحدثت معلومات الصورة الرمزية بنجاح',
+	'USER_AVATAR_TYPE_NOT_ALLOWED'	=> 'لا يُمكن عرض الصورة الرمزية لأن امتدادها غير مسموح.',
 	'USER_CUSTOM_PROFILE_FIELDS'	=> 'حقول الملف الشخصي الخاصة',
 	'USER_DELETED'					=> 'حُذِف العضو بنجاح',
 	'USER_GROUP_ADD'				=> 'إضافة العضو للمجموعة',
@@ -129,7 +130,7 @@ $lang = array_merge($lang, array(
 	'USER_NO_ATTACHMENTS'			=> 'لا يوجد مرفقات لعرضها',
 	'USER_NO_POSTS_TO_DELETE'			=> 'لا توجد مشاركات لحفظها أو حذفها.',
 	'USER_OUTBOX_EMPTIED'			=> 'تفرّغ الصندوق الصادر للرسائل الخاصة للعضو بنجاح.',
-	'USER_OUTBOX_EMPTY'				=> 'تفرّغ الصندوق الصادر للرسائل الخاصة للعضو مُسبقاً.',
+	'USER_OUTBOX_EMPTY'				=> 'تفرّغ الصندوق الصادر للرسائل الخاصة للعضو مُسبقًا.',
 	'USER_OVERVIEW_UPDATED'			=> 'تحدثت بيانات العضو بنجاح',
 	'USER_POSTS_DELETED'			=> 'حذفَت جميع المشاركات المكتوبة بواسطة العضو بنجاح',
 	'USER_POSTS_MOVED'				=> 'نقلَت مشاركات العضو جميعها إلى المنتدى المختار بنجاح',

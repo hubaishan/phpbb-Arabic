@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -43,7 +44,7 @@ $lang = array_merge($lang, array(
 	'30_MINS'		=> 'نصف ساعة',
 	'6_HOURS'		=> '6 ساعات',
 
-	'ACP_BAN_EXPLAIN'	=> 'هنا يمكنك التحكم في حظر الأعضاء عن طريق الاسم، IP أو عنوان البريد الإلكتروني. هذه الطرق تمنع العضو من الدخول إلى أي جانب من المنتدى. تستطيع إعطاء سبب المنع (أقصى الحروف المسموح بها 3000 حرف) إن أردت ذلك. سوف يُعرَض هذا النشاط في السجل. تستطيع تحديد مدة الحظر أيضاً. إذا أردت أن يلغى الحظر في تاريخ محدد اختر <span style="text-decoration: underline;">إلى -&gt;</span> وأدخِل تاريخ نهاية الحظر على شكل <kbd>YYYY-MM-DD</kbd>',
+	'ACP_BAN_EXPLAIN'	=> 'هنا يمكنك التحكم في حظر الأعضاء عن طريق الاسم، IP أو عنوان البريد الإلكتروني. هذه الطرق تمنع العضو من الدخول إلى أي جانب من المنتدى. تستطيع إعطاء سبب المنع (أقصى الحروف المسموح بها 3000 حرف) إن أردت ذلك. سوف يُعرَض هذا النشاط في السجل. تستطيع تحديد مدة الحظر أيضًا. إذا أردت أن يلغى الحظر في تاريخ محدد اختر <span style="text-decoration: underline;">إلى -&gt;</span> وأدخِل تاريخ نهاية الحظر على شكل <kbd>YYYY-MM-DD</kbd>',
 
 	'BAN_EXCLUDE'			=> 'استثناء من الحظر',
 	'BAN_LENGTH'			=> 'مدة الحظر',
@@ -78,7 +79,7 @@ $lang = array_merge($lang, array(
 	'UNTIL'						=> 'لغاية',
 	'USER_BAN'					=> 'حظر اسم عضو أو أكثر',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'فعّل هذا الخيار لاستثناء أسماء الأعضاء المدخلة من جميع قوائم الحظر الحالية',
-	'USER_BAN_EXPLAIN'			=> 'يمكنك حظر أكثر من عضو مرة واحدة بكتابة كل اسم في سطر جديد. استخدم الخاصية <span style="text-decoration: underline;"> بحث عن عضو</span>للبحث وإضافة اسم أو أكثر تلقائياً',
+	'USER_BAN_EXPLAIN'			=> 'يمكنك حظر أكثر من عضو مرة واحدة بكتابة كل اسم في سطر جديد. استخدم الخاصية <span style="text-decoration: underline;"> بحث عن عضو</span>للبحث وإضافة اسم أو أكثر تلقائيًا',
 	'USER_NO_BANNED'			=> 'لا يوجد أسماء أعضاء محظورة',
 	'USER_UNBAN'				=> 'إلغاء حظر أو إلغاء استثناء أسماء أعضاء',
 	'USER_UNBAN_EXPLAIN'		=> 'يمكنك إلغاء حظر (أو إلغاء استثناء) أكثر من اسم عضو مرة واحدة باستخدام اختصارات الفأرة ولوحة المفاتيح لمتصفحك، أسماء الأعضاء المستثناة لديها خلفية محددة',

@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -40,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 // Bot settings
 $lang = array_merge($lang, array(
 	'BOTS'				=> 'إدارة bots',
-	'BOTS_EXPLAIN'		=> 'الـ “Bots”، “spiders” أو “العناكب” هم وكلاء يستخدمون غالباً من قبل محركات البحث لتحديث قواعد بياناتهم. وهذه الـ bots غالباً ما تفشل في التعامل مع نظام الجلسات عند دخولها للمنتدى وهذا يخل بعمل عداد الزوار ويزيد من الحمل وأحياناً لا تنجح بأرشفة المنتدى بالصورة المطلوبة، هنا يمكنك ضبط نوع معين من الأعضاء للتغلب على هذه المشاكل',
+	'BOTS_EXPLAIN'		=> 'الـ ”Bots“، ”spiders“ أو ”العناكب“ هم وكلاء يستخدمون غالبًا من قبل محركات البحث لتحديث قواعد بياناتهم. وهذه الـ bots غالبًا ما تفشل في التعامل مع نظام الجلسات عند دخولها للمنتدى وهذا يخل بعمل عداد الزوار ويزيد من الحمل وأحيانًا لا تنجح بأرشفة المنتدى بالصورة المطلوبة، هنا يمكنك ضبط نوع معين من الأعضاء للتغلب على هذه المشاكل',
 	'BOT_ACTIVATE'		=> 'تفعيل',
 	'BOT_ACTIVE'		=> 'مفعل',
 	'BOT_ADD'			=> 'إضافة bot',
@@ -50,7 +51,7 @@ $lang = array_merge($lang, array(
 	'BOT_DEACTIVATE'	=> 'تعطيل',
 	'BOT_DELETED'		=> 'حُذِف bot بنجاح',
 	'BOT_EDIT'			=> 'تعديل bot',
-	'BOT_EDIT_EXPLAIN'	=> 'هنا يمكنك إضافة أو تعديل Bot معين. يمكنك تعريف Bot بواسطة agent أو رقم IP (أو سلسلة من أرقام IP). كن حذراً عند تعريف هذه البيانات، يمكنك أيضاً اختيار اللغة والاستايل الذي سيستعملهما Bot عن زيارة المنتدى. قد يساعدك هذا الخيار في تقليل الباندوث بتخصيص استايل خفيف Bot. لا تنس أن تقوم بضبط الصلاحيات لمجموعة محركات البحث',
+	'BOT_EDIT_EXPLAIN'	=> 'هنا يمكنك إضافة أو تعديل Bot معين. يمكنك تعريف Bot بواسطة agent أو رقم IP (أو سلسلة من أرقام IP). كن حذرًا عند تعريف هذه البيانات، يمكنك أيضًا اختيار اللغة والاستايل الذي سيستعملهما Bot عن زيارة المنتدى. قد يساعدك هذا الخيار في تقليل الباندوث بتخصيص استايل خفيف Bot. لا تنس أن تقوم بضبط الصلاحيات لمجموعة محركات البحث',
 	'BOT_LANG'			=> 'اللغة',
 	'BOT_LANG_EXPLAIN'	=> 'اللغة المستخدمة للـ bot كما هي في المتصفح',
 	'BOT_LAST_VISIT'	=> 'آخر زيارة',
@@ -59,13 +60,13 @@ $lang = array_merge($lang, array(
 	'BOT_NAME'			=> 'الاسم',
 	'BOT_NAME_EXPLAIN'	=> 'يستخدم فقط لمعلوماتك الخاصة',
 	'BOT_NAME_TAKEN'	=> 'الاسم تم استعاله من قبل في منتداك ولا تستطيع استعماله لهذا Bot',
-	'BOT_NEVER'			=> 'أبداً',
+	'BOT_NEVER'			=> 'أبدًا',
 	'BOT_STYLE'			=> 'الاستايل',
 	'BOT_STYLE_EXPLAIN'	=> 'استايل المنتدى المستخدم بواسطة bot',
 	'BOT_UPDATED'		=> 'تعدّل bot بنجاح',
 
-	'ERR_BOT_AGENT_MATCHES_UA'	=> 'agent الذي أدخلته هو نفسه المستخدم بواسطتك حالياً، الرجاء إضافة agent خاص بالـ bot',
-	'ERR_BOT_NO_IP'				=> 'الـ IP الذي أدخلته غير صالح أو الملقم لديه مشكلة',
+	'ERR_BOT_AGENT_MATCHES_UA'	=> 'agent الذي أدخلته هو نفسه المستخدم بواسطتك حاليًا، الرجاء إضافة agent خاص بالـ bot',
+	'ERR_BOT_NO_IP'				=> 'الـ IP الذي أدخلته غير صالح أو الخادم لديه مشكلة',
 	'ERR_BOT_NO_MATCHES'		=> 'لابد أن تدخل رقم IP أو agent لهذا الـ bot',
 
 	'NO_BOT'		=> 'لا يوجد bot بهذا الرقم',

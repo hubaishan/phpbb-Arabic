@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -71,7 +72,7 @@ $lang = array_merge($lang, array(
 	'ACL_U_CHGNAME'		=> 'يمكنه تغيير اسم المستخدم',
 	'ACL_U_CHGPASSWD'	=> 'يمكنه تغيير كلمة المرور',
 	'ACL_U_CHGEMAIL'	=> 'يمكنه تغيير البريد الالكتروني',
-	'ACL_U_CHGAVATAR'	=> 'يمكنه تغيير الصورة الشخصية',
+	'ACL_U_CHGAVATAR'	=> 'يمكنه تغيير الصورة الرمزية',
 	'ACL_U_CHGGRP'		=> 'يمكنه تغيير المجموعة الافتراضية',
 	'ACL_U_CHGPROFILEINFO'	=> 'يمكنه تغيير معلومات حقل الملف الشخصي',
 
@@ -121,10 +122,10 @@ $lang = array_merge($lang, array(
 	'ACL_F_POST'		=> 'يمكنه كتابة مواضيع جديدة',
 	'ACL_F_STICKY'		=> 'يمكنه كتابة مواضيع مثبتة',
 	'ACL_F_ANNOUNCE'	=> 'يمكنه كتابة إعلانات',
-	'ACL_F_ANNOUNCE_GLOBAL'	=> 'Can post global announcements',
+	'ACL_F_ANNOUNCE_GLOBAL'	=> 'بإمكانه كتابة إعلانات عامة',
 	'ACL_F_REPLY'		=> 'يمكنه الرد على المواضيع',
 	'ACL_F_EDIT'		=> 'يمكنه تعديل مشاركاته الخاصة',
-	'ACL_F_DELETE'		=> 'يمكنه حذف مشاركاته نهائياً',
+	'ACL_F_DELETE'		=> 'يمكنه حذف مشاركاته نهائيًا',
 	'ACL_F_SOFTDELETE'	=> 'يمكنه الحذف البسيط لمشاركاته<br /><em>المشرفين، الذين يملكون صلاحية الموافقة على المشاركات، يمكنهم استعادة المشاركات المحذوفة حذف بسيط.</em>',
 	'ACL_F_IGNOREFLOOD' => 'يمكنه تجاهل حد الإغراق',
 	'ACL_F_POSTCOUNT'	=> 'زيادة عداد المشاركات<br /><em>يرجى العلم أن هذا الإعداد يؤثر فقط عل المشاركات الجديدة.</em>',
@@ -146,7 +147,7 @@ $lang = array_merge($lang, array(
 // Moderator Permissions
 $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'يمكنه تعديل المشاركات',
-	'ACL_M_DELETE'		=> 'يمكنه حذف المشاركات نهائياً',
+	'ACL_M_DELETE'		=> 'يمكنه حذف المشاركات نهائيًا',
 	'ACL_M_SOFTDELETE'	=> 'يمكنه الحذف البسيط للمشاركات<br /><em>المشرفين، الذين يملكون صلاحية الموافقة على المشاركات، يمكنهم استعادة المشاركات المحذوفة حذف بسيط.</em>',
 	'ACL_M_APPROVE'		=> 'يمكنه الموافقة على واستعادة المشاركات',
 	'ACL_M_REPORT'		=> 'يمكنه إغلاق وحذف التقارير',
@@ -158,9 +159,9 @@ $lang = array_merge($lang, array(
 	'ACL_M_MERGE'	=> 'يمكنه دمج المواضيع',
 
 	'ACL_M_INFO'		=> 'يمكنه رؤية تفاصيل المشاركة',
-	'ACL_M_WARN'		=> 'يمكنه إعطاء تحذيرات<br /><em>هذا الإعداد يكون عاماً وغير مرتبط بمنتدى معين.</em>',	// This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT'	=> 'يمكنه قفل وحذف تقارير الرسائل الخاصة<br /><em>هذا الإعداد يكون عاماً وغير مرتبط بمنتدى معين.</em>',	// This moderator setting is only global (and not local)
-	'ACL_M_BAN'			=> 'يمكنه إدارة الحظر<br /><em>هذا الإعداد يكون عاماً وغير مرتبط بمنتدى معين.</em>',	// This moderator setting is only global (and not local)
+	'ACL_M_WARN'		=> 'يمكنه إعطاء تحذيرات<br /><em>هذا الإعداد يكون عامًا وغير مرتبط بمنتدى معين.</em>',	// This moderator setting is only global (and not local)
+	'ACL_M_PM_REPORT'	=> 'يمكنه قفل وحذف تقارير الرسائل الخاصة<br /><em>هذا الإعداد يكون عامًا وغير مرتبط بمنتدى معين.</em>',	// This moderator setting is only global (and not local)
+	'ACL_M_BAN'			=> 'يمكنه إدارة الحظر<br /><em>هذا الإعداد يكون عامًا وغير مرتبط بمنتدى معين.</em>',	// This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions
@@ -180,7 +181,7 @@ $lang = array_merge($lang, array(
 	'ACL_A_BBCODE'		=> 'يمكنه تحديد أكواد BBCode',
 	'ACL_A_ATTACH'		=> 'يمكنه تعديل إعدادات المرفقات',
 
-	'ACL_A_USER'		=> 'يمكنه إدارة المستخدمين<br /><em>هذا يتضمن أيضاً مشاهدة متصفح المستخدم في قائمة الموجودون الآن.</em>',
+	'ACL_A_USER'		=> 'يمكنه إدارة المستخدمين<br /><em>هذا يتضمن أيضًا مشاهدة متصفح المستخدم في قائمة الموجودون الآن.</em>',
 	'ACL_A_USERDEL'		=> 'يمكنه حذف/تهذيب الأعضاء',
 	'ACL_A_GROUP'		=> 'يمكنه إدارة المجموعات',
 	'ACL_A_GROUPADD'	=> 'يمكنه إضافة مجموعات جديدة',
@@ -209,6 +210,6 @@ $lang = array_merge($lang, array(
 	'ACL_A_EMAIL'		=> 'يمكنه إرسال بريد جماعي',
 	'ACL_A_BOTS'		=> 'يمكنه إدارة العناكب',
 	'ACL_A_REASONS'		=> 'يمكنه إدارة أسباب التبليغ/الرفض',
-	'ACL_A_BACKUP'		=> 'يمكنه نسخ/استعادة قاعدة البيانات احتياطياً',
+	'ACL_A_BACKUP'		=> 'يمكنه نسخ/استعادة قاعدة البيانات احتياطيًا',
 	'ACL_A_SEARCH'		=> 'يمكنه إدارة خدمات وإعدادات البحث',
 ));

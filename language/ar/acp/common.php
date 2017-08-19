@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -46,7 +47,7 @@ $lang = array_merge($lang, array(
 	'ACP_ATTACHMENT_SETTINGS'	=> 'إعدادات المرفقات',
 	'ACP_AUTH_SETTINGS'			=> 'المصادقة',
 	'ACP_AUTOMATION'			=> 'مهام تلقائية',
-	'ACP_AVATAR_SETTINGS'		=> 'إعدادات الصور الشخصية',
+	'ACP_AVATAR_SETTINGS'		=> 'إعدادات الصور الرمزية',
 
 	'ACP_BACKUP'				=> 'النسخ الاحتياطي',
 	'ACP_BAN'					=> 'الحظر',
@@ -75,7 +76,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERGROUP'			=> 'المجموعات والأعضاء',
 	'ACP_CAT_USERS'				=> 'الأعضاء',
 	'ACP_CLIENT_COMMUNICATION'	=> 'اتصالات الأجهزة الطرفية',
-	'ACP_COOKIE_SETTINGS'		=> 'إعدادات الملفات المؤقتة',
+	'ACP_COOKIE_SETTINGS'		=> 'إعدادات ملفات تعريف الارتباط (الكوكي)',
 	'ACP_CONTACT'				=> 'صفحة اتصل بنا',
 	'ACP_CONTACT_SETTINGS'		=> 'إعدادات صفحة اتصل بنا',
 	'ACP_CRITICAL_LOGS'			=> 'سجلات الأخطاء',
@@ -109,7 +110,7 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_PERMISSIONS'		=> 'صلاحيات المجموعات',
 	'ACP_GROUPS_POSITION'			=> 'إدارة موقع المجموعات',
 
-	'ACP_HELP_PHPBB'			=> 'Help support phpBB',
+	'ACP_HELP_PHPBB'			=> 'المساعدة في دعم phpBB',
 
 	'ACP_ICONS'					=> 'أيقونات الموضوع',
 	'ACP_ICONS_SMILIES'			=> 'أيقونات/ابتسامات الموضوع',
@@ -189,7 +190,7 @@ $lang = array_merge($lang, array(
 	'ACP_USERS_LOGS'				=> 'سجلات الأعضاء',
 	'ACP_USERS_PERMISSIONS'			=> 'صلاحيات الأعضاء',
 	'ACP_USER_ATTACH'				=> 'المرفقات',
-	'ACP_USER_AVATAR'				=> 'الصورة الشخصية',
+	'ACP_USER_AVATAR'				=> 'الصورة الرمزية',
 	'ACP_USER_FEEDBACK'				=> 'المذكرات',
 	'ACP_USER_GROUPS'				=> 'المجموعات',
 	'ACP_USER_MANAGEMENT'			=> 'إدارة العضو',
@@ -227,31 +228,31 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'رجوع',
 
-	'CANNOT_CHANGE_FILE_GROUP'	=> 'Unable to change file group',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Unable to change file permissions',
-	'CANNOT_COPY_FILES'		=> 'Unable to copy files',
-	'CANNOT_CREATE_SYMLINK'	=> 'Unable to create a symlink',
-	'CANNOT_DELETE_FILES'	=> 'Unable to delete files from the system',
-	'CANNOT_DUMP_FILE'		=> 'Unable to dump file',
-	'CANNOT_MIRROR_DIRECTORY'	=> 'Unable to mirror directory',
-	'CANNOT_RENAME_FILE'	=> 'Unable to rename a file from the system',
-	'CANNOT_TOUCH_FILES'	=> 'Unable to determine if the file exists',
+	'CANNOT_CHANGE_FILE_GROUP'	=> 'تعذر تعديل مجموعة الملفات',
+	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'تعذر تعديل صلاحيات الملف',
+	'CANNOT_COPY_FILES'		=> 'تعذر نسخ الملفات',
+	'CANNOT_CREATE_SYMLINK'	=> 'تعذر إنشاء الارتباط الرمزي',
+	'CANNOT_DELETE_FILES'	=> 'تعذر حذف الملفات من النظام',
+	'CANNOT_DUMP_FILE'		=> 'تعذر تفريغ الملف',
+	'CANNOT_MIRROR_DIRECTORY'	=> 'تعذر النسخ المتطابق للمسار',
+	'CANNOT_RENAME_FILE'	=> 'تعذر إعادة تسمية ملف في النظام',
+	'CANNOT_TOUCH_FILES'	=> 'تعذر التحقق من وجود ملف',
 
-	'CONTAINER_EXCEPTION' => 'phpBB encountered an error building the container due to an installed extension. For this reason, all extensions have been temporarily disabled. Please try purging your forum cache. All extensions will automatically be re-enabled once the container error is resolved. If this error continues, please visit <a href="https://www.phpbb.com/support">phpBB.com</a> for support.',
-	'EXCEPTION' => 'Exception',
+	'CONTAINER_EXCEPTION' => 'صادف phpBB خطأ في بناء الإطار بسبب إضافة مثبتة، لهذا السبب ، تم تعطيل كافة الإضافات مؤقتًا. الرجاء محاولة حذف الملفات المؤقتة لمنتداك، سيتم أعاده تمكين كافة الإضافات تلقائيًا بمجرد حل خطإ الإطار. إذا استمر هذا الخطأ، يرجى زيارة <a href="https://www.phpbb.com/support">phpbb.com</a> للحصول على الدعم.',
+	'EXCEPTION' => 'استثناء',
 
 	'COLOUR_SWATCH'			=> 'لوحة الألوان',
 	'CONFIG_UPDATED'		=> 'تحدّثت الإعدادات بنجاح',
 	'CRON_LOCK_ERROR'		=> 'لم نتمكن من الحصول على قفل cron.',
-	'CRON_NO_SUCH_TASK'		=> 'لم يتم العثور على مهمة cron “%s”.',
+	'CRON_NO_SUCH_TASK'		=> 'لم يتم العثور على مهمة cron ”%s“.',
 	'CRON_NO_TASK'			=> 'لا توجد مهام cron تحتاج للتنفيذ الآن.',
 	'CRON_NO_TASKS'			=> 'لم يتم العثور على مهام cron.',
 	'CURRENT_VERSION'		=> 'الإصدار الحالي',
 
 	'DEACTIVATE'				=> 'تعطيل',
-	'DIRECTORY_DOES_NOT_EXIST'	=> 'المسار الذي أدخلته “%s” غير موجود',
-	'DIRECTORY_NOT_DIR'			=> 'المسار الذي أدخلته “%s” ليس بمجلد',
-	'DIRECTORY_NOT_WRITABLE'	=> 'المسار الذي أدخلته “%s” لا يمكن الكتابة عليه',
+	'DIRECTORY_DOES_NOT_EXIST'	=> 'المسار الذي أدخلته ”%s“ غير موجود',
+	'DIRECTORY_NOT_DIR'			=> 'المسار الذي أدخلته ”%s“ ليس بمجلد',
+	'DIRECTORY_NOT_WRITABLE'	=> 'المسار الذي أدخلته ”%s“ لا يمكن الكتابة عليه',
 	'DISABLE'					=> 'تعطيل',
 	'DOWNLOAD'					=> 'تحميل',
 	'DOWNLOAD_AS'				=> 'تحميل كـ',
@@ -278,7 +279,7 @@ $lang = array_merge($lang, array(
 	'LOGGED_IN_AS'			=> 'أنت مسجل دخولك بإسم:',
 	'LOGIN_ADMIN'			=> 'ينبغي أن تكون لديك الصلاحيات المناسبة لإدارة المنتدى',
 	'LOGIN_ADMIN_CONFIRM'	=> 'لإدارة المنتدى يجب عليك إعادة تعريف نفسك',
-	'LOGIN_ADMIN_SUCCESS'	=> 'لقد عرّفتَ نفسك بنجاح وستتابع إلى لوحة تحكم الإدارة حالاً',
+	'LOGIN_ADMIN_SUCCESS'	=> 'لقد عرّفتَ نفسك بنجاح وستتابع إلى لوحة تحكم الإدارة حالًا',
 	'LOOK_UP_FORUM'			=> 'اختر منتدى',
 	'LOOK_UP_FORUMS_EXPLAIN'=> 'يمكنك اختيار أكثر منتدى واحد',
 
@@ -305,23 +306,23 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'أنت الآن لديك الصلاحيات من %1$s. تستطيع تصفح المنتدى بصلاحيات هذا العضو، ولكن لا يمكنك دخول لوحة التحكم الرئيسية لأن الصلاحيات الإدارية لم تحول. تستطيع <a href="%2$s"><strong> العودة إلى صلاحياتك الأصلية </strong></a> بأي وقت تريد',
 	'PROCEED_TO_ACP'					=> '%sالمتابعة إلى لوحة التحكم%s',
 
-	'RELEASE_ANNOUNCEMENT'		=> 'Announcement',
+	'RELEASE_ANNOUNCEMENT'		=> 'إعلان',
 	'REMIND'							=> 'تذكير',
-	'REPARSE_LOCK_ERROR'				=> 'Reparsing is already in progress by another process.',
+	'REPARSE_LOCK_ERROR'				=> 'أعاده المعالجة قيد التقدم بالفعل من قبل عمليه أخرى.',
 	'RESYNC'							=> 'إعادة مزامنة',
 
 	'RUNNING_TASK'			=> 'يتم تنفيذ المهمة: %s.',
 	'SELECT_ANONYMOUS'		=> 'اختيار مستخدم مجهول',
 	'SELECT_OPTION'			=> 'تحديد خيار',
 
-	'SETTING_TOO_LOW'		=> 'القيمة المدخلة من أجل إعداد “%1$s” جدا ضئيلة، أدنى قيمه مسموحة هي %2$d',
-	'SETTING_TOO_BIG'		=> 'القيمة المدخلة من أجل إعداد “%1$s” كبيرة، أقصى قيمة قصوى هي %2$d',
-	'SETTING_TOO_LONG'		=> 'القيمة المدخلة من أجل إعداد “%1$s” طويل جدا. أقصى طول مسموح هو %2$d',
-	'SETTING_TOO_SHORT'		=> 'القيمة المدخلة من أجل إعداد “%1$s” طويل جدا. أقصى طول مسموح هو %2$d',
+	'SETTING_TOO_LOW'		=> 'القيمة المدخلة من أجل إعداد ”%1$s“ جدا ضئيلة، أدنى قيمه مسموحة هي %2$d',
+	'SETTING_TOO_BIG'		=> 'القيمة المدخلة من أجل إعداد ”%1$s“ كبيرة، أقصى قيمة قصوى هي %2$d',
+	'SETTING_TOO_LONG'		=> 'القيمة المدخلة من أجل إعداد ”%1$s“ طويل جدا. أقصى طول مسموح هو %2$d',
+	'SETTING_TOO_SHORT'		=> 'القيمة المدخلة من أجل إعداد ”%1$s“ طويل جدا. أقصى طول مسموح هو %2$d',
 
 	'SHOW_ALL_OPERATIONS'	=> 'عـرض العمليات جميعها',
 
-	'TASKS_NOT_READY'			=> 'المهام الغير جاهزة:',
+	'TASKS_NOT_READY'		=> 'المهام الغير جاهزة:',
 	'TASKS_READY'			=> 'المهام الجاهزة:',
 	'TOTAL_SIZE'			=> 'الحجم الكلي',
 
@@ -329,16 +330,16 @@ $lang = array_merge($lang, array(
 	'USERNAMES_EXPLAIN'		=> 'ضع كل اسم مستخدم في سطر منفصل',
 	'USER_CONTROL_PANEL'	=> 'لوحة تحكم العضو',
 
-	'UPDATE_NEEDED'			=> 'The board is not up to date.',
-	'UPDATE_NOT_NEEDED'		=> 'The board is up to date.',
-	'UPDATES_AVAILABLE'		=> 'Updates available:',
+	'UPDATE_NEEDED'			=> 'المنتدى ليس محدثًا.',
+	'UPDATE_NOT_NEEDED'		=> 'المنتدى محدث.',
+	'UPDATES_AVAILABLE'		=> 'تحديثات متوفرة:',
 
 	'WARNING'				=> 'تحذير',
 ));
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> 'هذه الصفحة تظهر لك معلومات PHP المثبتة على هذا السيرفر. وتحتوي على معلومات الإضافات التي تحمّلت، الأكواد المسموح تطبيقها والإعدادات الافتراضية. هذه المعلومات تكون مهمة إذا واجهت المشاكل. الرجاء ملاحظة أن بعض شركات الاستضافة تحدد حجم المعلومات التي ينبغي عرضها هنا لأسباب أمنية. يجب عليك ألا تعطي هذه المعلومات لأحد إلا إن طلبت منك من طرف <a href="http://www.phpbb.com/">أعضاء الفريق الرسمي</a> في منتدى الدعم',
+	'ACP_PHP_INFO_EXPLAIN'	=> 'هذه الصفحة تظهر لك معلومات PHP المثبتة على هذا الخادم. وتحتوي على معلومات الإضافات التي تحمّلت، الأكواد المسموح تطبيقها والإعدادات الافتراضية. هذه المعلومات تكون مهمة إذا واجهت المشاكل. الرجاء ملاحظة أن بعض شركات الاستضافة تحدد حجم المعلومات التي ينبغي عرضها هنا لأسباب أمنية. يجب عليك ألا تعطي هذه المعلومات لأحد إلا إن طلبت منك من طرف <a href="https://www.phpbb.com/about/team/">أعضاء الفريق الرسمي</a> في منتدى الدعم',
 
 	'NO_PHPINFO_AVAILABLE'	=> 'معلومات PHP لا يمكن عرضها. الدالة Phpinfo() تعطلّت لأسباب أمنية',
 ));
@@ -365,7 +366,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_INTRO'				=> 'شكرا لاختيارك phpBB كبرنامج الإدارة لمنتداك. هذه الشاشة ستعطيك نظرة عامة وسريعة حول الإحصائيات المتنوعة كلها لمنتداك. الروابط على الجهة اليمنى من الشاشة تسمح لك بالتحكم في كل جانب من جوانب المنتدى. في كل صفحة ستجد تعليمات لكيفية استعمال الأدوات المتوفرة',
 	'ADMIN_LOG'					=> 'السجلات الإدارية',
 	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'هذا يعطي لمحة عامة عن آخر خمس أعمال قام بها مديرو المنتدى، النسخة الكاملة من السجلات يمكن الوصول إليها من القائمة المناسبة أو بالضغط على الرابط أدناه',
-	'AVATAR_DIR_SIZE'			=> 'حجم مجلد الصور الشخصية',
+	'AVATAR_DIR_SIZE'			=> 'حجم مجلد الصور الرمزية',
 
 	'BOARD_STARTED'		=> 'تاريخ بداية المنتدى',
 	'BOARD_VERSION'		=> 'اصدار المنتدى',
@@ -388,7 +389,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'ضغط GZip',
 
-	'NO_SEARCH_INDEX'	=> 'خدمة البحث المختارة لا تحتوي على فهرس للبحث.<br />يرجى إنشاء الفهرس لـ “%1$s” في قسم %2$sفهارس البحث%3$s.',
+	'NO_SEARCH_INDEX'	=> 'خدمة البحث المختارة لا تحتوي على فهرس للبحث.<br />يرجى إنشاء الفهرس لـ ”%1$s“ في قسم %2$sفهارس البحث%3$s.',
 	'NOT_AVAILABLE'		=> 'غير متاح',
 	'NUMBER_FILES'		=> 'عدد المرفقـات',
 	'NUMBER_POSTS'		=> 'عدد المشاركات',
@@ -397,7 +398,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_ORPHAN'		=> 'المرفقات الضائعة',
 
 	'PHP_VERSION'		=> 'إصدار PHP ',
-	'PHP_VERSION_OLD'	=> 'نسخة PHP المنصبة على الخادم لم تعد مدعومة من طرف phpBB مزيد من %sتفاصيل%s',
+	'PHP_VERSION_OLD'	=> 'نسخة PHP المنصبة على الخادم (%1$s) لن تكون مدعومة من الإصدارات الجديدة لـ phpBB أدنى اصدار مطلوب سيكون %2$s. لمزيد من %3$sتفاصيل%4$s',
 
 	'POSTS_PER_DAY'		=> 'المشاركات لكل يوم',
 
@@ -413,14 +414,14 @@ $lang = array_merge($lang, array(
 
 	'RESET_DATE'					=> 'تصفير تاريخ بداية المنتدى',
 	'RESET_DATE_CONFIRM'			=> 'هل أنت متأكد من أنك تريد تصفير تاريخ بداية المنتدى؟',
-	'RESET_DATE_SUCCESS'				=> 'تم تصفير تاريخ بداية المنتدى',
+	'RESET_DATE_SUCCESS'			=> 'تم تصفير تاريخ بداية المنتدى',
 	'RESET_ONLINE'					=> 'تصفير أكبر عدد من المستخدمين تواجدو في نفس الوقت',
 	'RESET_ONLINE_CONFIRM'			=> 'هل أنت متأكد من أنك تريد تصفير العداد الخاص بوجود أكبر عدد من المستخدمين في نفس الوقت؟',
-	'RESET_ONLINE_SUCCESS'				=> 'تم تصفير أكثر عدد من المستخدمين في نفس الوقت',
+	'RESET_ONLINE_SUCCESS'			=> 'تم تصفير أكثر عدد من المستخدمين في نفس الوقت',
 	'RESYNC_POSTCOUNTS'				=> 'مزامنة عدد المشاركات',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'المشاركات الحالية فقط ستأخد بعين الاعتبار. المشاركات التي تهذبت لن تحتسب',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'هل أنت متأكد من أنك تريد مزامنة عدد المشاركات',
-	'RESYNC_POSTCOUNTS_SUCCESS'			=> 'تمت إعادة مزامنة عدد المشاركة',
+	'RESYNC_POSTCOUNTS_SUCCESS'		=> 'تمت إعادة مزامنة عدد المشاركة',
 	'RESYNC_POST_MARKING'			=> 'مزامنة المواضيع المنقوطة',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'هل أنت متأكد من أنك تريد إعادة مزامنة المواضيع المنقوطة؟',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'سيُحذَف التحديد عن المواضيع كلها في البداية، وبعدها ستتحدّد المواضيع التي شهدت أي نشاط خلال الشهور الستة الماضية بصورة صحيحة',
@@ -435,7 +436,7 @@ $lang = array_merge($lang, array(
 	'STATISTIC_RESYNC_OPTIONS'	=> 'مزامنة أو تصفير الاحصائيات',
 
 	'TIMEZONE_INVALID'	=> 'منطقة التوقيت المختارة غير صحيحة.',
-	'TIMEZONE_SELECTED'	=> '(المختارة حالياً)',
+	'TIMEZONE_SELECTED'	=> '(المختارة حاليًا)',
 	'TOPICS_PER_DAY'	=> 'المواضيع كل يوم',
 
 	'UPLOAD_DIR_SIZE'	=> 'حجم المرفقات المستخدمة',
@@ -456,7 +457,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'			=> 'مشاهدة الأعضاء الغير مفعلين',
 
 	'WELCOME_PHPBB'			=> 'مرحبا بك في phpBB',
-	'WRITABLE_CONFIG'		=> 'ملف config.php حالياً يمكن الكتابة عليه من أي شخص، لذا نحن نوصي وبشدة تغييرَ التصريح الخاص بالملف الى 640 أو على الاقل تصريح 644',
+	'WRITABLE_CONFIG'		=> 'ملف config.php حاليًا يمكن الكتابة عليه من أي شخص، لذا نحن نوصي وبشدة تغييرَ التصريح الخاص بالملف الى 640 أو على الاقل تصريح 644',
 ));
 
 // Inactive Users
@@ -486,16 +487,16 @@ $lang = array_merge($lang, array(
 
 // Help support phpBB page
 $lang = array_merge($lang, array(
-	'EXPLAIN_SEND_STATISTICS'	=> 'الرجاء أرسل المعلومات عن السيرفر الخاص بك وإعدادات ضبط المنتدى إلى phpBB لغرض التحليل الإحصائي. المعلومات كلها التي يُمكن أن تُعرف بك أو بموقعك قد حُذفَت مُسبقاً - البيانات المُرسلة إلينا هي تماماً<strong> مجهولة</strong>. ونحن نبني قراراتنا حول مستقبل إصدارات الـphpBB على هذه المعلومات. وستجد أن الإحصائيات متوفرة للجميع وعلانية. نحن أيضاً نُشارك هذه البيانات مع مشروع PHP، اللغة البرمجية التي منها تبرمجت phpBB.',
+	'EXPLAIN_SEND_STATISTICS'	=> 'الرجاء أرسل المعلومات عن الخادم الخاص بك وإعدادات ضبط المنتدى إلى phpBB لغرض التحليل الإحصائي. المعلومات كلها التي يُمكن أن تُعرف بك أو بموقعك قد حُذفَت مُسبقًا - البيانات المُرسلة إلينا هي تمامًا<strong> مجهولة</strong>. ونحن نبني قراراتنا حول مستقبل إصدارات الـphpBB على هذه المعلومات. وستجد أن الإحصائيات متوفرة للجميع وعلانية. نحن أيضًا نُشارك هذه البيانات مع مشروع PHP، اللغة البرمجية التي منها تبرمجت phpBB.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'النقر على الزر بالأسفل سيمكنك من مُشاهدة المتغيرات كلها التي سترسَل.',
 	'DONT_SEND_STATISTICS'		=> 'العودة إلى لوحة التحكم ACP إذا لم ترغب في إرسال البيانات الإحصائية إلى phpBB.',
 	'GO_ACP_MAIN'				=> 'إذهب إلى الصفحة الأولى للوحة التحكم ACP',
 	'HIDE_STATISTICS'			=> 'إخفاء التفاصيل',
 	'SEND_STATISTICS'			=> 'إرسال المعلومات الإحصائية',
-	'SEND_STATISTICS_LONG'		=> 'Send statistical information',
+	'SEND_STATISTICS_LONG'		=> 'إرسال معلومات إحصائية',
 	'SHOW_STATISTICS'			=> 'إظهار التفاصيل',
-	'THANKS_SEND_STATISTICS'	=> 'شكراً لك على إرسال بياناتك.',
-	'FAIL_SEND_STATISTICS'		=> 'phpBB was unable to send statistics',
+	'THANKS_SEND_STATISTICS'	=> 'شكرًا لك على إرسال بياناتك.',
+	'FAIL_SEND_STATISTICS'		=> 'تعذر على phpBB إرسال معلومات إحصائية',
 ));
 
 // Log Entries
@@ -540,12 +541,12 @@ $lang = array_merge($lang, array(
 	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>دمج مرفق ضائع إلى المشاركة رقم</strong><br />» %1$d - %2$s',
 	'LOG_ATTACH_ORPHAN_DEL'		=> '<strong>حذف ملفات مرفقة ضائعة</strong><br />» %s',
 
-	'LOG_BAN_EXCLUDE_USER'	=> '<strong>استثناء عضو من الحظر</strong> لسبب “<em>%1$s</em>”<br />» %2$s',
-	'LOG_BAN_EXCLUDE_IP'	=> '<strong>استثناء عنوان IP من الحظر</strong> لسبب “<em>%1$s</em>”<br />» %2$s',
-	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>استثناء بريد إلكتروني من الحظر</strong> لسبب “<em>%1$s</em>”<br />» %2$s',
-	'LOG_BAN_USER'			=> '<strong>حظر العضو</strong> بسبب “<em>%1$s</em>”<br />» %2$s',
-	'LOG_BAN_IP'			=> '<strong>حظر عنوان IP</strong> بسبب “<em>%1$s</em>”<br />» %2$s',
-	'LOG_BAN_EMAIL'			=> '<strong>حظر بريد إلكتروني</strong> بسبب “<em>%1$s</em>”<br />» %2$s',
+	'LOG_BAN_EXCLUDE_USER'	=> '<strong>استثناء عضو من الحظر</strong> لسبب ”<em>%1$s</em>“<br />» %2$s',
+	'LOG_BAN_EXCLUDE_IP'	=> '<strong>استثناء عنوان IP من الحظر</strong> لسبب ”<em>%1$s</em>“<br />» %2$s',
+	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>استثناء بريد إلكتروني من الحظر</strong> لسبب ”<em>%1$s</em>“<br />» %2$s',
+	'LOG_BAN_USER'			=> '<strong>حظر العضو</strong> بسبب ”<em>%1$s</em>“<br />» %2$s',
+	'LOG_BAN_IP'			=> '<strong>حظر عنوان IP</strong> بسبب ”<em>%1$s</em>“<br />» %2$s',
+	'LOG_BAN_EMAIL'			=> '<strong>حظر بريد إلكتروني</strong> بسبب ”<em>%1$s</em>“<br />» %2$s',
 	'LOG_UNBAN_USER'		=> '<strong>إلغاء حظر العضو</strong><br />» %s',
 	'LOG_UNBAN_IP'			=> '<strong>إلغاء حظر عنوان IP</strong><br />» %s',
 	'LOG_UNBAN_EMAIL'		=> '<strong>إلغاء حظر البريد الإلكتروني</strong><br />» %s',
@@ -566,7 +567,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_CONFIG_ATTACH'			=> '<strong>تغيير إعدادات المرفقات</strong>',
 	'LOG_CONFIG_AUTH'			=> '<strong>تغيير إعدادات المصادقة</strong>',
-	'LOG_CONFIG_AVATAR'			=> '<strong>تغيير إعدادات الصورة الشخصية</strong>',
+	'LOG_CONFIG_AVATAR'			=> '<strong>تغيير إعدادات الصورة الرمزية</strong>',
 	'LOG_CONFIG_COOKIE'			=> '<strong>تغيير إعدادات الكوكيز</strong>',
 	'LOG_CONFIG_EMAIL'			=> '<strong>تغيير إعدادات البريد الإلكتروني</strong>',
 	'LOG_CONFIG_FEATURES'		=> '<strong>تغيير خصائص المنتدى</strong>',
@@ -577,16 +578,16 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_FEED'			=> '<strong>إعدادات تغذية البيانات المُتغيرة</strong>',
 	'LOG_CONFIG_SEARCH'			=> '<strong>تغيير إعدادات البحث</strong>',
 	'LOG_CONFIG_SECURITY'		=> '<strong>تغيير إعدادات الأمان</strong>',
-	'LOG_CONFIG_SERVER'			=> '<strong>تغيير إعدادات السيرفرs</strong>',
+	'LOG_CONFIG_SERVER'			=> '<strong>تغيير إعدادات الخادمs</strong>',
 	'LOG_CONFIG_SETTINGS'		=> '<strong>تغيير إعدادات المنتدى</strong>',
 	'LOG_CONFIG_SIGNATURE'		=> '<strong>تغيير إعدادات التوقيع</strong>',
 	'LOG_CONFIG_VISUAL'			=> '<strong>تغيير إعدادات مانع السبام (الكابتشا)</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>الموافقة على الموضوع</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>العضو رفع الموضوع</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>حذف المشاركة “%1$s” المكتوبة بواسطة “%2$s” للسبب التالي</strong><br />» %3$s',
+	'LOG_DELETE_POST'			=> '<strong>حذف المشاركة ”%1$s“ المكتوبة بواسطة ”%2$s“ للسبب التالي</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>حذف ظل المواضيع</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>حذف الموضوع “%1$s” المكتوب بواسطة “%2$s” للسبب التالي</strong><br />» %3$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>حذف الموضوع ”%1$s“ المكتوب بواسطة ”%2$s“ للسبب التالي</strong><br />» %3$s',
 	'LOG_FORK'					=> '<strong>نسخ الموضوع</strong><br />» من %s',
 	'LOG_LOCK'					=> '<strong>غلق الموضوع</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>غلق المشاركة</strong><br />» %s',
@@ -596,20 +597,20 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>تبليغ الرسائل الشخصية المُغلقة</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>تبليغ الرسائل الشخصية المحذوفة</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>الموافقة على المشاركة</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>عدم الموافقة على المشاركة “%1$s” المكتوبة بواسطة “%3$s” للسبب التالي</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>تعديل المشاركة “%1$s” المكتوب بواسطة “%2$s” للسبب التالي</strong><br />» %3$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>عدم الموافقة على المشاركة ”%1$s“ المكتوبة بواسطة ”%3$s“ للسبب التالي</strong><br />» %2$s',
+	'LOG_POST_EDITED'			=> '<strong>تعديل المشاركة ”%1$s“ المكتوب بواسطة ”%2$s“ للسبب التالي</strong><br />» %3$s',
 	'LOG_POST_RESTORED'			=> '<strong>تمت استعادة المشاركة</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>إغلاق تبليغ</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>حذف تبليغ</strong><br />» %s',
-	'LOG_RESTORE_TOPIC'			=> '<strong>تمت استعادة الموضوع “%1$s” المكتوب بواسطة</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>تم الحذف البسيط للمشاركة “%1$s” المكتوبة بواسطة “%2$s” للسبب التالي</strong><br />» %3$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>تم الحذف البسيط للموضوع “%1$s” المكتوب بواسطة “%2$s” للسبب التالي</strong><br />» %3$s',
+	'LOG_RESTORE_TOPIC'			=> '<strong>تمت استعادة الموضوع ”%1$s“ المكتوب بواسطة</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>تم الحذف البسيط للمشاركة ”%1$s“ المكتوبة بواسطة ”%2$s“ للسبب التالي</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>تم الحذف البسيط للموضوع ”%1$s“ المكتوب بواسطة ”%2$s“ للسبب التالي</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>نقل المشاركات المقسومة</strong><br />» إلى %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>تقسيم المشاركات</strong><br />» من %s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>الموافقة على الموضوع</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>تمت استعادة الموضوع</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>عدم الموافقة على الموضوع “%1$s” المكتوب بواسطة “%3$s” للسبب التالي</strong><br />» %2$s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>عدم الموافقة على الموضوع ”%1$s“ المكتوب بواسطة ”%3$s“ للسبب التالي</strong><br />» %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>مزامنة عدادات المواضيع</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>تغيير نوع الموضوع</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>فتح الموضوع</strong><br />» %s',
@@ -649,7 +650,7 @@ $lang = array_merge($lang, array(
 	'LOG_GENERAL_ERROR'	=> '<strong>يوجد خطأ عام</strong>: %1$s <br />» %2$s',
 
 	'LOG_GROUP_CREATED'		=> '<strong>إنشاء مجموعة مستخدمين جديدة</strong><br />» %s',
-	'LOG_GROUP_DEFAULTS'	=> '<strong>جعل المجموعة “%1$s” افتراضية للأعضاء</strong><br />» %2$s',
+	'LOG_GROUP_DEFAULTS'	=> '<strong>جعل المجموعة ”%1$s“ افتراضية للأعضاء</strong><br />» %2$s',
 	'LOG_GROUP_DELETE'		=> '<strong>حذف مجموعة المستخدمين</strong><br />» %s',
 	'LOG_GROUP_DEMOTED'		=> '<strong>تنزيل رؤساء مجموعة المستخدمين</strong> %1$s<br />» %2$s',
 	'LOG_GROUP_PROMOTED'	=> '<strong>ترقية أعضاء مجموعة إلى رؤساء</strong> %1$s<br />» %2$s',
@@ -658,7 +659,7 @@ $lang = array_merge($lang, array(
 	'LOG_MODS_ADDED'		=> '<strong>إضافة رؤساء جدد إلى المجموعة</strong> %1$s<br />» %2$s',
 	'LOG_USERS_ADDED'		=> '<strong>إضافة أعضاء جدد إلى المجموعة</strong> %1$s<br />» %2$s',
 	'LOG_USERS_APPROVED'	=> '<strong>أعضاء قـُبلوا في المجموعة</strong> %1$s<br />» %2$s',
-	'LOG_USERS_PENDING'		=> '<strong>طلبات الأعضاء للانضمام إلى مجموعة “%1$s” والتي بحاجة للموافقة عليها</strong><br />» %2$s',
+	'LOG_USERS_PENDING'		=> '<strong>طلبات الأعضاء للانضمام إلى مجموعة ”%1$s“ والتي بحاجة للموافقة عليها</strong><br />» %2$s',
 
 	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>يوجد خطأ عند إنشاء صورة</strong><br />» خطأ عند %1$s في سطر %2$s: %3$s',
 
@@ -668,7 +669,7 @@ $lang = array_merge($lang, array(
 	'LOG_INSTALL_CONVERTED'	=> '<strong>تحويل المنتدى من %1$s إلى phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>تنصيب المنتدى phpBB %s</strong>',
 
-	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>إخفاق في فحص جلسة IP/browser/X_FORWARDED_FOR</strong><br />»IP العضو “<em>%1$s</em>” فحص مقابل الجلسة IP “<em>%2$s</em>”، مستعرض العضو فحص مقابل “<em>%3$s</em>” وجلسة المستعرض مقابل “<em>%4$s</em>” والعضو X_FORWARDED_FOR مقابل “<em>%5$s</em>” فـُحصَت مقابل session X_FORWARDED_FOR مقابل “<em>%6$s</em>”',
+	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>إخفاق في فحص جلسة IP/browser/X_FORWARDED_FOR</strong><br />»IP العضو ”<em>%1$s</em>“ فحص مقابل الجلسة IP ”<em>%2$s</em>“، مستعرض العضو فحص مقابل ”<em>%3$s</em>“ وجلسة المستعرض مقابل ”<em>%4$s</em>“ والعضو X_FORWARDED_FOR مقابل ”<em>%5$s</em>“ فـُحصَت مقابل session X_FORWARDED_FOR مقابل ”<em>%6$s</em>“',
 
 	'LOG_JAB_CHANGED'			=> '<strong>تغيير حساب Jabber</strong>',
 	'LOG_JAB_PASSCHG'			=> '<strong>تغيير كلمة مرور Jabber</strong>',
@@ -683,7 +684,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_MASS_EMAIL'		=> '<strong>إرسال بريد جماعي</strong><br />» %s',
 
-	'LOG_MCP_CHANGE_POSTER'	=> '<strong>تغيير الكاتب في الموضوع “%1$s”</strong><br />» من %2$s إلى %3$s',
+	'LOG_MCP_CHANGE_POSTER'	=> '<strong>تغيير الكاتب في الموضوع ”%1$s“</strong><br />» من %2$s إلى %3$s',
 
 	'LOG_MODULE_DISABLE'	=> '<strong>تعطيل الموديول</strong><br />» %s',
 	'LOG_MODULE_ENABLE'		=> '<strong>تفعيل الموديول</strong><br />» %s',
@@ -732,7 +733,7 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_REMOVED'	=> '<strong>حذف سبب للتقارير/الرفض</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>تحديث سبب للتقارير/الرفض</strong><br />» %s',
 
-	'LOG_REFERER_INVALID'		=> '<strong>فشل في التحقق من المرجع</strong><br />»المرجع كان “<em>%1$s</em>”. تم رفض الطلب وإغلاق الجلسة.',
+	'LOG_REFERER_INVALID'		=> '<strong>فشل في التحقق من المرجع</strong><br />»المرجع كان ”<em>%1$s</em>“. تم رفض الطلب وإغلاق الجلسة.',
 	'LOG_RESET_DATE'			=> '<strong>تصفير تاريخ بداية المنتدى</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>تصفير أكبر عدد تواجد للأعضاء</strong>',
 	'LOG_RESYNC_FILES_STATS'	=> '<strong>مزامنة إحصائيات الملفات</strong>',
@@ -776,27 +777,27 @@ $lang = array_merge($lang, array(
 	'LOG_UPDATE_PHPBB'		=> '<strong>تحديث phpBB من الإصدار %1$s إلى الإصدار %2$s</strong>',
 
 	'LOG_USER_ACTIVE'		=> '<strong>تفعيل العضو</strong><br />» %s',
-	'LOG_USER_BAN_USER'		=> '<strong>حظر مستخدم من إدارة الأعضاء</strong> بسبب “<em>%1$s</em>”<br />» %2$s',
-	'LOG_USER_BAN_IP'		=> '<strong>حظر عنوان IP من إدارة الأعضاء</strong> بسبب “<em>%1$s</em>”<br />» %2$s',
-	'LOG_USER_BAN_EMAIL'	=> '<strong>حظر بريد إلكتروني من إدارة الاعضاء</strong> بسبب “<em>%1$s</em>”<br />» %2$s',
+	'LOG_USER_BAN_USER'		=> '<strong>حظر مستخدم من إدارة الأعضاء</strong> بسبب ”<em>%1$s</em>“<br />» %2$s',
+	'LOG_USER_BAN_IP'		=> '<strong>حظر عنوان IP من إدارة الأعضاء</strong> بسبب ”<em>%1$s</em>“<br />» %2$s',
+	'LOG_USER_BAN_EMAIL'	=> '<strong>حظر بريد إلكتروني من إدارة الاعضاء</strong> بسبب ”<em>%1$s</em>“<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>حذف العضو</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>حذف المرفقات الخاصة بالعضو كلها</strong><br />» %s',
-	'LOG_USER_DEL_AVATAR'	=> '<strong>حذف الصورة الشخصية للعضو</strong><br />» %s',
+	'LOG_USER_DEL_AVATAR'	=> '<strong>حذف الصورة الرمزية للعضو</strong><br />» %s',
 	'LOG_USER_DEL_OUTBOX'	=> '<strong>أفرغ صندوق الصادر للعضو</strong><br />» %s',
 	'LOG_USER_DEL_POSTS'	=> '<strong>حذف مشاركات العضو كلها</strong><br />» %s',
 	'LOG_USER_DEL_SIG'		=> '<strong>حذف توقيع العضو</strong><br />» %s',
 	'LOG_USER_INACTIVE'		=> '<strong>تعطيل العضو</strong><br />» %s',
-	'LOG_USER_MOVE_POSTS'	=> '<strong>نقل مشاركات العضو</strong><br />» “%1$s” إلى “%2$s”',
+	'LOG_USER_MOVE_POSTS'	=> '<strong>نقل مشاركات العضو</strong><br />» ”%1$s“ إلى ”%2$s“',
 	'LOG_USER_NEW_PASSWORD'	=> '<strong>تغيير كلمة مرور العضو</strong><br />» %s',
 	'LOG_USER_REACTIVATE'	=> '<strong>إجبار العضو على إعادة تفعيل حسابه</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>حذف العلم المُسجل الجديد من العضو</strong><br />» %s',
 
-	'LOG_USER_UPDATE_EMAIL'	=> '<strong>العضو “%1$s” غير بريده</strong><br />» من “%2$s” إلى “%3$s”',
-	'LOG_USER_UPDATE_NAME'	=> '<strong>تغيير اسم المستخدم</strong><br />» من “%1$s” إلى “%2$s”',
+	'LOG_USER_UPDATE_EMAIL'	=> '<strong>العضو ”%1$s“ غير بريده</strong><br />» من ”%2$s“ إلى ”%3$s“',
+	'LOG_USER_UPDATE_NAME'	=> '<strong>تغيير اسم المستخدم</strong><br />» من ”%1$s“ إلى ”%2$s“',
 	'LOG_USER_USER_UPDATE'	=> '<strong>تحديث تفاصيل العضو</strong><br />» %s',
 
 	'LOG_USER_ACTIVE_USER'		=> '<strong>تفعّل حساب العضو</strong>',
-	'LOG_USER_DEL_AVATAR_USER'	=> '<strong>حـُذفَت الصورة الشخصية للعضو</strong>',
+	'LOG_USER_DEL_AVATAR_USER'	=> '<strong>حـُذفَت الصورة الرمزية للعضو</strong>',
 	'LOG_USER_DEL_SIG_USER'		=> '<strong>حـُذفَت توقيع العضو</strong>',
 	'LOG_USER_FEEDBACK'			=> '<strong>إضافة تعليقات للعضو</strong><br />» %s',
 	'LOG_USER_GENERAL'			=> '%s',
@@ -817,10 +818,11 @@ $lang = array_merge($lang, array(
 	'LOG_WARNING_DELETED'		=> '<strong>حذف التحذير للعضو</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'		=> array(
 		1 => '<strong>تم حذف تحذير العضو</strong><br />» %1$s',
-		2 => '<strong>تم حذف تحذيرا العضو</strong><br />» %1$s', 	//  Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+		2 => '<strong>تم حذف تحذيري العضو</strong><br />» %1$s', 	//  Example: '<strong>Deleted 2 user warnings</strong><br />» username'
 		3 => '<strong>تم حذف %2$d تحذيرات للعضو</strong><br />» %1$s',
-		4 => '<strong>تم حذف %2$d تحذيراً للعضو</strong><br />» %1$s',
+		4 => '<strong>تم حذف %2$d تحذيرًا للعضو</strong><br />» %1$s',
 		5 => '<strong>تم حذف %2$d تحذير للعضو</strong><br />» %1$s',
+		6 => '<strong>لم يتم حذف أي تحذير للعضو</strong><br />» %1$s',
 		),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>حذف التحذيرات للعضو كلها</strong><br />» %s',
 
@@ -831,5 +833,5 @@ $lang = array_merge($lang, array(
 	'LOG_EXT_ENABLE'	=> '<strong>تفعيل الإضافة</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>تعطيل الإضافة</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>حذف بيانات الإضافة</strong><br />» %s',
-	'LOG_EXT_UPDATE'	=> '<strong>Extension updated</strong><br />» %s',
+	'LOG_EXT_UPDATE'	=> '<strong>تحدثت الإضافة</strong><br />» %s',
 ));

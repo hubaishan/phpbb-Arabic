@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -41,7 +42,7 @@ $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'ملفات اللغة للوحة التحكم',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'هنا تستطيع تركيب/حذف حزم اللغة، اللغة المستخدمة كلغة إفتراضية محددة بنجمة (*)',
 
-	'DELETE_LANGUAGE_CONFIRM'		=> 'هل أنت متأكد أنك تريد حذف “%s”؟',
+	'DELETE_LANGUAGE_CONFIRM'		=> 'هل أنت متأكد أنك تريد حذف ”%s“؟',
 
 	'INSTALLED_LANGUAGE_PACKS'		=> 'حزم اللغات المنصبة',
 
@@ -67,7 +68,7 @@ $lang = array_merge($lang, array(
 
 	'NO_FILE_SELECTED'				=> 'لم تحدد ملف لغة',
 	'NO_LANG_ID'					=> 'لم تحدد حزمة اللغة',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'ليس مسموحاً لك حذف حزمة اللغة الافتراضية.<br />إذا أردت حذف هذه اللغة، غيّر اللغة الافتراضية للمنتدى أولاً',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'ليس مسموحًا لك حذف حزمة اللغة الافتراضية.<br />إذا أردت حذف هذه اللغة، غيّر اللغة الافتراضية للمنتدى أولًا',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'لا يوجد حزم لغة غير منصبة',
 
 	'THOSE_MISSING_LANG_FILES'			=> 'الملفات التالية مفقودة من حزمة اللغة %s',

@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -39,8 +40,8 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ABOUT_USER'			=> 'الملف الشخصي',
-	'ACTIVE_IN_FORUM'		=> 'أكثر نشاطاً في منتدى',
-	'ACTIVE_IN_TOPIC'		=> 'أكثر نشاطاً في موضوع',
+	'ACTIVE_IN_FORUM'		=> 'أكثر نشاطًا في منتدى',
+	'ACTIVE_IN_TOPIC'		=> 'أكثر نشاطًا في موضوع',
 	'ADD_FOE'				=> 'أضف لقائمة التجاهل',
 	'ADD_FRIEND'			=> 'أضف لقائمة الأصدقاء',
 	'AFTER'					=> 'بعد',
@@ -71,7 +72,7 @@ $lang = array_merge($lang, array(
 	'EQUAL_TO'				=> 'يساوي',
 
 	'FIND_USERNAME_EXPLAIN'	=> 'استعمل هذا النموذج للبحث عن الأعضاء. ليس عليك أن تملأ الحقول كلها، لمطابقة بيانات جزئية استعمل النجمة (*) كعلامة شاملة عند إدخال التواريخ استعمل الهيئة الآتية <kbd>YYYY-MM-DD</kbd>, على سبيل المثال <samp>2004-02-29</samp>. استعمل مربعات التحديد لاختيار عضو أو أكثر (اختيار أكثر من عضو يعتمد على النموذج نفسه) ومن ثم اضغط على زر اختر المحدد للعودة إلى النموذج السابق',
-	'FLOOD_EMAIL_LIMIT'		=> 'لا تستطيع إرسال بريد آخر في هذا الوقت. رجاءً حاول مرة أخرى لاحقاً',
+	'FLOOD_EMAIL_LIMIT'		=> 'لا تستطيع إرسال بريد آخر في هذا الوقت. رجاءً حاول مرة أخرى لاحقًا',
 
 	'GROUP_LEADER'			=> 'رئيس مجموعة',
 
@@ -97,13 +98,13 @@ $lang = array_merge($lang, array(
 		1	=> 'مستخدم واحد',
 		2	=> 'مستخدمان',
 		3	=> '%d مستخدمين',
-		4	=> '%d مستخدماً',
+		4	=> '%d مستخدمًا',
 		5	=> '%d مستخدم',
 		),
-	'LOGIN_EXPLAIN_TEAM'		=> 'يجب أن تكون عضواً مشتركاً ومسجلاً دخولك لرؤية فريق الموقع.',
-	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'ينبغي أن تكون عضواً مسجلاً لتتمكن من مشاهدة قائمة الأعضاء',
-	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'ينبغي أن تكون عضواً مسجلاً لتتمكن من البحث عن الأعضاء',
-	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'ينبغي أن تكون عضواً مسجلاً لتتمكن من مشاهدة الملفات الشخصية للأعضاء',
+	'LOGIN_EXPLAIN_TEAM'		=> 'يجب أن تكون عضوًا مشتركًا ومسجلًا دخولك لرؤية فريق الموقع.',
+	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'ينبغي أن تكون عضوًا مسجلًا لتتمكن من مشاهدة قائمة الأعضاء',
+	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'ينبغي أن تكون عضوًا مسجلًا لتتمكن من البحث عن الأعضاء',
+	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'ينبغي أن تكون عضوًا مسجلًا لتتمكن من مشاهدة الملفات الشخصية للأعضاء',
 
 	'MANAGE_GROUP'			=> 'ادارة المجموعة',
 	'MORE_THAN'				=> 'أكثر من',
@@ -145,7 +146,7 @@ $lang = array_merge($lang, array(
 		1		=> 'تذكير واحد مرسل<br />» %2$s',
 		2		=> 'تذكيران مرسلان<br />» %2$s',
 		3		=> '%1$d تذكيرات مرسلة<br />» %2$s',
-		4		=> '%1$d تذكيراً مرسلاً<br />» %2$s',
+		4		=> '%1$d تذكيرًا مرسلًا<br />» %2$s',
 		5		=> '%1$d تذكير مرسل<br />» %2$s',
 		),
 	'USER_ONLINE'			=> 'متصل',

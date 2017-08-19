@@ -1,6 +1,6 @@
 Subject: إشعار بإدارة موضوع - "{TOPIC_TITLE}"
 
-مرحباً {USERNAME}،
+مرحبًا {USERNAME}،
 
 لقد تم إرسال هذه الرسالة لك لأن الموضوع "{TOPIC_TITLE}" في "{SITENAME}" يحتاج للموافقة عليه.
 

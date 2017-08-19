@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -53,7 +54,7 @@ $lang = array_merge($lang, array(
 	'INHERITING_FROM'			=> 'مصمم على',
 	'INSTALL_STYLE'				=> 'تركيب الاستايل',
 	'INSTALL_STYLES'			=> 'تثبيت الاستايلات',
-	'INSTALL_STYLES_EXPLAIN'	=> 'من هنا يمكنك تثبيت استايلات جديدة.<br />إذا لم تستطع إيجاد استايل معين في القائة بأسفل، يرجى التأكد من أن الاستايل غير مثبت بالفعل. إذا لم يكن مثبتاً، يرجى التأكد من أنه تم رفعه بصورة سليمة.',
+	'INSTALL_STYLES_EXPLAIN'	=> 'من هنا يمكنك تثبيت استايلات جديدة.<br />إذا لم تستطع إيجاد استايل معين في القائة بأسفل، يرجى التأكد من أن الاستايل غير مثبت بالفعل. إذا لم يكن مثبتًا، يرجى التأكد من أنه تم رفعه بصورة سليمة.',
 	'INVALID_STYLE_ID'			=> 'معرف استايل خاطئ.',
 
 	'NO_MATCHING_STYLES_FOUND'	=> 'لا توجد استايلات تماثل بحثك.',
@@ -61,7 +62,7 @@ $lang = array_merge($lang, array(
 
 	'PURGED_CACHE'				=> 'تم حذف الكاش.',
 
-	'REQUIRES_STYLE'			=> 'هذا الاستايل يتطلب أن يكون استايل "%s" مثبتاً.',
+	'REQUIRES_STYLE'			=> 'هذا الاستايل يتطلب أن يكون استايل "%s" مثبتًا.',
 
 	'STYLE_ACTIVATE'			=> 'تفعيل',
 	'STYLE_ACTIVE'				=> 'فعال',
@@ -82,7 +83,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'ستايل "%s" لا يمكن إلغاء تثبيته لأنه يحتوي على استايل فرعي أو أكثر.',
 	'STYLE_UNINSTALLED'			=> 'تم إلغاء تثبيت استايل "%s" بنجاح.',
 	'STYLE_USED_BY'				=> 'مستعمل من طرف ( بمن فيهم محركات البحث )',
-	'STYLE_VERSION'				=> 'Style version',
+	'STYLE_VERSION'				=> 'إصدار الاستايل',
 
 	'UNINSTALL_DEFAULT'		=> 'لا يمكنك إلغاء تثبيت الاستايل الافتراضي.',
 

@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -42,12 +43,12 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'إذا كنت تريد استخدام reCaptcha, ينبغي عليك تسجيل حساب في <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'الكود المئي الذي قُدِّم غير صحيح',
-	'RECAPTCHA_NOSCRIPT'			=> 'Please enable JavaScript in your browser to load the challenge.',
+	'RECAPTCHA_NOSCRIPT'			=> 'الرجاء تفعيل جافا سكربت في متصفحك لتنفيد الاختبار.',
 
 	'RECAPTCHA_PUBLIC'				=> 'العام reCaptcha مفتاح',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> ' مفتاح reCaptcha العام لديك. يمكنك الحصول على المفاتيح من <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_PRIVATE'				=> 'مفتاح reCaptcha الخاص',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'مفتاح reCaptcha الخاص لديك . يمكنك الحصول على مفاتيح من <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'سعياً لمنع التجسيل بطريقة آلية، فيجب إدخال النص المعروض في المكان المخصص بأسفل.',
+	'RECAPTCHA_EXPLAIN'				=> 'سعيًا لمنع التجسيل بطريقة آلية، فيجب إدخال النص المعروض في المكان المخصص بأسفل.',
 ));

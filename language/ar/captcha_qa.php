@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -55,7 +56,7 @@ $lang = array_merge($lang, array(
 	'QUESTION_LANG'				=> 'اللغة',
 	'QUESTION_LANG_EXPLAIN'		=> 'اللغة التي كتب فيها السؤال وإجابته.',
 	'QUESTION_STRICT'			=> 'خيار الدقة',
-	'QUESTION_STRICT_EXPLAIN'	=> 'إذا فُعِّل فإن المسافات والأحرف الكبيرة والصغيرة ستُدَقّق أيضاً.',
+	'QUESTION_STRICT_EXPLAIN'	=> 'إذا فُعِّل فإن المسافات والأحرف الكبيرة والصغيرة ستُدَقّق أيضًا.',
 
 	'QUESTION_TEXT'				=> 'السؤال',
 	'QUESTION_TEXT_EXPLAIN'		=> 'السؤال الذي سيطرح عند التسجيل.',

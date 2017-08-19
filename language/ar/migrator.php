@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -46,36 +47,36 @@ $lang = array_merge($lang, array(
 	'MIGRATION_DATA_DONE'				=> 'تم تثبيت البيانات: %1$s; الوقت: %2$.2f ثوان',
 	'MIGRATION_DATA_IN_PROGRESS'		=> 'يتم تثبيت البيانات: %1$s; الوقت: %2$.2f ثوان',
 	'MIGRATION_DATA_RUNNING'			=> 'يتم تثبيت البيانات: %s.',
-	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'التحويل مثبت مسبقاً (تم تخطيه): %s',
-	'MIGRATION_EXCEPTION_ERROR'			=> 'شئ خاطئ حدث أثناء العمل وتم عمل استثناء. التغييرات التي حدثت قبل وقوع الخطأ تم عكسها على قدر المستطاع، ولكن يجب عليك فحص المنتدى بحثاً عن أخطاء.',
-	'MIGRATION_NOT_FULFILLABLE'			=> 'التحويل "%1$s" لا يمكن إتمامه، المحول "%2$s" مفقود.',
-	'MIGRATION_NOT_INSTALLED'			=> 'The migration "%s" is not installed.',
-	'MIGRATION_NOT_VALID'				=> '%s ليس تحويلاً صالحاً.',
+	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'الترحيلة مثبتة مسبقًا (تم تخطيها): %s',
+	'MIGRATION_EXCEPTION_ERROR'			=> 'ششيء خاطئ حدث أثناء العمل وتم عمل استثناء. التغييرات التي حدثت قبل وقوع الخطأ تم عكسها على قدر المستطاع، ولكن يجب عليك فحص المنتدى بحثًا عن أخطاء.',
+	'MIGRATION_NOT_FULFILLABLE'			=> 'الترحيلة "%1$s" لا يمكن إتمامها، الترحيلة "%2$s" مفقودة.',
+	'MIGRATION_NOT_INSTALLED'			=> 'لم تُثبت الترحيلة "%s".',
+	'MIGRATION_NOT_VALID'				=> '%s ليست ترحيلة صالحة.',
 	'MIGRATION_SCHEMA_DONE'				=> 'تم تثبيت المخطط: %1$s; الوقت: %2$.2f ثوان',
-	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Installing Schema: %1$s; Time: %2$.2f seconds',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'تثبيت المخطط: %1$s; الوقت: %2$.2f ثانية',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'يتم تثبيت المخطط: %s.',
 
-	'MIGRATION_REVERT_DATA_DONE'		=> 'Reverted Data: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Reverting Data: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Reverting Data: %s.',
-	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Reverted Schema: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'Reverting Schema: %1$s; Time: %2$.2f seconds',
-	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Reverting Schema: %s.',
+	'MIGRATION_REVERT_DATA_DONE'		=> 'البيانات أُعيدت: %1$s; الوقت: %2$.2f ثانية',
+	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'إعادة البيانات: %1$s; الوقت: %2$.2f ثانية',
+	'MIGRATION_REVERT_DATA_RUNNING'		=> 'إعادة البيانات: %s.',
+	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'المخطط أُعيد: %1$s; الوقت: %2$.2f ثانية',
+	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'إعادة المخطط: %1$s; الوقت: %2$.2f ثانية',
+	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'إعادة المخطط: %s.',
 
-	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'التحويل غير صالح. هناك شرط ناقص من مساعد جملة if الشرطية.',
-	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'التحويل غير صالح. هناك استدعاء لخطوة التحويل ناقص من مساعد جملة if الشرطية.',
-	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'التحويل غير صالح. لم نتمكن من استدعاء دالة خاصة قابلة للاستدعاء.',
-	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'التحويل غير صالح. نوع أداة تحويل غير معروف تم العثور عليه.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'التحويل غير صالح. أداة تحويل غير معرّفة تم العثور عليها.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'التحويل غير صالح. طريقة أداة تحويل غير معرّفة تم العثور عليها.',
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'الترحيلة غير صالحة. هناك شرط ناقص من مساعد جملة if الشرطية.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'الترحيلة غير صالحة. هناك استدعاء لخطوة الترحيلة ناقص من مساعد جملة if الشرطية.',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'الترحيلة غير صالحة. لم نتمكن من استدعاء دالة خاصة قابلة للاستدعاء.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'الترحيلة غير صالحة. نوع أداة ترحيل غير معروف تم العثور عليه.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'الترحيلة غير صالحة. أداة ترحيل غير معرّفة تم العثور عليها.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'الترحيلة غير صالحة. طريقة أداة ترحيل غير معرّفة تم العثور عليها.',
 
-	'MODULE_ERROR'						=> 'حدث خطاً أثناء إنشاء الموديول: %s',
-	'MODULE_EXISTS'						=> 'A module already exists: %s',
-	'MODULE_EXIST_MULTIPLE'				=> 'Several modules with the given parent module langname already exist: %s. Try using before/after keys to clarify the module placement.',
+	'MODULE_ERROR'						=> 'حدث خطًا أثناء إنشاء الموديول: %s',
+	'MODULE_EXISTS'						=> 'الموديول موجودة فعلاً: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'العديد من الموديولات موجودة بنفس الاسم : %s. حاول استخدام المفاتيح السابق/التالي لمعرفة موضع الموديول بوضوح.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'هناك ملف بيانات موديول ضروري مفقود: %2$s',
 	'MODULE_NOT_EXIST'					=> 'هناك موديول ضروري مفقود: %s',
 
-	'PARENT_MODULE_FIND_ERROR'			=> 'Unable to determine the parent module identifier: %s',
+	'PARENT_MODULE_FIND_ERROR'			=> 'غير قادر على التعرف على معرف الموديول الأصل: %s',
 	'PERMISSION_NOT_EXIST'				=> 'إعدادات التصريح "%s" غير موجودة بشكل غير متوقع.',
 
 	'ROLE_NOT_EXIST'					=> 'دور التصريح "%s" غير موجود بشكل غير متوقع.',

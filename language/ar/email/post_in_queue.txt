@@ -1,6 +1,6 @@
 Subject: إشعار بإدارة مشاركة - "{TOPIC_TITLE}"
 
-مرحباً {USERNAME}،
+مرحبًا {USERNAME}،
 
 لقد تم إرسال هذه الرسالة لك لأن المشاركة "{POST_SUBJECT}" في "{SITENAME}" تحتاج للموافقة عليها.
 

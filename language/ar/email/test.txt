@@ -1,9 +1,9 @@
-Subject: phpBB is correctly configured to send emails
+Subject: phpBB مكون لإرسال البريد الإلكتروني
 
-Hello {USERNAME},
+مرحبًا {USERNAME},
 
-Congratulations. If you received this email, phpBB is correctly configured to send emails.
+نهنئك، إذا استلمت هذا البريد، فإن phpBB تم تكوينه لإرسال البريد بصورة صحيحة.
 
-In case you require assistance, please visit the phpBB support forums - https://www.phpbb.com/community/
+في حالة احتياجك لمساعدة زر منتدى دعم phpBB  https://www.phpbb.com/community/
 
 {EMAIL_SIG}

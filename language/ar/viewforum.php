@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -70,7 +71,7 @@ $lang = array_merge($lang, array(
 		1	=> 'موضوع واحد',
 		2	=> 'موضوعان',
 		3	=> '%d مواضيع',
-		4	=> '%d موضوعاً',
+		4	=> '%d موضوعًا',
 		5	=> '%d موضوع',
 		),
 ));

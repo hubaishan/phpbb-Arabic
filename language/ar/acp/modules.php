@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -68,7 +69,7 @@ $lang = array_merge($lang, array(
 	'MODULE_EDITED'				=> 'تعدّل الموديول بنجاح',
 	'MODULE_ENABLED'			=> 'تفعيل الموديول',
 	'MODULE_LANGNAME'			=> 'اسم لغة الموديول',
-	'MODULE_LANGNAME_EXPLAIN'	=> 'ادخِل اسم الموديول لعرضه. استعمل دوال اللغة إذا كان الاسم مضافاً في ملف اللغة',
+	'MODULE_LANGNAME_EXPLAIN'	=> 'ادخِل اسم الموديول لعرضه. استعمل دوال اللغة إذا كان الاسم مضافًا في ملف اللغة',
 	'MODULE_TYPE'				=> 'نوع الموديول',
 
 	'NO_CATEGORY_TO_MODULE'	=> 'لا يمكن تغيير القسم إلى موديول. رجاءً احذف/حوّل الأقسام والموديولات الفرعية جميعها قبل القيام بهذه العملية',

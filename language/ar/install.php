@@ -41,21 +41,21 @@ $lang = array_merge($lang, array(
 	'INSTALL_PANEL'	=> 'لوحة التنصيب',
 	'SELECT_LANG'	=> 'اختيار اللغة',
 
-	'STAGE_INSTALL'	=> 'Installing phpBB',
+	'STAGE_INSTALL'	=> 'تثبيت phpBB',
 
 	// Introduction page
-	'INTRODUCTION_TITLE'	=> 'Introduction',
-	'INTRODUCTION_BODY'		=> 'Welcome to phpBB3!<br /><br />phpBB® is the most widely used open source bulletin board solution in the world. phpBB3 is the latest installment in a package line started in 2000. Like its predecessors, phpBB3 is feature-rich, user-friendly, and fully supported by the phpBB Team. phpBB3 greatly improves on what made phpBB2 popular, and adds commonly requested features that were not present in previous versions. We hope it exceeds your expectations.<br /><br />This installation system will guide you through installing phpBB3, updating to the latest version of phpBB3 from past releases, as well as converting to phpBB3 from a different discussion board system (including phpBB2). For more information, we encourage you to read <a href="../docs/INSTALL.html">the installation guide</a>.<br /><br />To read the phpBB3 license or learn about obtaining support and our stance on it, please select the respective options from the side menu. To continue, please select the appropriate tab above.',
+	'INTRODUCTION_TITLE'	=> 'المقدمة',
+	'INTRODUCTION_BODY'		=> 'مرحبا بك إلى phpBB3!<br /><br />phpBB® هي نظام المنتديات المفتوح المصدر الأوسع انتشارًا في العالم. phpBB3 هو آخر إصدار من سلسلة بدأت عام 2000. وكسابقيه, phpBB3 غني بالمميزات وسهل الاستخدام ومدعوم كاملًا من فريق phpBB. phpBB3 عزز ما أعطى لـphpBB2 شعبيته، وأضاف العديد من المميزات المطلوبة الغير متوفرة في الإصدار السابق. نأمل أن يتجاوز توقعاتك.<br /><br />نظام التثبيت هذا سيرشدك لتثبيت  phpBB3 أو ترقيته إلى آخر إصدار من إصدار سابق، . للمزيد من المعلومات ندعوك للاطلاع على  <a href="../docs/INSTALL.html">دليل التثبيت باللغة الإنجليزية</a>.<br /><br />لقراءة ترخيص phpBB3 أو كيفية الحصول على الدعم اختر الخيار المناسب من القائمة الجانبية. للمتابعة ، الرجاء تحديد علامة التبويب المناسبة أعلاه.',
 
 	// Support page
-	'SUPPORT_TITLE'		=> 'Support',
-	'SUPPORT_BODY'		=> 'Full support will be provided for the current stable release of phpBB3, free of charge. This includes:</p><ul><li>installation</li><li>configuration</li><li>technical questions</li><li>problems relating to potential bugs in the software</li><li>updating from Release Candidate (RC) versions to the latest stable version</li><li>converting from phpBB 2.0.x to phpBB3</li><li>converting from other discussion board software to phpBB3 (please see the <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>We encourage users still running beta versions of phpBB3 to replace their installation with a fresh copy of the latest version.</p><h2>Extensions / Styles</h2><p>For issues relating to Extensions, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />For issues relating to styles, templates and themes, please post in the appropriate <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />If your question relates to a specific package, please post directly in the topic dedicated to the package.</p><h2>Obtaining Support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">The phpBB Welcome Package</a><br /><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Quick Start Guide</a><br /><br />To ensure you stay up to date with the latest news and releases, why not <a href="https://www.phpbb.com/support/">subscribe to our mailing list</a>?<br /><br />',
+	'SUPPORT_TITLE'		=> 'الدعم',
+	'SUPPORT_BODY'		=> 'الدعم الكامل سيتم تقديمه للنسخة المستقرة الحالية من phpBB3، مجاناً. هذا يتضمن:</p><ul><li>التركيب</li><li>الإعداد</li><li>الأسئلة التقنية</li><li>المشاكل المتعلقة بالثغرات المحتملة في البرنامج</li><li>الترقية من النسخ المرشحة إلى آخر نسخة مستقرة</li><li>التحويل من phpBB2.0.x إلى phpBB3</li><li>التحويل من أنواع منتديات أخرى إلى phpBB3 (يرجى الاطلاع على <a href="https://www.phpbb.com/community/viewforum.php?f=486">منتدى التحويل</a>)</li></ul><p>نحن نشجع المستخدمين الذين مازالوا يعملون على نسخة تجريبية من phpBB3 أن يقوموا باستبدال نسخهم بتثبيت أحدث نسخة.</p><h2>الإضافات - الستايلات</h2><p>للمسائل المتعلقة بالإضافات، يرجى الكتابة في <a href="https://www.phpbb.com/community/viewforum.php?f=451">منتدى الإضافات</a> المناسب.<br />للمسائل المتعلقة بالستايلات، يرجى الكتابة في <a href="https://www.phpbb.com/community/viewforum.php?f=471">منتدى الستايلات</a> المناسب.<br /><br />إذا كان سؤالك يختص بحزمة معينة، يرجى الكتابة مباشرةً في الموضوع الخاص بتلك الحزمة.</p><h2>الحصول على الدعم</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">باقة البدء في phpBB</a><br /><a href="https://www.phpbb.com/support/">قسم الدعم</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">دليل البدء السريع</a><br /><br />لتكون متأكداً أنك دائماً على تحديث بآخر النسخ والأخبار، لِمَ لا <a href="https://www.phpbb.com/support/">تشترك في قائمتنا البريدية</a>؟<br /><br />',
 
 	// License
-	'LICENSE_TITLE'		=> 'General Public License',
+	'LICENSE_TITLE'		=> 'الرخصة العامة',
 
 	// Install page
-	'INSTALL_INTRO'			=> 'مرحباً بك في عملية تنصيب phpBB3!',
+	'INSTALL_INTRO'			=> 'مرحبًا بك في عملية تنصيب phpBB3!',
 	'INSTALL_INTRO_BODY'	=> 'عن طريق هذا الخيار، ستستطيع تنصيب phpBB3.</p><p>إذا أردت المتابعة، ستحتاج إلى إعدادات قاعدة البيانات. إذا لم تكن تعرف معلومات قاعدة البيانات، يرجى الاتصال بالمستضيف ليعطيها لك. لن تستطيع إكمال التركيب بدونها. ستحتاج إلى:</p>
 
 	<ul>
@@ -72,36 +72,37 @@ $lang = array_merge($lang, array(
 	<ul>
 		<li>MySQL 3.23 أو اعلى (MySQLi مدعومه)</li>
 		<li>PostgreSQL 8.3+</li>
+		<li>SQLite 2.8.2+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 أو اعلى (مباشرة أو من خلال ODBC)</li>
 		<li>خادم MS SQL 2005 أو أعلى (أصلي)</li>
 		<li>Oracle</li>
 	</ul>
 
-	<p>سيتم عرض قواعد البيانات المتوفرة على خادمك فقط',
+	<p>سيتم عرض قواعد البيانات المتوفرة على خادمك فقط.',
 
-	'ACP_LINK'	=> 'Take me to <a href="%1$s">the ACP</a>',
+	'ACP_LINK'	=> 'انتقل إلى <a href="%1$s">لوحة التحكم الرئيسية</a>',
 
-	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB is already installed.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB is not installed yet.',
+	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB مثبت فعليًا.',
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB لم يثبت بعد.',
 ));
 
 // Requirements translation
 $lang = array_merge($lang, array(
 	// Filesystem requirements
-	'FILE_NOT_EXISTS'						=> 'File does not exist',
-	'FILE_NOT_EXISTS_EXPLAIN'				=> 'To be able to install phpBB the %1$s file needs to exist.',
-	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'It is recommended that the %1$s file exist for a better forum user experience.',
-	'FILE_NOT_WRITABLE'						=> 'File is not writable',
-	'FILE_NOT_WRITABLE_EXPLAIN'				=> 'To be able to install phpBB the %1$s file needs to be writable.',
-	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'It is recommended that the %1$s file be writable for a better forum user experience.',
+	'FILE_NOT_EXISTS'						=> 'الملفات غير موجودة',
+	'FILE_NOT_EXISTS_EXPLAIN'				=> 'ينبغي توفر الملف %1$s لإمكانية تثبيت phpBB.',
+	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'من المستحسن أن يكون الملف %1$s موجودًا من أجل تجربة مستخدم أفضل.',
+	'FILE_NOT_WRITABLE'						=> 'الملف غير قابل للكتابة',
+	'FILE_NOT_WRITABLE_EXPLAIN'				=> 'لتتمكن من تثبيت phpBB ينبغي أن يكون الملف  %1$s قابلا للكتابة.',
+	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'من المستحسن أن يكون الملف  %1$s قابلا للكتابة من أجل تجربة مستخدم أفضل.',
 
-	'DIRECTORY_NOT_EXISTS'						=> 'Directory does not exist',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN'				=> 'To be able to install phpBB the %1$s directory needs to exist.',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'It is recommended that the %1$s directory exist for a better forum user experience.',
-	'DIRECTORY_NOT_WRITABLE'					=> 'Directory is not writable',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN'			=> 'To be able to install phpBB the %1$s directory needs to be writable.',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'It is recommended that the %1$s directory be writable for a better forum user experience.',
+	'DIRECTORY_NOT_EXISTS'						=> 'المسار غير متوفر',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN'				=> 'ينبغي أن يكون المسار  %1$s موجودًا حتى تستطيع تثبيت phpBB.',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'من المستحسن أن يكون المسار  %1$s موجودًا من أجل تحسين تجربة المستخدم.',
+	'DIRECTORY_NOT_WRITABLE'					=> 'المسار غير قابل للكتابة',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN'			=> 'لكي تكون قادرًا على تثبيت phpBB المسار  %1$s ينبغي أن يكون قابلًا للكتابة.',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'من المستحسن أن يكون المسار  %1$s قابلا للكتابة من أجل تجربة مستخدم أفضل.',
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'إصدار PHP >= 5.4.0',
@@ -112,12 +113,12 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB <strong>لن يعمل</strong> إذا كان تركيب PHP لديك غير متوافق مع UTF-8 في امتداد PCRE',
 	'PHP_JSON_SUPPORT'					=> 'دعم PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> '<strong>مطلوب</strong> - ليعمل phpBB بشكل صحيح، فإنه يجب وجود دعم امتداد PHP JSON.',
-	'PHP_XML_SUPPORT'					=> 'PHP XML/DOM support',
-	'PHP_XML_SUPPORT_EXPLAIN'			=> 'In order for phpBB to function correctly, the PHP XML/DOM extension needs to be available.',
+	'PHP_XML_SUPPORT'					=> 'دعم PHP XML/DOM',
+	'PHP_XML_SUPPORT_EXPLAIN'			=> 'لكي يعمل phpBB بشكل جيد ينبغي أن تكون الإضافة PHP XML/DOM متاحة.',
 	'PHP_SUPPORTED_DB'					=> 'قواعد البيانات المدعومة',
 	'PHP_SUPPORTED_DB_EXPLAIN'			=> '<strong>مطلوب</strong> - ينبغي على الأقل أن يكون أحد قواعد البيانات متوافقة مع PHP. إذا كانت موديلات قواعد البيانات غير متوفرة فينبغي عليك الاتصال بمستضيفك',
 
-	'RETEST_REQUIREMENTS'	=> 'Retest requirements',
+	'RETEST_REQUIREMENTS'	=> 'إعادة فحص المتطلبات',
 
 	'STAGE_REQUIREMENTS'	=> 'متطلبات التنصيب',
 ));
@@ -126,13 +127,13 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'INST_ERR_MISSING_DATA'		=> 'ينبغي عليك ملء الحقول كلها في هذه الصفحة',
 
-	'TIMEOUT_DETECTED_TITLE'	=> 'The installer detected a timeout',
-	'TIMEOUT_DETECTED_MESSAGE'	=> 'The installer has detected a timeout, you may try to refresh the page, which may lead to data corruption. We suggest that you either increase your timeout settings or try to use the CLI.',
+	'TIMEOUT_DETECTED_TITLE'	=> 'كشف المثبت عن فوات المهلة(timeout) ',
+	'TIMEOUT_DETECTED_MESSAGE'	=> 'كشف المثبت عن فوات المهلة (timeout)، بإمكانك محاولة تحديث الصفحة، والتي ربما تؤدي إلى تلف البيانات. نقترح عليك إما زيادة إعدادات المهلة (timeout) أو محاولة استخدام CLI.',
 ));
 
 // Data obtaining translations
 $lang = array_merge($lang, array(
-	'STAGE_OBTAIN_DATA'	=> 'Set installation data',
+	'STAGE_OBTAIN_DATA'	=> 'ضبط بيانات التثبيت',
 
 	//
 	// Admin data
@@ -150,19 +151,19 @@ $lang = array_merge($lang, array(
 	// Errors
 	'INST_ERR_EMAIL_INVALID'		=> 'البريد الإلكتروني الذي أدخلته غير صحيح',
 	'INST_ERR_PASSWORD_MISMATCH'	=> 'كلمات المرور التي أدخلتها غير متطابقة',
-	'INST_ERR_PASSWORD_TOO_LONG'	=> 'كلمة المرور التي أدخلتها كبيرة جداً. أقصى طول ينبغي ألا يتعدى 30 حرف',
-	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'كلمة المرور التي أدخلتها صغيرة جداً. أقل طول ينبغي أن يكون أكبر من 6 أحرف',
-	'INST_ERR_USER_TOO_LONG'		=> 'اسم المستخدم الذي استعملته طويل جداً. أقصى طول هو 20 حرف',
-	'INST_ERR_USER_TOO_SHORT'		=> 'اسم المستخدم الذي أدخلته قصير جداً. أقل طول مسموح هو 3 أحرف',
+	'INST_ERR_PASSWORD_TOO_LONG'	=> 'كلمة المرور التي أدخلتها كبيرة جدًا. أقصى طول ينبغي ألا يتعدى 30 حرف',
+	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'كلمة المرور التي أدخلتها صغيرة جدًا. أقل طول ينبغي أن يكون أكبر من 6 أحرف',
+	'INST_ERR_USER_TOO_LONG'		=> 'اسم المستخدم الذي استعملته طويل جدًا. أقصى طول هو 20 حرف',
+	'INST_ERR_USER_TOO_SHORT'		=> 'اسم المستخدم الذي أدخلته قصير جدًا. أقل طول مسموح هو 3 أحرف',
 
 	//
 	// Board data
 	//
 	// Form labels
-	'BOARD_CONFIG'		=> 'Bulletin board configuration',
-	'DEFAULT_LANGUAGE'	=> 'Default language',
-	'BOARD_NAME'		=> 'Title of the board',
-	'BOARD_DESCRIPTION'	=> 'Short description of the board',
+	'BOARD_CONFIG'		=> 'تكوين المنتدى',
+	'DEFAULT_LANGUAGE'	=> 'اللغة الافتراضية',
+	'BOARD_NAME'		=> 'عنوان المنتدى',
+	'BOARD_DESCRIPTION'	=> 'وصف قصير للمنتدى',
 
 	//
 	// Database data
@@ -173,13 +174,13 @@ $lang = array_merge($lang, array(
 	'DB_CONFIG'				=> 'إعدادات قاعدة البيانات',
 	'DBMS'					=> 'نوع قاعدة البيانات',
 	'DB_HOST'				=> 'Database server أو hostname أو DSN',
-	'DB_HOST_EXPLAIN'		=> 'DSN قياسي لمورد البيانات ومتوافق فقط مع تثبيت ODBC. على PostgreSQL، استعمل السيرفر الشخصي عن طريق الدخول إلى 127.0.0.1 للاتصال بواسطة TCP. على SQLite، أدخل المسار الكامل لملف قاعدة البيانات.',
+	'DB_HOST_EXPLAIN'		=> 'DSN قياسي لمورد البيانات ومتوافق فقط مع تثبيت ODBC. على PostgreSQL، استعمل الخادم الشخصي عن طريق الدخول إلى 127.0.0.1 للاتصال بواسطة TCP. على SQLite، أدخل المسار الكامل لملف قاعدة البيانات.',
 	'DB_PORT'				=> 'منفذ خادم قاعدة البيانات',
-	'DB_PORT_EXPLAIN'		=> 'اتركه فارغاً إلا إذا كان الخادم يستعمل منفذ غير القياسي',
+	'DB_PORT_EXPLAIN'		=> 'اتركه فارغًا إلا إذا كان الخادم يستعمل منفذ غير القياسي',
 	'DB_PASSWORD'			=> 'كلمة مرور قاعدة البيانات',
 	'DB_NAME'				=> 'اسم قاعدة البيانات',
 	'DB_USERNAME'			=> 'اسم مستخدم قاعدة البيانات',
-	'DATABASE_VERSION'		=> 'Database version',
+	'DATABASE_VERSION'		=> 'إصدار قاعدة البيانات',
 	'TABLE_PREFIX'			=> 'سوابق جداول قاعدة البيانات',
 	'TABLE_PREFIX_EXPLAIN'	=> 'البادئة يجب أن تبدأ بحرف وتحتوي فقط على حروف، أرقام و underscores.',
 
@@ -195,37 +196,37 @@ $lang = array_merge($lang, array(
 	// Errors
 	'INST_ERR_NO_DB'				=> 'لا يمكن تحميل موديول PHP لنوع قاعدة البيانات المحددة',
 	'INST_ERR_DB_INVALID_PREFIX'	=> 'البادئة التي أدخلتها غير صحيحة. يجب أن تبدأ بحرف وتحتوي فقط على حروف، أرقام وunderscores.',
-	'INST_ERR_PREFIX_TOO_LONG'		=> 'سوابق الجدول التي حددتها طويلة جداً. أقصى طول هو %d حرف',
+	'INST_ERR_PREFIX_TOO_LONG'		=> 'سوابق الجدول التي حددتها طويلة جدًا. أقصى طول هو %d حرف',
 	'INST_ERR_DB_NO_NAME'			=> 'لم تحدد قاعدة البيانات',
 	'INST_ERR_DB_FORUM_PATH'		=> 'ملف قاعدة البيانات المحدد هو دليل داخل مجلد منتداك، عليك وضع هذا الملف في مكان لا يمكن الوصول إليه عبر المتصفح',
 	'INST_ERR_DB_CONNECT'			=> 'لا يمكن الاتصال بقاعدة البيانات، شاهد رسالة الخطأ في الأسفل',
-	'INST_ERR_DB_NO_WRITABLE'		=> 'Both the database and the directory containing it must be writable.',
+	'INST_ERR_DB_NO_WRITABLE'		=> 'ينبغي أن تكون قاعدة البيانات والمسار المحتوي لها كلاها قابلين للكتابة.',
 	'INST_ERR_DB_NO_ERROR'			=> 'لا توجد أية رسالة خطأ',
-	'INST_ERR_PREFIX'				=> 'الجداول ذات السوابق التي حددتها موجودة مسبقاً، يرجى اختيار غيرها',
-	'INST_ERR_DB_NO_MYSQLI'			=> 'إصدار MySQL المركب على هذا الجهاز غير متوافق مع خيار “MySQL with MySQLi Extension” الذي حددته. يرجى محاولة خيار “MySQL” بدلاً منه',
-	'INST_ERR_DB_NO_SQLITE3'		=> 'إصدار SQLite extension المثبت لديك قديم جداً، يجب ترقيته إلى الإصدار 3.6.15 على الأقل.',
+	'INST_ERR_PREFIX'				=> 'الجداول ذات السوابق التي حددتها موجودة مسبقًا، يرجى اختيار غيرها',
+	'INST_ERR_DB_NO_MYSQLI'			=> 'إصدار MySQL المركب على هذا الجهاز غير متوافق مع خيار ”MySQL with MySQLi Extension“ الذي حددته. يرجى محاولة خيار ”MySQL“ بدلًا منه',
+	'INST_ERR_DB_NO_SQLITE3'		=> 'إصدار SQLite extension المثبت لديك قديم جدًا، يجب ترقيته إلى الإصدار 3.6.15 على الأقل.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'إصدار Oracle المركب على هذا الجهاز يستلزم وضع خيار <var>NLS_CHARACTERSET</var> على <var>UTF8</var>.ينبغي عليك تحديث التركيب إلى 9.2+ أو تغيير الخيار',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'قاعدة البيانات التي حددتها لم تُنشَأ على نظام <var>UNICODE</var> أو <var>UTF8</var>. حاول تركيب قاعدة البيانات على نظام <var>UNICODE</var> أو <var>UTF8</var>',
-	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'The schema file is not writable',
+	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'ملف المخطط غير قابل للكتابة',
 
 	//
 	// Email data
 	//
-	'EMAIL_CONFIG'	=> 'E-mail configuration',
+	'EMAIL_CONFIG'	=> 'تكوين البريد الإلكتروني',
 
 	// Package info
-	'PACKAGE_VERSION'					=> 'Package version installed',
-	'UPDATE_INCOMPLETE'				=> 'Your phpBB installation has not been correctly updated.',
-	'UPDATE_INCOMPLETE_MORE'		=> 'Please read the information below in order to fix this error.',
-	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Incomplete update</h1>
+	'PACKAGE_VERSION'				=> 'تم تثبيت حزمة الإصدار',
+	'UPDATE_INCOMPLETE'				=> 'لم يتم تحديث تثبيت phpBB بصورة صحيحة..',
+	'UPDATE_INCOMPLETE_MORE'		=> 'الرجاء قراءة المعلومات التالية لإصلاح الخطأ.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>تحديث غير مكتمل</h1>
 
-		<p>We noticed that the last update of your phpBB installation hasn’t been completed. Visit the <a href="%1$s" title="%1$s">database updater</a>, ensure <em>Update database only</em> is selected and click on <strong>Submit</strong>. Don\'t forget to delete the "install"-directory after you have updated the database sucessfully.</p>',
+		<p>لاحظنا أن التحديث الأخير لتثبيت phpBB لم يكتمل. الرجاء فتح وتشغيل<a href="%1$s" title="%1$s">سكربت تحديث قاعدة البيانات</a> . تأكد من اختيارك <em>تحديث قاعدة البيانات فقط</em> واضغط على زر <strong>إرسال</strong>.  لا تنس حذف مجلد install بعد تحديث قاعدة البيانات بنجاح.</p>',
 
 	//
 	// Server data
 	//
 	// Form labels
-	'UPGRADE_INSTRUCTIONS'			=> 'A new feature release <strong>%1$s</strong> is available. Please read <a href="%2$s" title="%2$s"><strong>the release announcement</strong></a> to learn about what it has to offer, and how to upgrade.',
+	'UPGRADE_INSTRUCTIONS'			=> 'يتوفر إصدار مميزات جديد <strong>%1$s</strong>، الرجاء قراءة <a href="%2$s" title="%2$s"><strong>إعلان الإصدار</strong></a> لمعرفة ماذا يقدم، وكيفية الترقية.',
 	'SERVER_CONFIG'				=> 'إعدادات الخادم',
 	'SCRIPT_PATH'				=> 'مسار السكربت',
 	'SCRIPT_PATH_EXPLAIN'		=> 'مسار مجلد phpBB مرتبط بعنوان الموقع، مثال <samp>/phpBB3</samp>',
@@ -233,7 +234,7 @@ $lang = array_merge($lang, array(
 
 // Default database schema entries...
 $lang = array_merge($lang, array(
-	'CONFIG_BOARD_EMAIL_SIG'		=> 'شكراً، إدارة المنتدى',
+	'CONFIG_BOARD_EMAIL_SIG'		=> 'شكرًا، إدارة المنتدى',
 	'CONFIG_SITE_DESC'				=> 'وصف مختصر للمنتدى',
 	'CONFIG_SITENAME'				=> 'اسم الموقع',
 
@@ -252,11 +253,11 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARROW'					=> 'سهم',
 	'SMILIES_CONFUSED'				=> 'محتار',
 	'SMILIES_COOL'					=> 'رايق',
-	'SMILIES_CRYING'				=> 'يبكي أو حزين جداً',
+	'SMILIES_CRYING'				=> 'يبكي أو حزين جدًا',
 	'SMILIES_EMARRASSED'			=> 'خجول',
-	'SMILIES_EVIL'					=> 'شرير أو غاضب جداً',
+	'SMILIES_EVIL'					=> 'شرير أو غاضب جدًا',
 	'SMILIES_EXCLAMATION'			=> 'تعجب',
-	'SMILIES_GEEK'					=> 'Geek',
+	'SMILIES_GEEK'					=> 'مهوس',
 	'SMILIES_IDEA'					=> 'فكرة',
 	'SMILIES_LAUGHING'				=> 'ضحكة',
 	'SMILIES_MAD'					=> 'غاضب',
@@ -270,8 +271,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_SMILE'					=> 'مبتسم',
 	'SMILIES_SURPRISED'				=> 'متفاجئ',
 	'SMILIES_TWISTED_EVIL'			=> 'ماكر',
-	'SMILIES_UBER_GEEK'				=> 'Uber Geek',
-	'SMILIES_VERY_HAPPY'			=> 'سعيد جداً',
+	'SMILIES_UBER_GEEK'				=> 'مهوس جدًا',
+	'SMILIES_VERY_HAPPY'			=> 'سعيد جدًا',
 	'SMILIES_WINK'					=> 'غمزة',
 
 	'TOPICS_TOPIC_TITLE'			=> 'أهلا بك في phpBB3',
@@ -279,67 +280,67 @@ $lang = array_merge($lang, array(
 
 // Common navigation items' translation
 $lang = array_merge($lang, array(
-	'MENU_OVERVIEW'		=> 'Overview',
-	'MENU_INTRO'		=> 'Introduction',
-	'MENU_LICENSE'		=> 'License',
-	'MENU_SUPPORT'		=> 'Support',
+	'MENU_OVERVIEW'		=> 'نظرة عامة',
+	'MENU_INTRO'		=> 'المقدمة',
+	'MENU_LICENSE'		=> 'الترخيص',
+	'MENU_SUPPORT'		=> 'الدعم',
 ));
 
 // Task names
 $lang = array_merge($lang, array(
 	// Install filesystem
-	'TASK_CREATE_CONFIG_FILE'	=> 'Creating configuration file',
+	'TASK_CREATE_CONFIG_FILE'	=> 'إنشاء ملف التكوين',
 
 	// Install database
-	'TASK_ADD_CONFIG_SETTINGS'			=> 'Adding configuration settings',
-	'TASK_ADD_DEFAULT_DATA'				=> 'Adding default settings to the database',
-	'TASK_CREATE_DATABASE_SCHEMA_FILE'	=> 'Creating database schema file',
-	'TASK_SETUP_DATABASE'				=> 'Setting up database',
-	'TASK_CREATE_TABLES'				=> 'Creating tables',
+	'TASK_ADD_CONFIG_SETTINGS'			=> 'إضافة إعدادات التكوين',
+	'TASK_ADD_DEFAULT_DATA'				=> 'إضافة الإعدادات الافتراضية إلى قاعدة البيانات',
+	'TASK_CREATE_DATABASE_SCHEMA_FILE'	=> 'إنشاء ملف مخطط قاعدة البيانات',
+	'TASK_SETUP_DATABASE'				=> 'إعداد قاعدة البيانات',
+	'TASK_CREATE_TABLES'				=> 'إنشاء الجداول',
 
 	// Install data
-	'TASK_ADD_BOTS'				=> 'Registering bots',
-	'TASK_ADD_LANGUAGES'		=> 'Installing available languages',
-	'TASK_ADD_MODULES'			=> 'Installing modules',
-	'TASK_CREATE_SEARCH_INDEX'	=> 'Creating search index',
+	'TASK_ADD_BOTS'				=> 'تسجيل البوتات',
+	'TASK_ADD_LANGUAGES'		=> 'تثبيت اللغات المتوفرة',
+	'TASK_ADD_MODULES'			=> 'تثبيت الموديولات',
+	'TASK_CREATE_SEARCH_INDEX'	=> 'إنشاء فهرس البحث',
 
 	// Install finish tasks
-	'TASK_INSTALL_EXTENSIONS'	=> 'Installing packaged extensions',
-	'TASK_NOTIFY_USER'			=> 'Sending notification e-mail',
-	'TASK_POPULATE_MIGRATIONS'	=> 'Populating migrations',
+	'TASK_INSTALL_EXTENSIONS'	=> 'تثبيت الإضافات المحزمة',
+	'TASK_NOTIFY_USER'			=> 'إرسال إشعار بريدي',
+	'TASK_POPULATE_MIGRATIONS'	=> 'تطبيق التهجيرات',
 
 	// Installer general progress messages
-	'INSTALLER_FINISHED'	=> 'The installer has finished successfully',
+	'INSTALLER_FINISHED'	=> 'المثبت أنهى التثبيت بنجاح',
 ));
 
 // Installer's general messages
 $lang = array_merge($lang, array(
-	'MODULE_NOT_FOUND'				=> 'Module not found',
-	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'A module could not be found because the service, %s, is undefined.',
+	'MODULE_NOT_FOUND'				=> 'الموديول غير موجود',
+	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'لم يوجد الموديول بسبب أن الخدمة(%s) غير معرفة.',
 
-	'TASK_NOT_FOUND'				=> 'Task not found',
-	'TASK_NOT_FOUND_DESCRIPTION'	=> 'A task could not be found because the service, %s, is undefined.',
+	'TASK_NOT_FOUND'				=> 'المهمة غير موجودة',
+	'TASK_NOT_FOUND_DESCRIPTION'	=> 'لم توجد المهمة بسبب أن الخدمة(%s) غير معرفة.',
 
-	'SKIP_MODULE'	=> 'Skip “%s” module',
-	'SKIP_TASK'		=> 'Skip “%s” task',
+	'SKIP_MODULE'	=> 'تخطي الموديول ”%s“',
+	'SKIP_TASK'		=> 'تخطي المهمة ”%s“',
 
-	'TASK_SERVICE_INSTALLER_MISSING'	=> 'All installer task services should start with “installer”',
-	'TASK_CLASS_NOT_FOUND'				=> 'Installer task service definition is invalid. Service name “%1$s” given, the expected class namespace is “%2$s” for that. For more information please see the documentation of task_interface.',
+	'TASK_SERVICE_INSTALLER_MISSING'	=> 'كل خدمات مهام المثبت يجب أن تبدأ بـ ”installer“',
+	'TASK_CLASS_NOT_FOUND'				=> 'تعريف خدمة مهمة المثبت غير صحيح، اسم الخدمة المعطى هو ”%1$s“، اسم الفئة المتوقع لها هو ”%2$s“. للمزيد من المعلومات الرجاء الاطلاع على مستندات الـ task_interface.',
 
-	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'The installer config file is not writable.',
+	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'ملف تكوين المثبت غير قابل للكتابة.',
 ));
 
 // CLI messages
 $lang = array_merge($lang, array(
-	'CLI_INSTALL_BOARD'				=> 'Install phpBB',
-	'CLI_UPDATE_BOARD'				=> 'Update phpBB',
-	'CLI_INSTALL_SHOW_CONFIG'		=> 'Show the configuration which will be used',
-	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validate a configuration file',
-	'CLI_CONFIG_FILE'				=> 'Config file to use',
-	'MISSING_FILE'					=> 'Unable to access file %1$s',
-	'MISSING_DATA'					=> 'Config file is missing data or might contain invalid settings.',
-	'INVALID_YAML_FILE'				=> 'Could not parse YAML file %1$s',
-	'CONFIGURATION_VALID'			=> 'The configuration file is valid',
+	'CLI_INSTALL_BOARD'				=> 'تثبيت phpBB',
+	'CLI_UPDATE_BOARD'				=> 'ترقية phpBB',
+	'CLI_INSTALL_SHOW_CONFIG'		=> 'إظهار التكوين الذي سيستخدم',
+	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'التحقق من صحة ملف التكوين',
+	'CLI_CONFIG_FILE'				=> 'ملف Config الذي سيستخدم',
+	'MISSING_FILE'					=> 'غير قادر على الوصول إلى ملف %1$s',
+	'MISSING_DATA'					=> 'يفتقد ملف التكوين بعض البيانات أو أنه يحتوي على إعدادات غير صالحة.',
+	'INVALID_YAML_FILE'				=> 'غير قادر على تحليل ملف YAML %1$s',
+	'CONFIGURATION_VALID'			=> 'ملف التكوين صالح',
 ));
 
 // Common updater messages
@@ -350,21 +351,21 @@ $lang = array_merge($lang, array(
 
 		<h1>إعلان الإصدار</h1>
 
-		<p>يرجى قراءة إعلان الإصدار للنسخة الأخيرة قبل اكمال عملية التحديث، فقد يحتوي على معلومات مفيدة.  يحتوي الإعلان أيضاً على روابط للتحميل الكامل كما يحتوي أيضاً على قائمة التغييرات.</p>
+		<p>يرجى قراءة إعلان الإصدار للنسخة الأخيرة قبل اكمال عملية التحديث، فقد يحتوي على معلومات مفيدة.  يحتوي الإعلان أيضًا على روابط للتحميل الكامل كما يحتوي أيضًا على قائمة التغييرات.</p>
 
 		<br />
 
 		<h1>كيفية تحديث المنتدى عن طريق حزمة التحديث الآلي</h1>
 
-		<p>الطريقة المفضلة لتحديث منتاك المكتوبة هنا تنطبق فقط على حزمة التحديث الآلي. يمكنك أيضاً تحديث منتاك باتباع إحدى الطرق الموجودة في ملف INSTALL.html. الخطوات لتحديث منتداك آلياً هي:</p>
+		<p>الطريقة المفضلة لتحديث منتاك المكتوبة هنا تنطبق فقط على حزمة التحديث الآلي. يمكنك أيضًا تحديث منتاك باتباع إحدى الطرق الموجودة في ملف INSTALL.html. الخطوات لتحديث منتداك آليًا هي:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>اذهب إلى <a href="https://www.phpbb.com/downloads" title="https://www.phpbb.com/downloads">صفحة تحميل phpBB.com</a> وقم بتحميل ملف "حزمة التحديث الآلي".<br /><br /></li>
+			<li>اذهب إلى <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">صفحة تحميل phpBB.com</a> وقم بتحميل ملف "حزمة التحديث الآلي".<br /><br /></li>
 			<li>قم بفك الضغط عن الملف.<br /><br /></li>
 			<li>قم برفع مجلدي "install" و "vendor" غير المضغوطين كاملين إلى المجلد الرئيسي لمنتدى phpBB لديك (المجلد الذي يحتوي على ملف config.php بداخله).<br /><br /></li>
 		</ul>
 
-		<p>بعد أن يتم الرفع، سيتم غلق منتداك آلياً عن الزوار بسبب وجود مجلد install الذي قمت برفعه.<br /><br />
+		<p>بعد أن يتم الرفع، سيتم غلق منتداك آليًا عن الزوار بسبب وجود مجلد install الذي قمت برفعه.<br /><br />
 		<strong><a href="%1$s" title="%1$s">الآن قم ببدء عملية التحديث عن طريق الذهاب بمتصفحك إلى مجلد install</a>.</strong><br />
 		<br />
 		سيتم بعد ذلك إرشادك خلال عملية التحديث. سيتم إعلامك عند اكتمال عملية التحديث.
@@ -375,21 +376,21 @@ $lang = array_merge($lang, array(
 // Updater forms
 $lang = array_merge($lang, array(
 	// Updater types
-	'UPDATE_TYPE'			=> 'Type of update to run',
+	'UPDATE_TYPE'			=> 'نوع التحديث الذي سيتم تشغيله',
 
-	'UPDATE_TYPE_ALL'		=> 'Update filesystem and database',
-	'UPDATE_TYPE_DB_ONLY'	=> 'Update database only',
+	'UPDATE_TYPE_ALL'		=> 'تحديث نظام الملفات وقاعدة البيانات',
+	'UPDATE_TYPE_DB_ONLY'	=> 'تحديث قاعدة البيانات فقط',
 
 	// File updater methods
-	'UPDATE_FILE_METHOD_TITLE'		=> 'File updater methods',
+	'UPDATE_FILE_METHOD_TITLE'		=> 'طرق تحديث الملفات',
 
-	'UPDATE_FILE_METHOD'			=> 'File updater method',
-	'UPDATE_FILE_METHOD_DOWNLOAD'	=> 'Download modified files in an archive',
-	'UPDATE_FILE_METHOD_FTP'		=> 'Update files via FTP (Automatic)',
-	'UPDATE_FILE_METHOD_FILESYSTEM'	=> 'Update files via direct file access (Automatic)',
+	'UPDATE_FILE_METHOD'			=> 'طريقة تحديث الملفات',
+	'UPDATE_FILE_METHOD_DOWNLOAD'	=> 'تحميل الملفات المعدلة في ملف مضغوط',
+	'UPDATE_FILE_METHOD_FTP'		=> 'تحديث الملفات عبر  FTP (تلقائي)',
+	'UPDATE_FILE_METHOD_FILESYSTEM'	=> 'تحديث الملفات عبر الوصول المباشر للملف (تلقائي)',
 
 	// File updater archives
-	'SELECT_DOWNLOAD_FORMAT'	=> 'اختر شكل تحميل الملف',
+	'SELECT_DOWNLOAD_FORMAT'	=> 'اختر صيغة تحميل الملف',
 
 	// FTP settings
 	'FTP_SETTINGS'			=> 'إعدادات FTP',
@@ -397,7 +398,7 @@ $lang = array_merge($lang, array(
 
 // Requirements messages
 $lang = array_merge($lang, array(
-	'UPDATE_FILES_NOT_FOUND'	=> 'No valid update directory was found, please make sure you uploaded the relevant files.',
+	'UPDATE_FILES_NOT_FOUND'	=> 'لم يتم العثور على مسار تحديث صالح ، الرجاء التأكد من تحميل الملفات ذات الصلة.',
 
 	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'الإصدار هو الأحدث حتى الآن. ليس هناك حاجة لتشغيل أداة التحديث، إذا أردت أن تقوم بفحص لملفاتك نرجو التأكد بأنك تستخدم أداة التحديث الصحيحة',
 	'OLD_UPDATE_FILES'				=> 'ملفات التحديث قديمة. ملفات التحديث هذه هي للتحديث من pbpbb%1$s إلى phpBB %2$s ولكن الإصدار الأخير من phpBB هو %3$s',
@@ -409,16 +410,16 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_FILES'		=> 'تحديث الملفات',
 
 	// Check files
-	'UPDATE_CHECK_FILES'	=> 'Check files to update',
+	'UPDATE_CHECK_FILES'	=> 'التحقق من الملفات للتحديث',
 
 	// Update file differ
-	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ'	=> 'The file differ failed to open %s.',
+	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ'	=> 'فشل مقارن الملفات في تحميل %s.',
 
-	'UPDATE_FILE_DIFF'		=> 'Diffing changed files',
-	'ALL_FILES_DIFFED'		=> 'All modified files has been diffed.',
+	'UPDATE_FILE_DIFF'		=> 'مقارنة الملفات المعدلة',
+	'ALL_FILES_DIFFED'		=> 'تم مقارنة جميع الملفات المعدلة.',
 
 	// File status
-	'UPDATE_CONTINUE_FILE_UPDATE'	=> 'Update files',
+	'UPDATE_CONTINUE_FILE_UPDATE'	=> 'تحديث الملفات',
 
 	'DOWNLOAD'							=> 'تحميل',
 	'DOWNLOAD_CONFLICTS'				=> 'تحميل التضاربات لهذا الملف',
@@ -426,11 +427,11 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_UPDATE_METHOD'			=> 'تحميل أرشيف الملفات المعدلة',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'بمجرد تحميلها ينبغي عليك فك حزمة الأرشيف. ستجد الملفات المعدلة التي تحتاج إلى أن ترفعها داخل مجلد المنتدى الرئيسي. الرجاء رفع الملفات إلى أماكنها المحددة. وبعد أن ترفع كل الملفات، الرجاء فحص الملفات مرة أخرى بواسطة الزر في الأسفل',
 
-	'FILE_ALREADY_UP_TO_DATE'		=> 'الملف محدث سابقاً',
-	'FILE_DIFF_NOT_ALLOWED'			=> 'الملف غير قابل ليكون diffed',
+	'FILE_ALREADY_UP_TO_DATE'		=> 'الملف محدث سابقًا',
+	'FILE_DIFF_NOT_ALLOWED'			=> 'الملف غير قابل للمقارنة',
 	'FILE_USED'						=> 'معلومات الاستعمال من',			// Single file
 	'FILES_CONFLICT'				=> 'الملفات المتعارضة',
-	'FILES_CONFLICT_EXPLAIN'		=> 'الملفات الآتية معدلة ولا تمثل الملفات الأصلية من النسخة القديمة. phpBB قررت أن هذه الملفات تشكل تعارضا إذا ما تم محاولة إدماجها. الرجاء تحقق من الملفات وحاول إصلاحها أو أكمل التحديث باختيار طريقة الدمج المفضلة. إذا حللت التعارض يدوياً أفحص الملفات مرة أخرى قبل أن تعدلهم. أنت قادر أيضا على الاختيار بين طرق الدمج المفضلة لكل ملف. الأولى ستنتج في ملف حيث سطر التعارض من الملف القديم سيفقد، والآخر سينتج في خسارة التغييرات من الملف الجديد',
+	'FILES_CONFLICT_EXPLAIN'		=> 'الملفات الآتية معدلة ولا تمثل الملفات الأصلية من النسخة القديمة. phpBB قررت أن هذه الملفات تشكل تعارضا إذا ما تم محاولة إدماجها. الرجاء تحقق من الملفات وحاول إصلاحها أو أكمل التحديث باختيار طريقة الدمج المفضلة. إذا حللت التعارض يدويًا أفحص الملفات مرة أخرى قبل أن تعدلهم. أنت قادر أيضا على الاختيار بين طرق الدمج المفضلة لكل ملف. الأولى ستنتج في ملف حيث سطر التعارض من الملف القديم سيفقد، والآخر سينتج في خسارة التغييرات من الملف الجديد',
 	'FILES_DELETED'					=> 'ملفات محذوفة',
 	'FILES_DELETED_EXPLAIN'			=> 'الملفات التالية غير موجودة في الإصدار الجديد. هذه الملفات يجب حذفها من منتداك.',
 	'FILES_MODIFIED'				=> 'الملفات المعدلة',
@@ -441,28 +442,28 @@ $lang = array_merge($lang, array(
 	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'الملفات الآتية جديدة داخل آخر نسخة ولكن حُدِّد أن هناك من قبل ملفات بنفس الاسم ونفس المكان. هذه الملفات ستستبدل بالملفات الجديدة',
 	'FILES_NOT_MODIFIED'			=> 'الملفات الغير معدلة',
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'الملفات الآتية ليست معدلة وتمثل ملفات phpBB الأصلية من النسخة التي تريد التحديث منها',
-	'FILES_UP_TO_DATE'				=> 'تم تحديث الملفات سابقاً',
+	'FILES_UP_TO_DATE'				=> 'تم تحديث الملفات سابقًا',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'الملفات الآتية محدثة من قبل ولا تحتاج أي تحديث',
-	'FILES_VERSION'					=> 'Files Version',
+	'FILES_VERSION'					=> 'إصدار الملفات',
 	'TOGGLE_DISPLAY'				=> 'إظهار/إخفاء القائمة',
 
 	// File updater
-	'UPDATE_UPDATING_FILES'	=> 'Updating files',
+	'UPDATE_UPDATING_FILES'	=> 'تحديث الملفات',
 
-	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'File updater “%1$s“ has failed. The installer will try to fallback to “%2$s“.',
-	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'The file updater failed. No further fallback methods are available.',
+	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'فشل محدث الملف  “%1$s“ ، سيحاول المثبت الرجوع إلى ملف  “%2$s“.',
+	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'فشل محدث الملف. لا يوجد أساليب رجوع أخرى متاحة',
 
-	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Continue update process',
-	'UPDATE_RECHECK_UPDATE_FILES'		=> 'Check files again',
+	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'إكمال عملية التثبيت',
+	'UPDATE_RECHECK_UPDATE_FILES'		=> 'فحص الملفات مجددًا',
 ));
 
 // Update database
 $lang = array_merge($lang, array(
-	'STAGE_UPDATE_DATABASE'		=> 'Update database',
+	'STAGE_UPDATE_DATABASE'		=> 'تحديث قاعدة البيانات',
 
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'تحدّثت قاعدة البيانات بنجاح، الآن ستحتاج لمتابعة عملية التحديث',
 
-	'TASK_UPDATE_EXTENSIONS'	=> 'Updating extensions',
+	'TASK_UPDATE_EXTENSIONS'	=> 'تحديث الإضافات',
 ));
 
 // Converter
@@ -473,8 +474,8 @@ $lang = array_merge($lang, array(
 	'COULD_NOT_FIND_PATH'		=> 'لا يمكن إيجاد مسار المنتدى الذي حددته، يرجى فحص الإعدادات ثم أعد المحاولة مرة أخرى<br />» المسار الذي حددته هو %s',
 	'CONFIG_PHPBB_EMPTY'		=> 'إعداد متغير phpBB3 لـ "%s" فارغ!',
 
-	'MAKE_FOLDER_WRITABLE'		=> 'يرجى التأكد من أن المجلد موجود ويقبل الكتابة ثم حاول مجدداً:<br />»<strong>%s</strong>',
-	'MAKE_FOLDERS_WRITABLE'		=> 'يرجى التأكد من أن المجلدات موجودة وتقبل الكتابة ثم حاول مجدداً:<br />»<strong>%s</strong>',
+	'MAKE_FOLDER_WRITABLE'		=> 'يرجى التأكد من أن المجلد موجود ويقبل الكتابة ثم حاول مجددًا:<br />»<strong>%s</strong>',
+	'MAKE_FOLDERS_WRITABLE'		=> 'يرجى التأكد من أن المجلدات موجودة وتقبل الكتابة ثم حاول مجددًا:<br />»<strong>%s</strong>',
 
 	'INSTALL_TEST'				=> 'إعادة التجربة',
 
@@ -490,8 +491,8 @@ $lang = array_merge($lang, array(
 
 	// Start conversion
 	'SUB_INTRO'					=> 'مقدمة',
-	'CONVERT_INTRO'				=> 'مرحباً بك في برنامج التحويل الى phpBB3',
-	'CONVERT_INTRO_BODY'		=> 'من هنا، تستطيع استيراد بيانات من نظام منتدى آخر (مُنصب). اللائحة في الأسفل تظهر برامج التحويل المتوفرة حالياً. إذا لم يكن هناك أي برنامج تحويل في هذه القائمة يناسب المنتدى الذي تريد تحويله، الرجاء قم بزيارة موقعنا حيث ستجد المزيد من برامج التحويل جاهزة للتحميل',
+	'CONVERT_INTRO'				=> 'مرحبًا بك في برنامج التحويل الى phpBB3',
+	'CONVERT_INTRO_BODY'		=> 'من هنا، تستطيع استيراد بيانات من نظام منتدى آخر (مُنصب). اللائحة في الأسفل تظهر برامج التحويل المتوفرة حاليًا. إذا لم يكن هناك أي برنامج تحويل في هذه القائمة يناسب المنتدى الذي تريد تحويله، الرجاء قم بزيارة موقعنا حيث ستجد المزيد من برامج التحويل جاهزة للتحميل',
 	'AVAILABLE_CONVERTORS'		=> 'المنتديات المتوفرة للتحويل',
 	'NO_CONVERTORS'				=> 'لا يوجد برامج تحويل متاحة للاستعمال',
 	'CONVERT_OPTIONS'			=> 'خيارات',
@@ -507,7 +508,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PATH'				=> 'مسار المنتدى',
 	'FORUM_PATH_EXPLAIN'		=> 'هذا هو المسار <strong>المرتبط</strong> لمنتداك القديم من طرف <strong>root تركيب phpBB</strong>',
 	'REFRESH_PAGE'				=> 'حدث الصفحة لمتابعة التحويل',
-	'REFRESH_PAGE_EXPLAIN'		=> 'إذا اخترت نعم، فبرنامج التحويل سيحدّث الصفحة لمتابعة التحويل بعد إنهاء كل خطوة. إذا كانت هذه عمليتك الأولى في التحويل لتجربة ومعرفة أي أخطاء مستقبلاً، نقترح عليك اختيار لا',
+	'REFRESH_PAGE_EXPLAIN'		=> 'إذا اخترت نعم، فبرنامج التحويل سيحدّث الصفحة لمتابعة التحويل بعد إنهاء كل خطوة. إذا كانت هذه عمليتك الأولى في التحويل لتجربة ومعرفة أي أخطاء مستقبلًا، نقترح عليك اختيار لا',
 
 	// Conversion
 	'STAGE_IN_PROGRESS'			=> 'جاري التحويـل',
@@ -541,7 +542,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'انتهى التحويل',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'انتهيت الآن من تحويل منتداك إلى phpBB 3.0.x. تستطيع الآن تسجيل الدخولو<a href="../">تصفح منتداك</a>، رجاءً تأكد من تحويل الإعدادت بالصورة المطلوبة فعّل منتداك عن طريق حذف مجلد التنصيب install. تذكر أن المساعدة على استعمال phpBB موجودة على الشبكة في <a href="http://www.phpbb.com">منتدى الدعم الفني</a>',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'انتهيت الآن من تحويل منتداك إلى phpBB 3.2. تستطيع الآن تسجيل الدخول و<a href="../">تصفح منتداك</a>، رجاءً تأكد من تحويل الإعدادت بالصورة المطلوبة قبل تفعيل المنتدى عبر حذف مجلد inatall . تذكر أن المساعدة على استعمال phpBB موجودة على الشبكة في <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">المستندات</a> و <a href="https://www.phpbb.com/community/viewforum.php?f=466">منتدى الدعم الفني</a>',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'رفع المرفقات عبر FTP مفعل في المنتدى القديم. رجاءً عطّل خيار الرفع عبر FTP وتأكد من تحديد مجلد الرفع الصحيح، وبعدها ارفع الملفات المرفقة كلها إلى مجلد المرفقات الجديد. بمجرد الانتهاء من هذا، أعِد تشغيل المحول',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'لا توجد أية معلومات متاحة لإعداد هذا المحول',
@@ -550,7 +551,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_GET_CONFIG'				=> 'غير قادر على استرجاع إعدادات المنتدى',
 	'CONV_ERROR_COULD_NOT_READ'			=> 'لا يمكن الاتصال/قراءة "%s"',
 	'CONV_ERROR_GROUP_ACCESS'			=> 'لا يمكن التحقق من المعلومات الخاصة بالمجموعات',
-	'CONV_ERROR_INCONSISTENT_GROUPS'	=> 'هناك تضارب في جدول المجموعات في add_bots() - ستحتاج إلى إضافة المجموعات الخاصة كلها يدوياً',
+	'CONV_ERROR_INCONSISTENT_GROUPS'	=> 'هناك تضارب في جدول المجموعات في add_bots() - ستحتاج إلى إضافة المجموعات الخاصة كلها يدويًا',
 	'CONV_ERROR_INSERT_BOT'				=> 'لا يمكن إضافة bot إلى جدول الأعضاء',
 	'CONV_ERROR_INSERT_BOTGROUP'		=> 'لا يمكن إضافة bot إلى جدول bots',
 	'CONV_ERROR_INSERT_USER_GROUP'		=> 'لا يمكن إضافة الأعضاء إلى جدول user_group',
@@ -568,8 +569,8 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_REPLACE_FORUM'			=> 'لا يمكن إنشاء منتدى جديد لاستبدال المنتدى القديم',
 	'CONV_ERROR_USER_ACCESS'			=> 'غير قادر على استرجاع بيانات العضويات',
 	'CONV_ERROR_WRONG_GROUP'			=> 'خطأ المجموعة "%1$s" موجود في %2$s',
-	'CONV_OPTIONS_BODY'					=> 'هذه الصفحة ستقوم بجمع البيانات المطلوبة للوصول إلى المنتدى المصدر، أدخِل بيانات قاعدة البيانات لمنتداك القديم. البرنامج المحول لن يقوم بتعديل أي شيء في هذه القاعدة. ويفضل أن يكون المنتدى المصدر معطلاً ليكون التحويل سلسلا وناجحا',
+	'CONV_OPTIONS_BODY'					=> 'هذه الصفحة ستقوم بجمع البيانات المطلوبة للوصول إلى المنتدى المصدر، أدخِل بيانات قاعدة البيانات لمنتداك القديم. البرنامج المحول لن يقوم بتعديل أي شيء في هذه القاعدة. ويفضل أن يكون المنتدى المصدر معطلًا ليكون التحويل سلسلا وناجحا',
 	'CONV_SAVED_MESSAGES'				=> 'الرسائل المحفوظة',
 
-	'PRE_CONVERT_COMPLETE'			=> ' اكتملت الخطوات السابقة كلها بنجاح. تستطيع الآن البدء في التحويل الفعلي. يرجى ملاحظة أنه عليك فعل بعض الأعمال يدوياً. بعد التحويل، خصوصاً التأكد من الصلاحيات، اعِد بناء محرك البحث إذا كان ضرورياً وتأكد أيضا من أن الملفات نسخِت جيداً، مثل الصور الشخصية والابتسامات',
+	'PRE_CONVERT_COMPLETE'			=> ' اكتملت الخطوات السابقة كلها بنجاح. تستطيع الآن البدء في التحويل الفعلي. يرجى ملاحظة أنه عليك فعل بعض الأعمال يدويًا. بعد التحويل، خصوصًا التأكد من الصلاحيات، اعِد بناء محرك البحث إذا كان ضروريًا وتأكد أيضا من أن الملفات نسخِت جيدًا، مثل الصور الرمزية والابتسامات',
 ));

@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -41,7 +42,7 @@ $lang = array_merge($lang, array(
 	'ACTION'				=> 'العمل',
 	'ACTION_NOTE'			=> 'مفكرة أعمال',
 	'ADD_FEEDBACK'			=> 'إضافة إعلام',
-	'ADD_FEEDBACK_EXPLAIN'	=> 'إذا أردت إضافة تبليغ عن هذا المستخدم فضلاً عبّئ النموذج الآتي، استخدم فقط الكتابة النصية اكوادHTML  و BBCode  غير مسموح بها',
+	'ADD_FEEDBACK_EXPLAIN'	=> 'إذا أردت إضافة تبليغ عن هذا المستخدم فضلًا عبّئ النموذج الآتي، استخدم فقط الكتابة النصية اكوادHTML  و BBCode  غير مسموح بها',
 	'ADD_WARNING'			=> 'إضافة تحذير',
 	'ADD_WARNING_EXPLAIN'	=> 'لإرسال تحذير لهذا المستخدم رجاءً عبّئ النموذج الآتي. استخدم فقط الكتابة النصية اكواد HTML و BBCode غير مسموح بها',
 	'ALL_ENTRIES'			=> 'الإدخالات كلها',
@@ -60,10 +61,10 @@ $lang = array_merge($lang, array(
 	'APPROVE_TOPICS'		=> 'الموافقة على المواضيع',
 	'APPROVE_TOPICS_CONFIRM'=> 'هل أنت متأكد أنك تريد الموافقة على المواضيع المحددة؟',
 
-	'CANNOT_MOVE_SAME_FORUM'=> 'لا يمكنك نقل الموضوع لهذا المنتدى لأنه موجود مسبقاً',
+	'CANNOT_MOVE_SAME_FORUM'=> 'لا يمكنك نقل الموضوع لهذا المنتدى لأنه موجود مسبقًا',
 	'CANNOT_WARN_ANONYMOUS'	=> 'لا يمكنك تحذير زائر',
 	'CANNOT_WARN_SELF'		=> 'لا تستطيع تحذير نفسك',
-	'CAN_LEAVE_BLANK'		=> 'هذا الحقل يمكن تركه فارغاً',
+	'CAN_LEAVE_BLANK'		=> 'هذا الحقل يمكن تركه فارغًا',
 	'CHANGE_POSTER'			=> 'تغيير الكاتب',
 	'CLOSE_PM_REPORT'		=> 'أغلِق تليغ الرسالة الخاصة',
 	'CLOSE_PM_REPORT_CONFIRM'	=> 'هل أنت متأكد من إغلاق التبليغ عن الرسالة الخاصة؟',
@@ -95,7 +96,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_OPTIONS'			=> 'خيارات العرض',
 
 	'EMPTY_REPORT'					=> 'ينبغي عليك إضافة وصف عند اختيارك لهذا السبب',
-	'EMPTY_TOPICS_REMOVED_WARNING'	=> 'يرجى العلم بأن موضوعاً أو أكثر قد أُزيل من قاعدة البيانات لأنها كانت أو أصبحت فارغة',
+	'EMPTY_TOPICS_REMOVED_WARNING'	=> 'يرجى العلم بأن موضوعًا أو أكثر قد أُزيل من قاعدة البيانات لأنها كانت أو أصبحت فارغة',
 
 	'FEEDBACK'				=> 'إعلام',
 	'FORK'					=> 'نسخ',
@@ -126,7 +127,7 @@ $lang = array_merge($lang, array(
 		1	=> 'تقرير واحد',
 		2	=> 'تقريران',
 		3	=> '%d تقارير',
-		4	=> '%d تقريراً',
+		4	=> '%d تقريرًا',
 		5	=> '%d تقرير',
 		),
 	'LOCK'						=> 'إغلاق',
@@ -137,9 +138,9 @@ $lang = array_merge($lang, array(
 	'LOCK_TOPIC_CONFIRM'		=> 'هل أنت متأكد من إغلاق هذا الموضوع؟',
 	'LOCK_TOPICS'				=> 'إغلاق المواضيع المحددة',
 	'LOCK_TOPICS_CONFIRM'		=> 'هل أنت متأكد من أنك تريد إغلاق المواضيع المحددة كلها؟',
-	'LOGS_CURRENT_TOPIC'		=> 'حالياً يشاهد السجلات الخاصة بـ:',
+	'LOGS_CURRENT_TOPIC'		=> 'حاليًا يشاهد السجلات الخاصة بـ:',
 	'LOGIN_EXPLAIN_MCP'			=> 'لإدارة هذا المنتدى ينبغي عليك تسجيل الدخول',
-	'LOGVIEW_VIEWPOST'			=> 'View post',
+	'LOGVIEW_VIEWPOST'			=> 'مشاهدة المشاركة',
 	'LOGVIEW_VIEWTOPIC'			=> 'مشاهدة الموضوع',
 	'LOGVIEW_VIEWLOGS'			=> 'مشاهدة سجل الموضوع',
 	'LOGVIEW_VIEWFORUM'			=> 'مشاهدة المنتدى',
@@ -191,16 +192,16 @@ $lang = array_merge($lang, array(
 	'MCP_PM_REPORTS'				=> 'رسائل خاصة تم التبليغ عنها',
 	'MCP_PM_REPORT_DETAILS'			=> 'تفاصيل التبليغ عن الرسالة الخاصة',
 	'MCP_PM_REPORTS_CLOSED'			=> 'تبليغات مغلقة عن رسائل خاصة',
-	'MCP_PM_REPORTS_CLOSED_EXPLAIN'	=> 'هنا قائمة عن التبليغات التي حلّت مؤخراً.',
+	'MCP_PM_REPORTS_CLOSED_EXPLAIN'	=> 'هنا قائمة عن التبليغات التي حلّت مؤخرًا.',
 	'MCP_PM_REPORTS_OPEN'			=> 'استعراض التبليغات حول رسائل خاصة',
 	'MCP_PM_REPORTS_OPEN_EXPLAIN'	=> 'هنا قائمة حول التبليغات عن رسائل خاصة ما زالت تحتاج المراجعة.',
 
 	'MCP_REPORTS'					=> 'التبليغات',
 	'MCP_REPORT_DETAILS'			=> 'تفاصيل التبليغ',
 	'MCP_REPORTS_CLOSED'			=> 'التبليغات المغلقة',
-	'MCP_REPORTS_CLOSED_EXPLAIN'	=> 'هذه قائمة بالتبليغات كلها عن المشاركات والتي اطـُلِع عليها وأغلقَت مسبقاً',
+	'MCP_REPORTS_CLOSED_EXPLAIN'	=> 'هذه قائمة بالتبليغات كلها عن المشاركات والتي اطـُلِع عليها وأغلقَت مسبقًا',
 	'MCP_REPORTS_OPEN'				=> 'التبليغات المفتوحة',
-	'MCP_REPORTS_OPEN_EXPLAIN'		=> 'هذه قائمة بالتبليغات كلها عن المشاركات والتي تحتاج إلى التعامل معها فوراً',
+	'MCP_REPORTS_OPEN_EXPLAIN'		=> 'هذه قائمة بالتبليغات كلها عن المشاركات والتي تحتاج إلى التعامل معها فورًا',
 
 	'MCP_QUEUE'								=> 'إدارة قائمة الانتظار',
 	'MCP_QUEUE_APPROVE_DETAILS'				=> 'تفاصيل الموافقة',
@@ -209,9 +210,9 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE_UNAPPROVED_TOPICS'			=> 'مواضيع تنتظر الموافقة',
 	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'هذه قائمة بالمواضيع كلها التي تحتاج إلى موافقة قبل ظهورها للمستخدمين',
 	'MCP_QUEUE_DELETED_POSTS'				=> 'المشاركات المحذوفة',
-	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'هذه قائمة بالمشاركات التم تم حذفها حذف بسيط. يمكنك استعادة أو حذف هذه المشاركات نهائياً من هذه النافذة.',
+	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'هذه قائمة بالمشاركات التم تم حذفها حذف بسيط. يمكنك استعادة أو حذف هذه المشاركات نهائيًا من هذه النافذة.',
 	'MCP_QUEUE_DELETED_TOPICS'				=> 'المواضيع المحذوفة',
-	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'هذه قائمة بالمواضيع التم تم حذفها حذف بسيط. يمكنك استعادة أو حذف هذه المواضيع نهائياً من هذه النافذة.',
+	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'هذه قائمة بالمواضيع التم تم حذفها حذف بسيط. يمكنك استعادة أو حذف هذه المواضيع نهائيًا من هذه النافذة.',
 
 	'MCP_VIEW_USER'			=> 'مشاهدة التحذيرات لمستخدم معين',
 
@@ -239,7 +240,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY_POSTER_APPROVAL'		=> 'تنبيه الكاتب على الموافقة؟',
 	'NOTIFY_POSTER_DISAPPROVAL'		=> 'تنبيه الكاتب على عدم الموافقة؟',
 	'NOTIFY_USER_WARN'				=> 'تنبيه المستخدم عن التحذير؟',
-	'NOT_MODERATOR'					=> 'أنت لست مشرفاً على هذا المنتدى.',
+	'NOT_MODERATOR'					=> 'أنت لست مشرفًا على هذا المنتدى.',
 	'NO_DESTINATION_FORUM'			=> 'اختر المنتدى المناسب للنقل.',
 	'NO_DESTINATION_FORUM_FOUND'	=> 'لا توجد منتدى متوفر للنقل.',
 	'NO_ENTRIES'					=> 'لا توجد سجلات.',
@@ -263,7 +264,7 @@ $lang = array_merge($lang, array(
 	'ONLY_TOPIC'			=> 'فقط الموضوع "%s"',
 	'OTHER_USERS'			=> 'المستخدمون المرسلون من رقم IP',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s not allowed as quickmod",
+	'QUICKMOD_ACTION_NOT_ALLOWED' => '%s غير متاح في الوضع السريع',
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'أُغلِق التبليغ عن الرسالة الخاصة بنجاح.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'حذِف التبليغ عن الرسالة الخاصة بنجاح.',
@@ -273,9 +274,10 @@ $lang = array_merge($lang, array(
 	'PM_REPORTS_TOTAL'			=> array(
 		0	=> 'لا توجد تقارير رسائل خاصة لعرضها.',
 		1	=> 'يوجد تقرير رسائل خاصة واحد.',
-		2	=> 'يوجد تقريران رسائل خاصة في المجمل.',
+		2	=> 'يوجد تقريرا رسائل خاصة في المجمل.',
 		3	=> 'يوجد <strong>%d</strong> تقارير رسائل خاصة في المجمل.',
 		4	=> 'يوجد <strong>%d</strong> تقرير رسائل خاصة في المجمل.',
+		5	=> 'يوجد <strong>%d</strong> تقرير رسائل خاصة في المجمل.',
 		),
 	'PM_REPORT_DETAILS'			=> 'تفاصيل التبليغ عن الرسالة الخاصة',
 	'POSTER'					=> 'كاتب',
@@ -310,9 +312,11 @@ $lang = array_merge($lang, array(
 		1	=> 'يوجد تقرير واحد.',
 		2	=> 'يوجد تقريران في المجمل.',
 		3	=> 'يوجد <strong>%d</strong> تقارير في المجمل.',
-		4	=> 'يوجد <strong>%d</strong> تقرير في المجمل.',
+		4	=> 'يوجد <strong>%d</strong> تقريرًا في المجمل.',
+		5	=> 'يوجد <strong>%d</strong> تقرير في المجمل.',
+		6	=> 'لا توجد تقارير لعرضها.',
 		),
-	'REPORT_CLOSED'				=> 'هذا التبليغ قد أقفل سابقاً',
+	'REPORT_CLOSED'				=> 'هذا التبليغ قد أقفل سابقًا',
 	'REPORT_CLOSED_SUCCESS'		=> 'أُغلِق التبليغ المختار بنجاح',
 	'REPORT_DELETED_SUCCESS'	=> 'إلغِي التبليغ المختار بنجاح',
 	'REPORT_DETAILS'			=> 'تفاصيل التبليغ',
@@ -397,6 +401,8 @@ $lang = array_merge($lang, array(
 		2	=> 'توجد مشاركتان تنتظران الموافقة عليهما.',
 		3	=> 'توجد <strong>%d</strong> مشاركات تنتظر الموافقة عليها.',
 		4	=> 'توجد <strong>%d</strong> مشاركة تنتظر الموافقة عليها.',
+		5	=> 'توجد <strong>%d</strong> مشاركة تنتظر الموافقة عليها.',
+		6	=> 'لا توجد مشاركات تنتظر الموافقة عليها.',
 		),
 	'UNLOCK'						=> 'فتح',
 	'UNLOCK_POST'					=> 'فتح المشاركة',

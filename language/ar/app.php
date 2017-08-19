@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -38,12 +39,12 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ’ » ” “ …
 //
 
 $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'لا توجد قيمة للمتغير #%1$s: <strong>%3$s</strong> في العنصر <strong>%2$s</strong>',
 	'CONTROLLER_NOT_SPECIFIED'			=> 'لم يتم تحديد المتحكم.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'لم يتم تحديد الطريقة للمتحكم.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'الخدمة للمتحكم “<strong>%s</strong>” غير معرفة في ./config/services.yml.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'الخدمة للمتحكم ”<strong>%s</strong>“ غير معرفة في ./config/services.yml.',
 ));

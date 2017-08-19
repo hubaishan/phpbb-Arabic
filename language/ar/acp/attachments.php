@@ -4,7 +4,8 @@
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
-
+* @translated 2014 phpBBArabia.com
+* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -41,7 +42,7 @@ $lang = array_merge($lang, array(
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'هنا يمكنك التحكم في الخواص الأساسية للمرفقات والفئات الخاصة.',
 	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'هنا يمكنك إضافة أو حذف أو تعديل أو تعطيل مجموعات الامتدادات. خيارات أخرى تشمل تخصيص فئة خاصة لهم، وتغيير آلية التنزيل وتعريف للأيقونات التي ستعرَض أمام المرفق الذي ينتمي إلى المجموعة.',
 	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'هنا يمكنك التحكم بالامتدادات المسموحة. لتفعيل امتداد خاص بك، يرجى الرجوع إلى لوحة إدارة مجموعات الامتداد. نحن ننصحك وبشدة بعدم السماح بامتدادت السكربتات (مثل <code>php</code>، <code>php3</code>، <code>php4</code>، <code>phtml</code>، <code>pl</code>، <code>cgi</code>، <code>py</code>، <code>rb</code>، <code>asp</code>، <code>aspx</code>، إلخ…).',
-	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'	=> 'هنا يمكنك رؤية الملفات المرفقة الضائعة، هذا يحدث غالباً إذا أرفق العضو ملفاً ولم يرسل الموضوع بعد ذلك، يمكنك إما حذف هذه المرفقات أو إضافتها لمشاركات موجودة فعلياً. إذا أردت إضافتها لمشاركة فيتوجب عليك معرفة الرقم الخاص بهذه المشاركة، وعليك بتحديد هذا الرقم شخصياً وبصورة يدوية. هذا سيضيف المرفق للمشاركة التي اخترتها.',
+	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'	=> 'هنا يمكنك رؤية الملفات المرفقة الضائعة، هذا يحدث غالبًا إذا أرفق العضو ملفًا ولم يرسل الموضوع بعد ذلك، يمكنك إما حذف هذه المرفقات أو إضافتها لمشاركات موجودة فعليًا. إذا أردت إضافتها لمشاركة فيتوجب عليك معرفة الرقم الخاص بهذه المشاركة، وعليك بتحديد هذا الرقم شخصيًا وبصورة يدوية. هذا سيضيف المرفق للمشاركة التي اخترتها.',
 	'ADD_EXTENSION'						=> 'إضافة امتداد',
 	'ADD_EXTENSION_GROUP'				=> 'إضافة مجموعة امتدادات',
 	'ADMIN_UPLOAD_ERROR'				=> 'حدثت مشكلة في محاولة إرفاق الملف: "%s"',
@@ -72,7 +73,7 @@ $lang = array_merge($lang, array(
 	'CAT_FLASH_FILES'			=> 'ملفات الفلاش',
 	'CAT_IMAGES'				=> 'الصور',
 	'CHECK_CONTENT'				=> 'فحص ملفات المرفقات',
-	'CHECK_CONTENT_EXPLAIN'		=> 'بعض المتصفحات يمكن خداعها لتفترض نوعاً مختلفاً للملف المرفق، هذا الخيار للتأكد من أن ملفات كهذه ستُرفض.',
+	'CHECK_CONTENT_EXPLAIN'		=> 'بعض المتصفحات يمكن خداعها لتفترض نوعًا مختلفًا للملف المرفق، هذا الخيار للتأكد من أن ملفات كهذه ستُرفض.',
 	'CREATE_GROUP'				=> 'إضافة مجموعة جديدة',
 	'CREATE_THUMBNAIL'			=> 'عمل مصغرة',
 	'CREATE_THUMBNAIL_EXPLAIN'	=> 'عمل مصغرة في كل الحالات الممكنة.',
@@ -80,7 +81,7 @@ $lang = array_merge($lang, array(
 	'DEFINE_ALLOWED_IPS'			=> 'تحديد IPs/hostnames المسموحة',
 	'DEFINE_DISALLOWED_IPS'			=> 'تحديد IPs/hostnames الممنوعة',
 	'DOWNLOAD_ADD_IPS_EXPLAIN'		=> 'لإضافة عدة IPs أو hostnames أضف كل واحد في سطر جديد. لتعريف مجموعة من عناوين IP أفصل بين البداية والنهاية بـ (-)، لتعريف ذو نطاق واسع استخدم "*".',
-	'DOWNLOAD_REMOVE_IPS_EXPLAIN'	=> 'يمكنك حذف أو استبعاد عدة عناوين IP مرة واحدة باستخدام الفأرة والكيبورد معاً ،عناوين IP المختارة ستكون بالخلفية الزرقاء.',
+	'DOWNLOAD_REMOVE_IPS_EXPLAIN'	=> 'يمكنك حذف أو استبعاد عدة عناوين IP مرة واحدة باستخدام الفأرة والكيبورد معًا ،عناوين IP المختارة ستكون بالخلفية الزرقاء.',
 	'DISPLAY_INLINED'				=> 'عرض الصورة ضمن الموضوع',
 	'DISPLAY_INLINED_EXPLAIN'		=> 'إذا اخترت لا ستُعرَض الصور في المواضيع كوصلة فقط.',
 	'DISPLAY_ORDER'					=> 'ترتيب عرض المرفقات',
@@ -91,11 +92,11 @@ $lang = array_merge($lang, array(
 	'EXCLUDE_FROM_ALLOWED_IP'		=> 'استبعاد IP من IPs/hostnames المسموحة.',
 	'EXCLUDE_FROM_DISALLOWED_IP'	=> 'استبعاد IP من IPs/hostnames الغير مسموحة.',
 	'EXTENSIONS_UPDATED'			=> 'تحدّثت الامتدادات بنجاح.',
-	'EXTENSION_EXIST'				=> 'الامتداد %s موجود مسبقاً.',
+	'EXTENSION_EXIST'				=> 'الامتداد %s موجود مسبقًا.',
 	'EXTENSION_GROUP'				=> 'مجموعة الامتدادات',
 	'EXTENSION_GROUPS'				=> 'مجموعات الامتدادات',
 	'EXTENSION_GROUP_DELETED'		=> 'حذِفَت مجموعة الامتدادات بنجاح.',
-	'EXTENSION_GROUP_EXIST'			=> 'مجموعة الامتدادات %s موجودة مسبقاً.',
+	'EXTENSION_GROUP_EXIST'			=> 'مجموعة الامتدادات %s موجودة مسبقًا.',
 
 	'EXT_GROUP_ARCHIVES'			=> 'الأرشيفات',
 	'EXT_GROUP_DOCUMENTS'			=> 'المستندات',
@@ -123,7 +124,7 @@ $lang = array_merge($lang, array(
 	'MAX_THUMB_WIDTH'				=> 'أكبر حجم للمصغرات بالبكسل',
 	'MAX_THUMB_WIDTH_EXPLAIN'		=> 'المصغرات لن تتجاوز العرض المدرج هنا.',
 	'MIN_THUMB_FILESIZE'			=> 'أصغر حجم للمصغرات',
-	'MIN_THUMB_FILESIZE_EXPLAIN'	=> 'لا تقم بعمل مصغرات للصور التي تملك حجماً أقل من هذا.',
+	'MIN_THUMB_FILESIZE_EXPLAIN'	=> 'لا تقم بعمل مصغرات للصور التي تملك حجمًا أقل من هذا.',
 	'MODE_INLINE'					=> 'ضمني',
 	'MODE_PHYSICAL'					=> 'خارجي',
 
@@ -152,7 +153,7 @@ $lang = array_merge($lang, array(
 	'SECURE_ALLOW_DENY'				=> 'قائمة السماح/الرفض',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'تغيير الخواص الافتراضية عند التحميل الآمن في قائمة الرفض والسماح، <strong>القائمة البيضاء</strong> (السماح) أو <strong>القائمة السوداء</strong> (الرفض).',
 	'SECURE_DOWNLOADS'				=> 'تفعيل التحميل الآمن',
-	'SECURE_DOWNLOADS_EXPLAIN'		=> 'بتفعيل هذا الخيار سيكون التحميل مقصوراً على الـ IP’s/hostnames التي تحددها أنت.',
+	'SECURE_DOWNLOADS_EXPLAIN'		=> 'بتفعيل هذا الخيار سيكون التحميل مقصورًا على الـ IP’s/hostnames التي تحددها أنت.',
 	'SECURE_DOWNLOAD_NOTICE'		=> 'التحميل الآمن غير مفعل. الخواص التالية ستكون متاحة عند تفعيله.',
 	'SECURE_DOWNLOAD_UPDATE_SUCCESS'=> 'تحدّثت قائمة IP بنجاح',
 	'SECURE_EMPTY_REFERRER'			=> 'السماح بمرجع فارغ',
@@ -165,10 +166,10 @@ $lang = array_merge($lang, array(
 	'SUCCESS_EXTENSION_GROUP_EDIT'	=> 'حُـدّثت مجموعة الامتدادات بنجاح.',
 
 	'UPLOADING_FILES'				=> 'رفع الملفات',
-	'UPLOADING_FILE_TO'				=> 'رفع الملف  “%1$s” للمشاركة رقم %2$d…',
-	'UPLOAD_DENIED_FORUM'			=> 'ليس لديك الصلاحيات للرفع في المنتدى “%s”.',
+	'UPLOADING_FILE_TO'				=> 'رفع الملف  ”%1$s“ للمشاركة رقم %2$d…',
+	'UPLOAD_DENIED_FORUM'			=> 'ليس لديك الصلاحيات للرفع في المنتدى ”%s“.',
 	'UPLOAD_DIR'					=> 'مجلد التحميل',
-	'UPLOAD_DIR_EXPLAIN'			=> 'مجلد تخزين المرفقات. يجب مراعاة أنك إن غيرت هذا المجلد ينبغي عليك نقل الملفات المرفقة مسبقاً يدوياً للمجلد الجديد.',
+	'UPLOAD_DIR_EXPLAIN'			=> 'مجلد تخزين المرفقات. يجب مراعاة أنك إن غيرت هذا المجلد ينبغي عليك نقل الملفات المرفقة مسبقًا يدويًا للمجلد الجديد.',
 	'UPLOAD_ICON'					=> 'أيقونة التحميل',
-	'UPLOAD_NOT_DIR'				=> 'المكان الذي خصصته للتحميل لا يبدو أنه مجلد فعلياً.',
+	'UPLOAD_NOT_DIR'				=> 'المكان الذي خصصته للتحميل لا يبدو أنه مجلد فعليًا.',
 ));

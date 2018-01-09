@@ -55,7 +55,8 @@ $lang = array_merge($lang, array(
 	'NEW_POSTS_LOCKED'		=> 'مشاركات جديدة [ مغلق ]',	// Not used anymore
 	'NO_NEW_POSTS_HOT'		=> 'لا مشاركات جديدة [ نشط ]',	// Not used anymore
 	'NO_NEW_POSTS_LOCKED'	=> 'لا مشاركات جديدة [ مغلق ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'ليس لديك الصلاحية للاطلاع على هذا المنتدى',
+	'NO_READ_ACCESS'		=> 'ليس لديك الصلاحية للاطلاع أو قراءة المواضيع في هذا المنتدى',
+	'NO_FORUMS_IN_CATEGORY'	=> 'لا يوجد بهذا القسم أية منتديات.',
 	'NO_UNREAD_POSTS_HOT'		=> 'لا مشاركات غير مقروءة [ نشط ]',
 	'NO_UNREAD_POSTS_LOCKED'	=> 'لا مشاركات غير مقروءة [ مُغلق ]',
 

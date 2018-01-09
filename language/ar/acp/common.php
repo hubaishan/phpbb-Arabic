@@ -75,7 +75,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_SYSTEM'			=> 'النظــام',
 	'ACP_CAT_USERGROUP'			=> 'المجموعات والأعضاء',
 	'ACP_CAT_USERS'				=> 'الأعضاء',
-	'ACP_CLIENT_COMMUNICATION'	=> 'اتصالات الأجهزة الطرفية',
+	'ACP_CLIENT_COMMUNICATION'	=> 'اتصالات العملاء',
 	'ACP_COOKIE_SETTINGS'		=> 'إعدادات ملفات تعريف الارتباط (الكوكي)',
 	'ACP_CONTACT'				=> 'صفحة اتصل بنا',
 	'ACP_CONTACT_SETTINGS'		=> 'إعدادات صفحة اتصل بنا',
@@ -294,7 +294,7 @@ $lang = array_merge($lang, array(
 	'NO_ADMIN'				=> 'ليست لديك صلاحيات إدارة هذا المنتدى',
 	'NO_EMAILS_DEFINED'		=> 'لم يوجد أي عنوان بريد إلكتروني صحيح',
 	'NO_FILES_TO_DELETE'	=> 'المرفقات المحددة للحذف غير موجودة.',
-	'NO_PASSWORD_SUPPLIED'	=> 'تحتاج الى إدخال كلمة المرور للدخول إلى لوحة تحكم الإدارة',
+	'NO_PASSWORD_SUPPLIED'	=> 'تحتاج إلى إدخال كلمة المرور للدخول إلى لوحة تحكم الإدارة',
 
 	'OFF'					=> 'معطل',
 	'ON'					=> 'مفعل',
@@ -369,7 +369,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DIR_SIZE'			=> 'حجم مجلد الصور الرمزية',
 
 	'BOARD_STARTED'		=> 'تاريخ بداية المنتدى',
-	'BOARD_VERSION'		=> 'اصدار المنتدى',
+	'BOARD_VERSION'		=> 'إصدار المنتدى',
 
 	'DATABASE_SERVER_INFO'	=> 'خادم قاعدة البيانات',
 	'DATABASE_SIZE'			=> 'حجم قاعدة البيانات',
@@ -398,7 +398,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_ORPHAN'		=> 'المرفقات الضائعة',
 
 	'PHP_VERSION'		=> 'إصدار PHP ',
-	'PHP_VERSION_OLD'	=> 'نسخة PHP المنصبة على الخادم (%1$s) لن تكون مدعومة من الإصدارات الجديدة لـ phpBB أدنى اصدار مطلوب سيكون %2$s. لمزيد من %3$sتفاصيل%4$s',
+	'PHP_VERSION_OLD'	=> 'نسخة PHP المنصبة على الخادم (%1$s) لن تكون مدعومة من الإصدارات الجديدة لـ phpBB أدنى إصدار مطلوب سيكون %2$s. لمزيد من %3$sتفاصيل%4$s',
 
 	'POSTS_PER_DAY'		=> 'المشاركات لكل يوم',
 
@@ -457,7 +457,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'			=> 'مشاهدة الأعضاء الغير مفعلين',
 
 	'WELCOME_PHPBB'			=> 'مرحبا بك في phpBB',
-	'WRITABLE_CONFIG'		=> 'ملف config.php حاليًا يمكن الكتابة عليه من أي شخص، لذا نحن نوصي وبشدة تغييرَ التصريح الخاص بالملف الى 640 أو على الاقل تصريح 644',
+	'WRITABLE_CONFIG'		=> 'ملف config.php حاليًا يمكن الكتابة عليه من أي شخص، لذا نحن نوصي وبشدة تغييرَ التصريح الخاص بالملف إلى 640 أو على الاقل تصريح 644',
 ));
 
 // Inactive Users

@@ -50,5 +50,5 @@ $lang = array_merge($lang, array(
 	'ACP_VIGLINK_CLAIM'				=> 'احصل على أرباحك',
 	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'بإمكانك الحصول على أرباح منتداك من روابط فيغلينك بدلا من التبرع بها لصالح phpBB. لإدارة إعدادات حسابك سجل لحساب فيغلينك بالنقر على ”تحويل حساب “.',
 	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'تحويل حساب',
-	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'تعذر استرداد رابط تحويل الحساب الخاص بفيغلنك.'
+	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'تعذر استرداد رابط تحويل الحساب الخاص بفيغلنك.',
 ));

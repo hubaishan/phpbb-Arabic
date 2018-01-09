@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'ar',
 
 	// You can define different rules for the determination of plural forms here.
-	// See http://wiki.phpbb.com/Plural_Rules for more information
+	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 12,
 
@@ -239,7 +239,7 @@ $lang = array_merge($lang, array(
 	'ERR_UNWATCHING'					=> 'حدث خطأ أثناء محاولة إلغاء الاشتراك.',
 	'ERR_WATCHING'						=> 'حدث خطأ أثناء محاولة الاشتراك.',
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'يبدو أن مسار phpBB الذي أدخلته غير صحيح',
-	'ERROR'									=> 'خطأ',
+	'ERROR'								=> 'خطأ',
 	'EXPAND_VIEW'						=> 'عرض موسع',
 	'EXTENSION'							=> 'امتدادات',
 	'EXTENSION_DISABLED'				=> 'الإضافة <strong>%s</strong> غير مفعلة.',
@@ -379,8 +379,8 @@ $lang = array_merge($lang, array(
 	'JABBER'				=> 'Jabber',
 	'JOINED'				=> 'اشترك في',
 	'JUMP_PAGE'				=> 'ادخل رقم الصفحة التي تريد الذهاب إليها',
-	'JUMP_TO'				=> 'الانتقال الى',
-	'JUMP_TO_PAGE'			=> 'اضغط للانتقال للصفحة',
+	'JUMP_TO'				=> 'الانتقال إلى',
+	'JUMP_TO_PAGE'			=> 'اضغط للانتقال إلى الصفحة',
 	'JUMP_TO_PAGE_CLICK'	=> 'اضغط للذهاب إلى صفحة…',
 
 	'KB'					=> 'كيلوبايت',
@@ -587,7 +587,7 @@ $lang = array_merge($lang, array(
 	'ONLINE_USERS_TOTAL'		=> array(
 		1	=> 'يوجد حاليًا مستخدم واحد : %2$s و %3$s',
 		2	=> 'يوجد حاليًا مستخدمان : %2$s و %3$s',
-		3	=> 'يوجد حاليًا <strong>%1$d</strong> مستخدمين : %2$s و %3$s',
+		3	=> 'يوجد حاليًا <strong>%1$d</strong> مستخدمون : %2$s و %3$s',
 		4	=> 'يوجد حاليًا <strong>%1$d</strong> مستخدمًا : %2$s و %3$s',
 		5	=> 'يوجد حاليًا <strong>%1$d</strong> مستخدم : %2$s و %3$s',
 		),
@@ -601,6 +601,7 @@ $lang = array_merge($lang, array(
 		),
 	'OPTIONS'					=> 'خيارات',
 
+	'PAGE_NOT_FOUND'		=> 'الصفحة المطلوبة غير موجودة.',
 	'PAGE_OF'				=> 'صفحة <strong>%1$d</strong> من <strong>%2$d</strong>',
 	'PAGE_TITLE_NUMBER'		=> 'صفحة %s',
 	'PASSWORD'				=> 'كلمة المرور',
@@ -760,7 +761,7 @@ $lang = array_merge($lang, array(
 	'SORRY_AUTH_READ_TOPIC'		=> 'غير مصرح لك بالاطلاع على هذا الموضوع.',
 	'SORRY_AUTH_VIEW_ATTACH'	=> 'لا تملك الصلاحية لتحميل هذا المرفق',
 	'SORT_BY'					=> 'مرتبة بواسطة',
-	'SORT_DIRECTION'			=> 'اتجاه الترتيبا',
+	'SORT_DIRECTION'			=> 'اتجاه الترتيب',
 	'SORT_JOINED'				=> 'تاريخ الاشتراك',
 	'SORT_LOCATION'				=> 'المكان',
 	'SORT_OPTIONS'				=> 'خيارات العرض والترتيب',
@@ -968,7 +969,7 @@ $lang = array_merge($lang, array(
 	'datetime'			=> array(
 		'TODAY'		=> 'اليوم',
 		'TOMORROW'	=> 'غدًا',
-		'YESTERDAY'	=> 'الامس',
+		'YESTERDAY'	=> 'الأمس',
 		'AGO'		=> array(
 			0		=> 'منذ أقل من دقيقة',
 			1		=> 'منذ دقيقة واحدة',
@@ -1486,17 +1487,24 @@ $lang = array_merge($lang, array(
 
 	// The value is only an example and will get replaced by the current time on view
 	'dateformats'	=> array(
-		'd M Y, H:i'			=> '01 يناير 2007، 13:37',
-		'd M Y H:i'				=> '01 يناير 2007 13:37',
-		'M jS, \'y, H:i'		=> 'يناير الأول، \'07، 13:37',
-		'D M d, Y g:i a'		=> 'الاثنين يناير 01، 2007 1:37 مساءًا',
-		'F jS, Y, g:i a'		=> 'يناير الأول، 2007، 1:37 مساءًا',
-		'|d M Y|, H:i'			=> 'اليوم، 13:37 / 01 يناير 2007، 13:37',
-		'|F jS, Y|, g:i a'		=> 'اليوم 1:37 مساءًا / يناير الأول، 2007، 1:37 مساءًا',
+		'y/m/d H:i'			=> '1/01/2007 13:37',
+		'|y/m/d H:i|'		=> '1/01/2007 13:37',
+		'Y/n/j g:i a'		=> '1/1/2007 1:37 م',
+		'|Y/n/j| g:i a'		=> '1/1/2007 1:37 م',
+		'j F Y g:i a'		=> '1 يناير 2007 1:37م',
+		'|j F Y| g:i a'		=> '1 يناير 2007 1:37 م',
+		'l j F Y g:i a'		=> 'الإثنين 1 يناير 2007 1:37م',
+		'|l j F Y| g:i a'	=> 'الإثنين 1 يناير 2007 1:37م',
+		'D Y/n/j g:i a'		=> 'الإثنين 2007/1/1 1:37 م',
+		'|D Y/n/j| g:i a'	=> 'الإثنين 2007/1/1 1:37 م',
+		'D j-n-Y g:i a'		=> 'الإثنين 1-1-2007 1:37 م',
+		'|D j-n-Y| g:i a'	=> 'الإثنين 1-1-2007 1:37 م',
+		'D Y.n.j g:i a'		=> 'الإثنين 2007.1.1 1:37 م',
+		'|D Y.n.j| g:i a'	=> 'الإثنين 2007.1.1 1:37 م',
 	),
 
 	// The default dateformat which will be used on new installs in this language
 	// Translators should change this if a the usual date format is different
-	'default_dateformat'	=> 'D d M Y g:i a',	// Mon 01 Jan 2007 1:37 pm
+	'default_dateformat'	=> 'l j F Y g:i a',	// Monday 1 January 2007 1:37 pm
 
 ));

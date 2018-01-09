@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'خاصية المرفقات معطلة',
 
 	'BOOKMARK_ADDED'		=> 'أُضيف الموضوع إلى المفضلة بنجاح',
-	'BOOKMARK_ERR'			=> 'حدث خطأ عند إضافة الموضوع للمفضلة، رجاءً حاول مرة اخرى!',
+	'BOOKMARK_ERR'			=> 'حدث خطأ عند إضافة الموضوع للمفضلة، رجاءً حاول مرة أخرى!',
 	'BOOKMARK_REMOVED'		=> 'حُذِفَ الموضوع من المفضلة بنجاح',
 	'BOOKMARK_TOPIC'		=> 'إضافة للمفضلة',
 	'BOOKMARK_TOPIC_REMOVE'	=> 'حذف من المفضلة',

@@ -74,7 +74,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_INSTALL_HEADLINE'=> 'تركيب الاضافات',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
 			<li>قم بتنزيل الاضافة من مكتبة phpBB للاضافات</li>
-			<li>قم بفك ملف الاضافة و من ثم رفعه الى مجلد <samp>ext/</samp> الموجود في مجلدات منتداك</li>
+			<li>قم بفك ملف الاضافة و من ثم رفعه إلى مجلد <samp>ext/</samp> الموجود في مجلدات منتداك</li>
 			<li>قم بتفعيل الاضافة من خلال لوحة تحكم الاضافات</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'لتحديث إضافة',
@@ -118,8 +118,8 @@ $lang = array_merge($lang, array(
 	'AUTHOR_HOMEPAGE'		=> 'الموقع',
 	'AUTHOR_ROLE'			=> 'الدور',
 
-	'NOT_UP_TO_DATE'		=> '%s غير محدث الى اخر اصدار',
-	'UP_TO_DATE'			=> '%s محدث الى اخر اصدار',
+	'NOT_UP_TO_DATE'		=> '%s غير محدث إلى آخر إصدار',
+	'UP_TO_DATE'			=> '%s محدث إلى آخر إصدار',
 	'ANNOUNCEMENT_TOPIC'	=> 'إعلان الإصدار',
 	'DOWNLOAD_LATEST'		=> 'تحميل النسخة',
 	'NO_VERSIONCHECK'		=> 'لم يتم إدخال بيانات فحص النسخة.',

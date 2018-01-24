@@ -258,9 +258,9 @@ $lang = array_merge($lang, array(
 	'USERNAME_ASCII'			=> 'ASCII (بدون ترميزات دولية)',
 	'USERNAME_LETTER_NUM'		=> 'أي حروف أو أرقام',
 	'USERNAME_LETTER_NUM_SPACERS'	=> 'أي حروف أو أرقام أو مساحات',
-	'USERNAME_CHARS'			=> 'تحديد عدد حروف اسم المستخدم',
+	'USERNAME_CHARS'			=> 'تحديد حروف اسم المستخدم',
 	'USERNAME_CHARS_ANY'		=> 'بدون تحديد',
-	'USERNAME_CHARS_EXPLAIN'	=> 'حدد الحروف الممنوعة من الاستخدام اكتب space لمنع المسافة أو الأحرف الآتية أو أي أحرف تريد المسافات هي: space، -، +، _، [،]',
+	'USERNAME_CHARS_EXPLAIN'	=> 'تحديد الحروف المسموح بها في اسم المستخدم، المسافات هي: المسافة و - و + و _ و [ و ]',
 	'USERNAME_LENGTH'			=> 'طول اسم المستخدم',
 	'USERNAME_LENGTH_EXPLAIN'	=> 'الحد الأقصى والأدنى للحروف المستخدمة في اسم المستخدم',
 ));

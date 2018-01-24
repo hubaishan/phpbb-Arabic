@@ -119,7 +119,7 @@ $lang = array_merge($lang, array(
 	'INVALID_FIELD_IDENT_LEN'	=> 'تعريف حقل الملف الشخصي ينبغي أن يحتوي فقط على طول 17 حروف',
 	'ISO_LANGUAGE'				=> 'اللغة [%s]',
 
-	'LANG_SPECIFIC_OPTIONS'		=> 'خيارات اللغة المحددة [<strong>%s</strong>]',
+	'LANG_SPECIFIC_OPTIONS'		=> 'خيارات اللغة المخصصة [<strong>%s</strong>]',
 
 	'LETTER_NUM_DOTS'			=> 'أي حروف، أرقام أو نقاط',
 	'LETTER_NUM_ONLY'			=> 'أي حروف أو أرقام',

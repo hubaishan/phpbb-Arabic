@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NOT_AVAILABLE'	=> 'الإضافة المختارة غير متوفرة لهذا المنتدى، يرجى التأكد من أن نسخة phpBB و PHP لديك مسموح بهما (أنظر صفحة التفاصيل).',
 	'EXTENSION_DIR_INVALID'		=> 'الإضافة المختارة لا تحتوي على بناء مجلد سليم ولا يمكن تفعيلها.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'الإضافة المختارة لا يمكن تفعيلها، يرجى مراجعة متطلبات الإضافة.',
-	'EXTENSION_NOT_INSTALLED'	=> 'The extension %s is not available. Please check that you have installed it correctly.',
+	'EXTENSION_NOT_INSTALLED'	=> 'الإضافة %s غير موجودة. الرجاء التأكد أنك من صحة تثبيتها.',
 
 	'DETAILS'				=> 'التفاصيل',
 

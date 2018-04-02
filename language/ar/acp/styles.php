@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'DETAILS'					=> 'تفاصيـل',
 
 	'INHERITING_FROM'			=> 'مصمم على',
-	'INSTALL_STYLE'				=> 'تركيب الاستايل',
+	'INSTALL_STYLE'				=> 'تتبيت الاستايل',
 	'INSTALL_STYLES'			=> 'تثبيت الاستايلات',
 	'INSTALL_STYLES_EXPLAIN'	=> 'من هنا يمكنك تثبيت استايلات جديدة.<br />إذا لم تستطع إيجاد استايل معين في القائة بأسفل، يرجى التأكد من أن الاستايل غير مثبت بالفعل. إذا لم يكن مثبتًا، يرجى التأكد من أنه تم رفعه بصورة سليمة.',
 	'INVALID_STYLE_ID'			=> 'معرف استايل خاطئ.',
@@ -80,6 +80,7 @@ $lang = array_merge($lang, array(
 	'STYLE_NOT_INSTALLED'		=> 'لم يتم تثبيت استايل "%s".',
 	'STYLE_PATH'				=> 'مسار الاستايل',
 	'STYLE_UNINSTALL'			=> 'إلغاء التثبيت',
+	'STYLE_PHPBB_VERSION'		=> 'إصدار phpBB',
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'ستايل "%s" لا يمكن إلغاء تثبيته لأنه يحتوي على استايل فرعي أو أكثر.',
 	'STYLE_UNINSTALLED'			=> 'تم إلغاء تثبيت استايل "%s" بنجاح.',
 	'STYLE_USED_BY'				=> 'مستعمل من طرف ( بمن فيهم محركات البحث )',

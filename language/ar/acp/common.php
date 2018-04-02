@@ -509,7 +509,7 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>أضاف أو عدل الصلاحيات الإدارية للمجموعة</strong><br />» %s',
 
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>أضاف أو عدل المديرين</strong><br />» %s',
-	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>أضاف أو عدل المراقبين العوام</strong><br />» %s',
+	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>أضاف أو عدل المراقبين العامِّين</strong><br />» %s',
 
 	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>أضاف أو عدل صلاحيات المنتدى للعضو</strong> من %1$s<br />» %2$s',
 	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>أضاف أو عدل صلاحيات الإشراف للعضو</strong> من %1$s<br />» %2$s',
@@ -519,8 +519,8 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>أضاف أو عدل مشرفين</strong> من %1$s<br />» %2$s',
 	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>أضاف أو عدل صلاحيات المنتدى</strong> من %1$s<br />» %2$s',
 
-	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>حذف مدراء</strong><br />» %s',
-	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>حذف مراقبين العوام</strong><br />» %s',
+	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>حذف المديرين</strong><br />» %s',
+	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>حذف المراقبين العامين</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>حذف مشرفين</strong> من %1$s<br />» %2$s',
 	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>حذف صلاحيات مستخدم/مجموعة المنتدى</strong> من %1$s<br />» %2$s',
 
@@ -554,6 +554,7 @@ $lang = array_merge($lang, array(
 	'LOG_BBCODE_ADD'		=> '<strong>إضافة BBCode جديد</strong><br />» %s',
 	'LOG_BBCODE_EDIT'		=> '<strong>تعديل BBCode</strong><br />» %s',
 	'LOG_BBCODE_DELETE'		=> '<strong>حذف BBCode</strong><br />» %s',
+	'LOG_BBCODE_CONFIGURATION_ERROR'	=> '<strong>خطأ عند ضبط BBCode</strong>: %1$s<br />» %2$s',
 
 	'LOG_BOT_ADDED'		=> '<strong>إضافة bot جديد</strong><br />» %s',
 	'LOG_BOT_DELETE'	=> '<strong>حذف bot </strong><br />» %s',

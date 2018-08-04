@@ -656,6 +656,7 @@ $lang = array_merge($lang, array(
 	'PREVIOUS'				=> 'السابق',		// Used in pagination
 	'PREVIOUS_STEP'			=> 'السابق',
 	'PRIVACY'				=> 'سياسة الخصوصية',
+	'PRIVACY_LINK'			=> 'الخصوصية',
 	'PRIVATE_MESSAGE'		=> 'رسالة خاصة',
 	'PRIVATE_MESSAGES'		=> 'الرسائل الخاصة',
 	'PRIVATE_MESSAGING'		=> 'مراسلة خاصة',
@@ -788,6 +789,7 @@ $lang = array_merge($lang, array(
 	'SUBMIT'					=> 'إرسال',
 
 	'TB'				=> 'تيرابايت',
+	'TERMS_LINK'		=> 'الشروط',
 	'TERMS_USE'			=> 'شروط الاستخدام',
 	'TEST_CONNECTION'	=> 'اختبار الاتصال',
 	'THE_TEAM'			=> 'فريق الموقع',

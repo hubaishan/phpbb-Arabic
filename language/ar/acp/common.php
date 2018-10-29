@@ -238,7 +238,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_RENAME_FILE'	=> 'تعذر إعادة تسمية ملف في النظام',
 	'CANNOT_TOUCH_FILES'	=> 'تعذر التحقق من وجود ملف',
 
-	'CONTAINER_EXCEPTION' => 'صادف phpBB خطأ في بناء الإطار بسبب إضافة مثبتة، لهذا السبب ، تم تعطيل كافة الإضافات مؤقتًا. الرجاء محاولة حذف الملفات المؤقتة لمنتداك، سيتم أعاده تمكين كافة الإضافات تلقائيًا بمجرد حل خطإ الإطار. إذا استمر هذا الخطأ، يرجى زيارة <a href="https://www.phpbb.com/support">phpbb.com</a> للحصول على الدعم.',
+	'CONTAINER_EXCEPTION' => 'صادف phpBB خطأ في بناء الإطار بسبب إضافة مثبتة، لهذا السبب ، تم تعطيل كافة الإضافات مؤقتًا. الرجاء محاولة إفراغ التخزين المؤقت (الكاش) لمنتداك، سيتم أعاده تمكين كافة الإضافات تلقائيًا بمجرد حل خطإ الإطار. إذا استمر هذا الخطأ، يرجى زيارة <a href="https://www.phpbb.com/support">phpbb.com</a> للحصول على الدعم.',
 	'EXCEPTION' => 'استثناء',
 
 	'COLOUR_SWATCH'			=> 'لوحة الألوان',
@@ -402,10 +402,10 @@ $lang = array_merge($lang, array(
 
 	'POSTS_PER_DAY'		=> 'المشاركات لكل يوم',
 
-	'PURGE_CACHE'			=> 'حذف الملفات المؤقتة',
-	'PURGE_CACHE_CONFIRM'	=> 'هل أنت متأكد من أنك تريد حذف الملفات المؤقتة؟',
-	'PURGE_CACHE_EXPLAIN'	=> 'حذف الملفات المؤقتة كلها، هذا يشمل جميع ملفات الاستايل المؤقتة وكذلك الأوامر',
-	'PURGE_CACHE_SUCCESS'	=> 'تم حذف الكاش بنجاح.',
+	'PURGE_CACHE'			=> 'إفراغ التخزين المؤقت (الكاش)',
+	'PURGE_CACHE_CONFIRM'	=> 'هل أنت متأكد من أنك تريد إفراغ التخزين المؤقت (الكاش)؟',
+	'PURGE_CACHE_EXPLAIN'	=> 'إفراغ كافة مكونات التخزين المؤقت، هذا يشمل أي ملفات استايل مؤقتة أو استعلامات',
+	'PURGE_CACHE_SUCCESS'	=> 'تم إفراغ التخزين المؤقت (الكاش) بنجاح.',
 
 	'PURGE_SESSIONS'			=> 'حذف الجلسات كلها',
 	'PURGE_SESSIONS_CONFIRM'	=> 'متأكد أنك تريد حذف الجلسات جميعها؟ سيتوجب على الأعضاء كلهم تسجيل الدخول مرة أخرى.',
@@ -723,7 +723,7 @@ $lang = array_merge($lang, array(
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>تهذيب الأعضاء وحذف المشاركات</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>تهذيب الأعضاء وإبقاء المشاركات</strong><br />» %s',
 
-	'LOG_PURGE_CACHE'			=> '<strong>حذف الملفات المؤقتة</strong>',
+	'LOG_PURGE_CACHE'			=> '<strong>إفراغ التخزين المؤقت (الكاش)</strong>',
 	'LOG_PURGE_SESSIONS'		=> '<strong>الجلسات المحذوفة</strong>',
 
 	'LOG_RANK_ADDED'		=> '<strong>إضافة رتبة جديدة</strong><br />» %s',
@@ -754,7 +754,7 @@ $lang = array_merge($lang, array(
 	'LOG_TEMPLATE_ADD_DB'			=> '<strong>إضافة قالب جديد إلى قاعدة البيانات</strong><br />» %s',
 	// @deprecated 3.1
 	'LOG_TEMPLATE_ADD_FS'			=> '<strong>إضافة قالب جديد إلى نظام الملفات</strong><br />» %s',
-	'LOG_TEMPLATE_CACHE_CLEARED'	=> '<strong>حذف الملفات المؤقتة لملفات القالب <em>%1$s</em></strong><br />» %2$s',
+	'LOG_TEMPLATE_CACHE_CLEARED'	=> '<strong>إفراغ التخزين المؤقت لملفات القالب <em>%1$s</em></strong><br />» %2$s',
 	'LOG_TEMPLATE_DELETE'			=> '<strong>حذف القالب</strong><br />» %s',
 	'LOG_TEMPLATE_EDIT'				=> '<strong>تعديل القالب<em>%1$s</em></strong><br />» %2$s',
 	'LOG_TEMPLATE_EDIT_DETAILS'		=> '<strong>تعديل تفاصيل القالب</strong><br />» %s',

@@ -1,4 +1,5 @@
 Subject: إشعار برد جديد - "{TOPIC_TITLE}"
+List-Unsubscribe: <{U_STOP_WATCHING_TOPIC}>
 
 مرحبًا {USERNAME}،
 

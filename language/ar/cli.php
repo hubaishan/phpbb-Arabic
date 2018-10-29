@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 
 	'CLI_DESCRIPTION_UPDATE_CHECK'					=> 'التحقق إذا كان المنتدى محدثًا.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'اسم الإضافة للتحقق منها (إذا أدخلت all سيتم فحص جميع الإضافات)',
-	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'تشغيل الفحص مع الملفات المؤقتة.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'تشغيل الفحص مع التخزين المؤقت (الكاش).',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'تشغيل اختيار الأمر للتحقق فقط هل الإصدرات مستقرة أم لا.',
 
 	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'تحديث تعمية كلمات المرور القديمة ليتم تعميتها بواسطة bcrypt.',

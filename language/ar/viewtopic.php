@@ -96,6 +96,7 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'		=> 'ليست هناك مشاركات جديدة غير مقروءة',
 	'NO_VOTE_OPTION'		=> 'عليك تحديد أحد الخيارات للمشاركة في التصويت',
 	'NO_VOTES'				=> 'لا أصوات',
+	'NO_AUTH_PRINT_TOPIC'	=> 'غير مصرّح لك بطباعة المواضيع',
 
 	'POLL_ENDED_AT'			=> 'التصويت ينتهي في %s',
 	'POLL_RUN_TILL'			=> 'التصويت متاح حتى %s',

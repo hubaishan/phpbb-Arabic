@@ -113,8 +113,6 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'أبعاد رابط الصورة',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'لعرض الصور المرفقة كرابط نصي إذا كانت أبعادها أكبر من هذا الحد، لتعطيل هذه الخاصية استخدم 0 بكسل في 0 بكسل.',
-	'IMAGICK_PATH'				=> 'مكان Imagemagick',
-	'IMAGICK_PATH_EXPLAIN'		=> 'الرابط الكامل لبرنامج التحويل imagemagick، مثال. <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'أكبر عدد من المرفقات لكل مشاركة',
 	'MAX_ATTACHMENTS_PM'			=> 'أكبر عدد من المرفقات لكل رسالة خاصة',
@@ -137,7 +135,6 @@ $lang = array_merge($lang, array(
 	'NO_EXT_GROUP_SPECIFIED'	=> 'لم يحدّد أية مجموعة امتداد.',
 	'NO_FILE_CAT'				=> 'لا شيء',
 	'NO_IMAGE'					=> 'لا يوجد صورة',
-	'NO_THUMBNAIL_SUPPORT'		=> 'خاصية إنشاء المصغرات غير متوفرة، لم يُعثَر على امتداد GD أو أنه لم يعثَر على imagemagick مثبت.',
 	'NO_UPLOAD_DIR'				=> 'المجلد الذي خصصته للتحميل غير موجود.',
 	'NO_WRITE_UPLOAD'			=> 'المجلد المخصص للتحميل لا يمكن الكتابة عليه، الرجاء إعطاء الملف الصلاحيات للكتابة عليه.',
 
@@ -149,7 +146,6 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> 'حذف أو إلغاء استبعاد الـ IPs/hostnames <em>الغير مسموحة</em>',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'هل أنت متأكد أنك تريد إعادة مزامنة إحصائيات الملفات؟',
 
-	'SEARCH_IMAGICK'				=> 'البحث عن Imagemagick',
 	'SECURE_ALLOW_DENY'				=> 'قائمة السماح/الرفض',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'تغيير الخواص الافتراضية عند التحميل الآمن في قائمة الرفض والسماح، <strong>القائمة البيضاء</strong> (السماح) أو <strong>القائمة السوداء</strong> (الرفض).',
 	'SECURE_DOWNLOADS'				=> 'تفعيل التحميل الآمن',

@@ -280,7 +280,8 @@ $lang = array_merge($lang, array(
 	'IF_FOLDER_FULL'			=> 'في حالة امتلاء المجلد',
 	'IMPORTANT_NEWS'			=> 'إعلانات هامة',
 	'INVALID_USER_BIRTHDAY'			=> 'تاريخ الميلاد المدخل غير صحيح!',
-	'INVALID_CHARS_USERNAME'	=> 'اسم المستخدم يحتوي قيم محظورة',
+	'INVALID_CHARS_USERNAME'	=> 'اسم المستخدم يحتوي أحرف محظورة',
+	'INVALID_EMOJIS_USERNAME'	=> 'اسم المستخدم يحتوي أحرف محظورة (إيموجي).',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'كلمة المرور لا تحتوي على القيم المطلوبة',
 	'ITEMS_REQUIRED'			=> 'الحقول المعلمة بـ * مطلوبة',
 
@@ -311,6 +312,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_EDITED'				=> 'تم تعديل الرسالة بنجاح',
 	'MESSAGE_HISTORY'				=> 'تاريخ الرسالة',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'لقد حذِفَت هذه الرسالة بواسطة الشخص المرسل قبل أن تُسلّم',
+	'MESSAGE_REPORTED_MESSAGE'		=> 'رسالة مبلغ عنها',
 	'MESSAGE_SENT_ON'				=> 'في',
 	'MESSAGE_STORED'				=> 'أرسِلت الرسالة بنجاح',
 	'MESSAGE_TO'					=> 'إلى',

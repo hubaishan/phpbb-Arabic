@@ -327,6 +327,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_SIZE'			=> 'الحجم الكلي',
 
 	'UCP'					=> 'لوحة تحكم العضو',
+	'URL_INVALID'			=> 'الرابط المعطى للإعداد “%1$s” غير صحيح.',
 	'USERNAMES_EXPLAIN'		=> 'ضع كل اسم مستخدم في سطر منفصل',
 	'USER_CONTROL_PANEL'	=> 'لوحة تحكم العضو',
 

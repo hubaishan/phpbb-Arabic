@@ -1,4 +1,4 @@
-Subject: تقرير عن رسالة خاصة - "{TOPIC_TITLE}"
+Subject: تقرير عن رسالة خاصة - "{SUBJECT}"
 
 مرحبًا {USERNAME}،
 

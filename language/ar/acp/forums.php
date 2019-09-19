@@ -99,6 +99,7 @@ $lang = array_merge($lang, array(
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'تسجيل عدد مرات الضغط على رابط المنتدى',
 	'FORUM_NAME'						=> 'اسم المنتدى',
 	'FORUM_NAME_EMPTY'					=> 'يجب عليك إدخال اسم لهذا المنتدى',
+	'FORUM_NAME_EMOJI'					=> 'اسم المنتدى غير صالح.<br>يحتوي الاسم على هذه الأحرف الغير مقبولة:<br>%s',
 	'FORUM_PARENT'						=> 'المنتدى الأب',
 	'FORUM_PASSWORD'					=> 'كلمة مرور المنتدى',
 	'FORUM_PASSWORD_CONFIRM'			=> 'تأكيد كلمة المرور',

@@ -307,7 +307,7 @@ $lang = array_merge($lang, array(
 	// Install finish tasks
 	'TASK_INSTALL_EXTENSIONS'	=> 'تثبيت الإضافات المحزمة',
 	'TASK_NOTIFY_USER'			=> 'إرسال إشعار بريدي',
-	'TASK_POPULATE_MIGRATIONS'	=> 'تطبيق التهجيرات',
+	'TASK_POPULATE_MIGRATIONS'	=> 'تطبيق الترحيلات',
 
 	// Installer general progress messages
 	'INSTALLER_FINISHED'	=> 'المثبت أنهى التثبيت بنجاح',

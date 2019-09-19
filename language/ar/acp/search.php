@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'سوف يتم فهرسة الكلمات التي تحوي على حروف أقل من هذا العدد بالإمكان تغيير هذه الإعدادات عن طريق قاعدة البيانات MySQL.',
 
 	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'خاصية النص الكامل من PostgreSQL لا يمكن استخدامها إلا مع قاعدة بيانات PostgreSQL.',
-	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'العدد الكلي للمشاركات المفهرسةTotal number of indexed posts',
+	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'العدد الكلي للمشاركات المفهرسة',
 	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'نسخة PostgreSQL',
 	'FULLTEXT_POSTGRES_TS_NAME'				=> 'إعدادات نص البحث:',
 	'FULLTEXT_POSTGRES_MIN_WORD_LEN'			=> 'الحد الأدنى لطول الكلمة في البحث',

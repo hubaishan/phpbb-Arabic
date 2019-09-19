@@ -23,7 +23,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -38,8 +38,8 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
-	'ACP_STYLES_EXPLAIN'	=> 'هنا تستطيع إدارة جميع الاستايلات المتاحة في منتداك. تستطيع تعديل الاستايلات الموجودة، حذفها، تعطيلها، إعادة تفعيلها، أو تثبيت استايلات جديدة. تستطيع أيضا مشاهدة كيف سيظهر الاستايل باستعمال خاصية المشاهدة. أيضا كُتِب عدد الأعضاء الذين يستعملون كل استايل، يرجى ملاحظة أن تجاهل استايلات العضو لن يحسبوا.',
+$lang = array_merge($lang, [
+	'ACP_STYLES_EXPLAIN'	=> 'هنا تستطيع إدارة الاستايلات المتاحة في منتداك.<br>لاحظ أنك لا تستطيع حذف استايل “<strong>prosilver</strong>” حيث أنه الاستايل الافتراضي لل phpBB والاستايل الأب الأساسي',
 
 	'CANNOT_BE_INSTALLED'			=> 'لا يمكن التثبيت',
 	'CONFIRM_UNINSTALL_STYLES'		=> 'هل أنت متأكد أنك تريد إلغاء تثبيت الاستايلات المحددة؟',
@@ -86,7 +86,8 @@ $lang = array_merge($lang, array(
 	'STYLE_USED_BY'				=> 'مستعمل من طرف ( بمن فيهم محركات البحث )',
 	'STYLE_VERSION'				=> 'إصدار الاستايل',
 
-	'UNINSTALL_DEFAULT'		=> 'لا يمكنك إلغاء تثبيت الاستايل الافتراضي.',
+	'UNINSTALL_PROSILVER'		=> 'لا تستطيع إلغاء تثبيت استايل “prosilver”.',
+	'UNINSTALL_DEFAULT'			=> 'لا يمكنك إلغاء تثبيت الاستايل الافتراضي.',
 
 	'BROWSE_STYLES_DATABASE'	=> 'تصفح مكتبة الاستايلات',
-));
+]);

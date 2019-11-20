@@ -5,7 +5,7 @@
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @translated 2014 phpBBArabia.com
-* 2017 Updated and mainted by Saeed Hubaishan <http://salafitech.net>
+* 2017 Updated and maintained by Saeed Hubaishan <http://salafitech.net>
 * @copyright (c) 2010-2013 Moxiecode Systems AB
 * @license GNU General Public License, version 2 (GPL-2.0)
 *

@@ -307,7 +307,6 @@ $lang = array_merge($lang, array(
 	'TOPIC_BUMPED'				=> 'تعدل الموضوع بنجاح',
 
 	'UNAUTHORISED_BBCODE'		=> 'لا يمكنك استخدام أكواد BBCode المحددة: %s',
-	'UNGLOBALISE_EXPLAIN'		=> 'لإعادة الموضوع من الوضع العام ، ينبغي اختيار المنتدى الذي تريد وضع الموضوع فيه',
 	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'الرسالة تحتوي على الحروف الغير مدعومة التالية:<br />%s',
 	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'العنوان تحتوي على الحروف الغير مدعومة التالية:<br />%s',
 	'UPDATE_COMMENT'			=> 'تحديث تعليق',

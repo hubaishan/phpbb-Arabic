@@ -439,7 +439,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'السر',
 
-	'APACHE_SETUP_BEFORE_USE'	=> 'عليك أن تعدّ توثيق Apache قبل أن تحول توثيق المنتدى إلى نظام توثيق Apache. ضع في عين الاعتبار أن اسم المستخدم لتوثيق Apache هو نفس اسم المستخدم  المستعمل في المنتدى يمكنك استخدام Apache فقط عند تعطيل mod_php، safe_mode',
+	'APACHE_SETUP_BEFORE_USE'	=> 'عليك أن تعدّ توثيق Apache قبل أن تحول توثيق المنتدى إلى نظام توثيق Apache. ضع في عين الاعتبار أن اسم المستخدم لتوثيق Apache هو نفس اسم المستخدم  المستعمل في المنتدى يمكنك استخدام Apache. توثيق Apache يمكن أن يستخدم فقط مع mod_php (وليس مع نسخة CGI).',
 
 	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'LDAP أساس <var>dn</var>',

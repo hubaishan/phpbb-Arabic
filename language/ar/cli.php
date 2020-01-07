@@ -80,8 +80,6 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'العدد التقريبي للسجلات التي سيتم معالجتها في كل مرة',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'أبدأ إعادة المعالجة عند توقف التنفيذ الأخير',
 
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'			=> 'يقوم بإعادة حساب عمود user_email_hash من جدول المستخدمين.',
-
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'					=> 'يقوم بضبط قيمة خيار إعدادات إذا كانت القيمة القديمة تطابق الحالية فقط',
 	'CLI_DESCRIPTION_SET_CONFIG'						=> 'يقوم بضبط قيمة خيار إعدادات',
 
@@ -132,7 +130,6 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'مفعل',
 
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'تم إصلاح شجرة المنتديات والموديولات بنجاح.',
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'تمت إعادة حساب جميع الإيميلات بنجاح.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'تم تحديث تعميات كلمات المرور القديمة بواسطة bcrypt.',
 
 	'CLI_MIGRATION_NAME'					=> 'اسم الترحيلة المتضمن لأسماء المصادر (استخدام الشرطة المائلة لليمين / بدلا من الشرطة المائلة لليسار  \ لتجنب المشاكل).',

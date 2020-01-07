@@ -45,10 +45,10 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_INCORRECT'			=> 'الكود المئي الذي قُدِّم غير صحيح',
 	'RECAPTCHA_NOSCRIPT'			=> 'الرجاء تفعيل جافا سكربت في متصفحك لتنفيد الاختبار.',
 
-	'RECAPTCHA_PUBLIC'				=> 'العام reCaptcha مفتاح',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> ' مفتاح reCaptcha العام لديك. يمكنك الحصول على المفاتيح من <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'مفتاح reCaptcha الخاص',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'مفتاح reCaptcha الخاص لديك . يمكنك الحصول على مفاتيح من <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'مفتاح الموقع',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> ' مفتاح reCAPTCHA لموقعك، يمكنك الحصول على المفاتيح من <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PRIVATE'				=> 'مفتاح reCAPTCHA السري',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'مفتاح reCAPTCHA السري . يمكنك الحصول على مفاتيح من <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'سعيًا لمنع التجسيل بطريقة آلية، فيجب إدخال النص المعروض في المكان المخصص بأسفل.',
+	'RECAPTCHA_INVISIBLE'			=> 'هذه الكابتشا غير مرئية في الواقع، للتحقق من أنها تعمل أيقونة صغيرة يجب أن تظهر في الزاوية اليمنى السفلية من هذه الصفحة.',
 ));

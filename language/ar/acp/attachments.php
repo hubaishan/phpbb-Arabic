@@ -70,7 +70,6 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_EXPLAIN'				=> 'أقصى مساحة يمكن إستخدامها لخاصية المرفقات لكل المنتدى، القيمة صفر تعني قيمة غير محدودة.',
 	'ATTACH_TO_POST'					=> 'أرفق الملف للمشاركة',
 
-	'CAT_FLASH_FILES'			=> 'ملفات الفلاش',
 	'CAT_IMAGES'				=> 'الصور',
 	'CHECK_CONTENT'				=> 'فحص ملفات المرفقات',
 	'CHECK_CONTENT_EXPLAIN'		=> 'بعض المتصفحات يمكن خداعها لتفترض نوعًا مختلفًا للملف المرفق، هذا الخيار للتأكد من أن ملفات كهذه ستُرفض.',
@@ -101,7 +100,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_ARCHIVES'			=> 'الأرشيفات',
 	'EXT_GROUP_DOCUMENTS'			=> 'المستندات',
 	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'الملفات القابلة للتحميل',
-	'EXT_GROUP_FLASH_FILES'			=> 'ملفات الفلاش',
 	'EXT_GROUP_IMAGES'				=> 'الصور',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'مستند نصي',
 

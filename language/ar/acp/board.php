@@ -54,6 +54,8 @@ $lang = array_merge($lang, array(
 	'DISABLE_BOARD_EXPLAIN'			=> 'يغلق المنتدى ولن يكون متاحًا للمستخدمين، يمكنك أيضًا وضع رسالة أقصى عدد حروفها 255 لتبين سبب تعطيل المنتدى',
 	'DISPLAY_LAST_SUBJECT'			=> 'عرض عنوان آخر مشاركة في قائمة المنتديات',
 	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'عنوان آخر مشاركة تم وضعها سيتم عرضه في قائمة المنتديات مع رابط للمشاركة.العناوين من المنتديات المحمية بكلمة مرور أو المنتديات التي لا يملك المستخدم صلاحية القراءة بها لن يتم عرضها.',
+	'DISPLAY_UNAPPROVED_POSTS'		=> 'عرض المشاركات الغير معتمدة لكُتَّابها',
+	'DISPLAY_UNAPPROVED_POSTS_EXPLAIN'	=> 'تعرض المشاركات الغير معتمدة لكتابها، لتشمل مشاركات الزوار.',
 	'GUEST_STYLE'					=> 'استايل الزوار',
 	'GUEST_STYLE_EXPLAIN'			=> 'استايل المنتدى الذي يظهر للزوار غير المسجلين.',
 	'OVERRIDE_STYLE'				=> 'تجاوز استايل المستخدم',
@@ -439,7 +441,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'السر',
 
-	'APACHE_SETUP_BEFORE_USE'	=> 'عليك أن تعدّ توثيق Apache قبل أن تحول توثيق المنتدى إلى نظام توثيق Apache. ضع في عين الاعتبار أن اسم المستخدم لتوثيق Apache هو نفس اسم المستخدم  المستعمل في المنتدى يمكنك استخدام Apache فقط عند تعطيل mod_php، safe_mode',
+	'APACHE_SETUP_BEFORE_USE'	=> 'عليك أن تعدّ توثيق Apache قبل أن تحول توثيق المنتدى إلى نظام توثيق Apache. ضع في عين الاعتبار أن اسم المستخدم لتوثيق Apache هو نفس اسم المستخدم  المستعمل في المنتدى يمكنك استخدام Apache. توثيق Apache يمكن أن يستخدم فقط مع mod_php (وليس مع نسخة CGI).',
 
 	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'LDAP أساس <var>dn</var>',
@@ -592,7 +594,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'منفذ خادم SMTP',
 	'SMTP_PORT_EXPLAIN'				=> 'غير المنفذ فقط إذا تأكدت أنه منفذ آخر',
 	'SMTP_SERVER'					=> 'عنوان خادم SMTP',
-	'SMTP_SERVER_EXPLAIN'			=> 'لا تقم بإدخال البروتوكول (<samp>ssl://</samp> or <samp>tsl://</samp>) إلا إذا كان مستضيف البريد أخبرك بذلك.',
+	'SMTP_SERVER_EXPLAIN'			=> 'لا تقم بإدخال البروتوكول (<samp>ssl://</samp> or <samp>tls://</samp>) إلا إذا كان مستضيف البريد أخبرك بذلك.',
 	'SMTP_SETTINGS'					=> 'إعدادات SMTP',
 	'SMTP_USERNAME'					=> 'اسم المستخدم SMTP',
 	'SMTP_USERNAME_EXPLAIN'			=> 'ضع اسم المستخدم إذا كان مطلوبًا فقط',

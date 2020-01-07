@@ -228,16 +228,6 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'رجوع',
 
-	'CANNOT_CHANGE_FILE_GROUP'	=> 'تعذر تعديل مجموعة الملفات',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'تعذر تعديل صلاحيات الملف',
-	'CANNOT_COPY_FILES'		=> 'تعذر نسخ الملفات',
-	'CANNOT_CREATE_SYMLINK'	=> 'تعذر إنشاء الارتباط الرمزي',
-	'CANNOT_DELETE_FILES'	=> 'تعذر حذف الملفات من النظام',
-	'CANNOT_DUMP_FILE'		=> 'تعذر تفريغ الملف',
-	'CANNOT_MIRROR_DIRECTORY'	=> 'تعذر النسخ المتطابق للمسار',
-	'CANNOT_RENAME_FILE'	=> 'تعذر إعادة تسمية ملف في النظام',
-	'CANNOT_TOUCH_FILES'	=> 'تعذر التحقق من وجود ملف',
-
 	'CONTAINER_EXCEPTION' => 'صادف phpBB خطأ في بناء الإطار بسبب إضافة مثبتة، لهذا السبب ، تم تعطيل كافة الإضافات مؤقتًا. الرجاء محاولة إفراغ التخزين المؤقت (الكاش) لمنتداك، سيتم أعاده تمكين كافة الإضافات تلقائيًا بمجرد حل خطإ الإطار. إذا استمر هذا الخطأ، يرجى زيارة <a href="https://www.phpbb.com/support">phpbb.com</a> للحصول على الدعم.',
 	'EXCEPTION' => 'استثناء',
 
@@ -375,7 +365,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_SERVER_INFO'	=> 'خادم قاعدة البيانات',
 	'DATABASE_SIZE'			=> 'حجم قاعدة البيانات',
 
-	// Enviroment configuration checks, mbstring related
+	// Environment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'إعدادات الحمل الزائد للدوال غير صحيحة',
 	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> يجب أن تكون 0 أو 4. يمكنك معرفة الإعداد الحالي في صفحة <samp>PHP information</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'إعدادات ترميز الحروف الشفافة غير صحيحة',

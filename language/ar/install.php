@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'الدعم',
-	'SUPPORT_BODY'		=> 'الدعم الكامل سيتم تقديمه للنسخة المستقرة الحالية من phpBB3، مجاناً. هذا يتضمن:</p><ul><li>التركيب</li><li>الإعداد</li><li>الأسئلة التقنية</li><li>المشاكل المتعلقة بالثغرات المحتملة في البرنامج</li><li>الترقية من النسخ المرشحة إلى آخر نسخة مستقرة</li><li>التحويل من phpBB2.0.x إلى phpBB3</li><li>التحويل من أنواع منتديات أخرى إلى phpBB3 (يرجى الاطلاع على <a href="https://www.phpbb.com/community/viewforum.php?f=486">منتدى التحويل</a>)</li></ul><p>نحن نشجع المستخدمين الذين مازالوا يعملون على نسخة تجريبية من phpBB3 أن يقوموا باستبدال نسخهم بتثبيت أحدث نسخة.</p><h2>الإضافات - الستايلات</h2><p>للمسائل المتعلقة بالإضافات، يرجى الكتابة في <a href="https://www.phpbb.com/community/viewforum.php?f=451">منتدى الإضافات</a> المناسب.<br />للمسائل المتعلقة بالستايلات، يرجى الكتابة في <a href="https://www.phpbb.com/community/viewforum.php?f=471">منتدى الستايلات</a> المناسب.<br /><br />إذا كان سؤالك يختص بحزمة معينة، يرجى الكتابة مباشرةً في الموضوع الخاص بتلك الحزمة.</p><h2>الحصول على الدعم</h2><p><a href="https://www.phpbb.com/support/">قسم الدعم</a><br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">دليل البدء السريع</a><br /><br />لتكون متأكدًا أنك مطلع دائمًا على آخر النسخ والأخبار تابعنا على <a href="https://www.twitter.com/phpbb/">تويتر</a> و <a href="https://www.facebook.com/phpbb/">فيسبوك</a><br /><br />',
+	'SUPPORT_BODY'		=> 'الدعم الكامل سيتم تقديمه للنسخة المستقرة الحالية من phpBB3، مجاناً. هذا يتضمن:</p><ul><li>التركيب</li><li>الإعداد</li><li>الأسئلة التقنية</li><li>المشاكل المتعلقة بالثغرات المحتملة في البرنامج</li><li>الترقية من النسخ المرشحة إلى آخر نسخة مستقرة</li><li>التحويل من phpBB2.0.x إلى phpBB3</li><li>التحويل من أنواع منتديات أخرى إلى phpBB3 (يرجى الاطلاع على <a href="https://www.phpbb.com/community/viewforum.php?f=486">منتدى التحويل</a>)</li></ul><p>نحن نشجع المستخدمين الذين مازالوا يعملون على نسخة تجريبية من phpBB3 أن يقوموا باستبدال نسخهم بتثبيت أحدث نسخة.</p><h2>الإضافات - الستايلات</h2><p>للمسائل المتعلقة بالإضافات، يرجى الكتابة في <a href="https://www.phpbb.com/community/viewforum.php?f=451">منتدى الإضافات</a> المناسب.<br />للمسائل المتعلقة بالستايلات، يرجى الكتابة في <a href="https://www.phpbb.com/community/viewforum.php?f=471">منتدى الستايلات</a> المناسب.<br /><br />إذا كان سؤالك يختص بحزمة معينة، يرجى الكتابة مباشرةً في الموضوع الخاص بتلك الحزمة.</p><h2>الحصول على الدعم</h2><p><a href="https://www.phpbb.com/support/">قسم الدعم</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">دليل البدء السريع</a><br /><br />لتكون متأكدًا أنك مطلع دائمًا على آخر النسخ والأخبار تابعنا على <a href="https://www.twitter.com/phpbb/">تويتر</a> و <a href="https://www.facebook.com/phpbb/">فيسبوك</a><br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'الرخصة العامة',
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 
 	<p>قواعد البيانات التي يدعمها phpBB3:</p>
 	<ul>
-		<li>MySQL 3.23 أو أعلى (MySQLi مدعوم)</li>
+		<li>MySQL 4.1.3 أو أعلى (تتطلب MySQLi)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 أو أعلى (مباشرة أو من خلال ODBC)</li>
@@ -104,8 +104,8 @@ $lang = array_merge($lang, array(
 	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'من المستحسن أن يكون المسار  %1$s قابلا للكتابة من أجل تجربة مستخدم أفضل.',
 
 	// Server requirements
-	'PHP_VERSION_REQD'					=> 'إصدار PHP >= 5.4.0',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB يتطلب PHP إصدار 5.4.0 أو أعلى.',
+	'PHP_VERSION_REQD'					=> 'إصدار PHP',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB يتطلب PHP إصدار 7.1.3 أو أعلى.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'دالة PHP getimagesize() متوفرة',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>مطلوب</strong> - ليعمل phpBB بشكل صحيح، دالة getimagesize ينبغي أن تكون متوفرة',
 	'PCRE_UTF_SUPPORT'					=> 'دعم PCRE UTF-8',
@@ -186,7 +186,6 @@ $lang = array_merge($lang, array(
 	// Database options
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
-	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL with MySQLi Extension',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
@@ -371,7 +370,7 @@ $lang = array_merge($lang, array(
 			<li>اتيع الخطوات لتحديث قاعدة البيات واتركها تعمل إلى الإتمام.</li>
 			<li> عبر FTP أو SSH احذف مجلد <code class="inline">/install</code> من مجلد التثبيت الرئيسي.<br><br></li>
 		</ol>
-		
+
 		<p>لديك الآن منتدى محدث يحوي جميع الأعضاء والمشاركات. الخطوات المقبلة:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>تحديث حزم اللغات</li>
@@ -565,7 +564,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'انتهى التحويل',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'انتهيت الآن من تحويل منتداك إلى phpBB 3.2. تستطيع الآن تسجيل الدخول و<a href="../">تصفح منتداك</a>، رجاءً تأكد من تحويل الإعدادت بالصورة المطلوبة قبل تفعيل المنتدى عبر حذف مجلد inatall . تذكر أن المساعدة على استعمال phpBB موجودة على الشبكة في <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">المستندات</a> و <a href="https://www.phpbb.com/community/viewforum.php?f=466">منتدى الدعم الفني</a>',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'انتهيت الآن من تحويل منتداك إلى phpBB 3.3. تستطيع الآن تسجيل الدخول و<a href="../">تصفح منتداك</a>، رجاءً تأكد من تحويل الإعدادت بالصورة المطلوبة قبل تفعيل المنتدى عبر حذف مجلد inatall . تذكر أن المساعدة على استعمال phpBB موجودة على الشبكة في <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">المستندات (بالإنجليزية)</a> و <a href="https://www.phpbb.com/community/viewforum.php?f=661">منتدى الدعم الفني (بالإنجليزية)</a>',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'رفع المرفقات عبر FTP مفعل في المنتدى القديم. رجاءً عطّل خيار الرفع عبر FTP وتأكد من تحديد مجلد الرفع الصحيح، وبعدها ارفع الملفات المرفقة كلها إلى مجلد المرفقات الجديد. بمجرد الانتهاء من هذا، أعِد تشغيل المحول',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'لا توجد أية معلومات متاحة لإعداد هذا المحول',

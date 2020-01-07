@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'إصدار PHP',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB يتطلب PHP إصدار 7.1.0 أو أعلى.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB يتطلب PHP إصدار 7.1.3 أو أعلى.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'دالة PHP getimagesize() متوفرة',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>مطلوب</strong> - ليعمل phpBB بشكل صحيح، دالة getimagesize ينبغي أن تكون متوفرة',
 	'PCRE_UTF_SUPPORT'					=> 'دعم PCRE UTF-8',
@@ -370,7 +370,7 @@ $lang = array_merge($lang, array(
 			<li>اتيع الخطوات لتحديث قاعدة البيات واتركها تعمل إلى الإتمام.</li>
 			<li> عبر FTP أو SSH احذف مجلد <code class="inline">/install</code> من مجلد التثبيت الرئيسي.<br><br></li>
 		</ol>
-		
+
 		<p>لديك الآن منتدى محدث يحوي جميع الأعضاء والمشاركات. الخطوات المقبلة:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>تحديث حزم اللغات</li>
@@ -564,7 +564,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'انتهى التحويل',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'انتهيت الآن من تحويل منتداك إلى phpBB 3.3. تستطيع الآن تسجيل الدخول و<a href="../">تصفح منتداك</a>، رجاءً تأكد من تحويل الإعدادت بالصورة المطلوبة قبل تفعيل المنتدى عبر حذف مجلد inatall . تذكر أن المساعدة على استعمال phpBB موجودة على الشبكة في <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">المستندات</a> و <a href="https://www.phpbb.com/community/viewforum.php?f=466">منتدى الدعم الفني</a>',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'انتهيت الآن من تحويل منتداك إلى phpBB 3.3. تستطيع الآن تسجيل الدخول و<a href="../">تصفح منتداك</a>، رجاءً تأكد من تحويل الإعدادت بالصورة المطلوبة قبل تفعيل المنتدى عبر حذف مجلد inatall . تذكر أن المساعدة على استعمال phpBB موجودة على الشبكة في <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">المستندات (بالإنجليزية)</a> و <a href="https://www.phpbb.com/community/viewforum.php?f=661">منتدى الدعم الفني (بالإنجليزية)</a>',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'رفع المرفقات عبر FTP مفعل في المنتدى القديم. رجاءً عطّل خيار الرفع عبر FTP وتأكد من تحديد مجلد الرفع الصحيح، وبعدها ارفع الملفات المرفقة كلها إلى مجلد المرفقات الجديد. بمجرد الانتهاء من هذا، أعِد تشغيل المحول',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'لا توجد أية معلومات متاحة لإعداد هذا المحول',

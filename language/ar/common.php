@@ -289,7 +289,7 @@ $lang = array_merge($lang, array(
 	'FILESYSTEM_CANNOT_DUMP_FILE'				=> 'تعذر تفريغ الملف',
 	'FILESYSTEM_CANNOT_MIRROR_DIRECTORY'		=> 'تعذر النسخ المتطابق للمسار',
 	'FILESYSTEM_CANNOT_RENAME_FILE'				=> 'تعذر إعادة تسمية ملف في النظام',
-	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> 'تعذر التحقق من وجود ملف',
+	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> 'تعذر إنشاء الملف أو تغيير وقت التعديل',
 
 	'FTP_FSOCK_HOST'				=> 'مستضيف FTP',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'مستضيف FTP المستخدم للاتصال بموقعك',

@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BBCode هو تطبيق خاص لـ HTML لعرض المزيد من التحكم حول كيفية عرض شيء ما. من هذه الصفحة تستطيع إضافة وحذف وتعديل BBCodes خاصة',
 	'ADD_BBCODE'				=> 'إضافة BBCode جديد',
 
-	'BBCODE_DANGER'				=> 'يبدو أنك تحاول استخدام {TEXT} داخل وسوم HTML وهذا قد يسبب ثغرة من نوع XSS، استخدم المتغيرات التالية {SIMPLETEXT} أو {INTTEXT}، فقط قم بالمتابعة اذا كنت متأكد من استخدام {TEXT} بهذه الطريقة',
+	'BBCODE_DANGER'				=> 'يبدو أن ال BBCode التي تحاول إضافته غير آمن. إذا كان ال BBCode يحتوي {TEXT} في سياق حساس فحاول استخدام نوع أكثر تحديدًا. استعمله فقط في حالة تفهمك لمخاطره',
 	'BBCODE_DANGER_PROCEED'		=> 'متابعة',	//'I understand the risk',
 
 	'BBCODE_ADDED'				=> 'أضيف BBCode بنجاح',
@@ -58,6 +58,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'أكواد BBCode التي أدخلتها موجودة مسبقًا',
 	'BBCODE_INVALID'			=> 'BBCode الخاص بك يحتوي على صيغة غير صحيحة',
+	'BBCODE_INVALID_TEMPLATE'	=> 'قالبك لل BBCode غير صالح.',
 	'BBCODE_TAG'				=> 'كود',
 	'BBCODE_TAG_TOO_LONG'		=> 'الكود الذي أدخلته كبير جدًا',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'كود التعريف الذي قمت أدخلته طويل جدًا، يرجى تقصيره قليلًا',

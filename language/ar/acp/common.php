@@ -502,13 +502,13 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>أضاف أو عدل المديرين</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>أضاف أو عدل المراقبين العامِّين</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>أضاف أو عدل صلاحيات المنتدى للعضو</strong> من %1$s<br />» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>أضاف أو عدل صلاحيات الإشراف للعضو</strong> من %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>أضاف أو عدل صلاحيات المنتدى للمجموعة</strong> من %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>أضاف أو عدل صلاحيات الإشراف للمجموعة</strong> من %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>أضاف أو عدل صلاحيات المنتدى للعضو</strong> إلى %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>أضاف أو عدل صلاحيات الإشراف للعضو</strong> إلى %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>أضاف أو عدل صلاحيات المنتدى للمجموعة</strong> إلى %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>أضاف أو عدل صلاحيات الإشراف للمجموعة</strong> إلى %1$s<br />» %2$s',
 
-	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>أضاف أو عدل مشرفين</strong> من %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>أضاف أو عدل صلاحيات المنتدى</strong> من %1$s<br />» %2$s',
+	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>أضاف أو عدل مشرفين</strong> لـ %1$s<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>أضاف أو عدل صلاحيات المنتدى</strong> لـ %1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>حذف المديرين</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>حذف المراقبين العامين</strong><br />» %s',

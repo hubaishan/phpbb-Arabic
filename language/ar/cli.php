@@ -37,6 +37,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'CLI_APCU_CACHE_NOTICE'				=> 'التخزين المؤقت APCu ينبغي أن يتم إفراغه عبر لوحة تحكم الإدارة.',
+	
 	'CLI_CONFIG_CANNOT_CACHED'			=> 'قم يضبط هذا الخيار إن كانت خيارات الإعدادات تتغير بصورة مستمرة فلا يمكن تخزينها بكفاءة.',
 	'CLI_CONFIG_CURRENT'				=> 'قيمة الإعدادات الحالية، استخدم 0 و 1 لتحديد قيمة منطقية',
 	'CLI_CONFIG_DELETE_SUCCESS'			=> 'تم حذف الإعداد %s بنجاح.',

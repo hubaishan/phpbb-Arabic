@@ -5,7 +5,7 @@
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
 * @translated 2014 phpBBArabia.com
-* 2017 Updated and maintained by Saeed Hubaishan <http://salafitech.net>
+* 2017 Updated and maintained by Saeed Hubaishan <https://phpbb-ar.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
 * For full copyright and license information, please see
@@ -43,7 +43,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> '',
+	'TRANSLATION_INFO'	=> 'الترجمة برعاية <a href="https://phpbb-ar.com/" title="الدعم العربي لمنتديات phpBB">المنتديات العربية</a>',
 	'DIRECTION'			=> 'rtl',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y، H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)

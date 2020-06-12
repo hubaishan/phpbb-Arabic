@@ -176,6 +176,7 @@ $lang = array_merge($lang, array(
 		),
 	'COLLAPSE_VIEW'			=> 'عرض مصغر',
 	'CLOSE_WINDOW'			=> 'أغلق النافذة',
+	'CODE'					=> 'كود',
 	'COLOUR_SWATCH'			=> 'قائمة الألوان',
 	'COLON'					=> ':',
 	'COMMA_SEPARATOR'		=> '،',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -213,7 +214,8 @@ $lang = array_merge($lang, array(
 	'DISPLAY_MESSAGES'		=> 'عرض رسائل سابقة منذ',
 	'DISPLAY_POSTS'			=> 'عرض مشاركات سابقة منذ',
 	'DISPLAY_TOPICS'		=> 'عرض مواضيع سابقة منذ',
-	'DOWNLOADED'			=> 'تحميل',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'الإيميل المدخل ليس له سجل MX صحيح.',
+	'DOWNLOADED'			=> 'محمل',
 	'DOWNLOADING_FILE'		=> 'تحميل ملف',
 	'DOWNLOAD_COUNTS'		=> array(
 		0	=> 'لم يُحمَّل بعد',
@@ -653,6 +655,9 @@ $lang = array_merge($lang, array(
 	'POST_UNAPPROVED_ACTION'	=> 'مشاركة تنتظر الموافقة:',
 	'POST_UNAPPROVED'		=> 'هذه المشاركة تنتظر الموافقة',
 	'POWERED_BY'			=> 'بدعم من %s',
+
+	'QUOTE'					=> 'اقتباس',
+
 	'PREVIEW'				=> 'استعراض',
 	'PREVIOUS'				=> 'السابق',		// Used in pagination
 	'PREVIOUS_STEP'			=> 'السابق',

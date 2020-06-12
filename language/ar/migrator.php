@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'الترحيلة غير صالحة. طريقة أداة ترحيل غير معرّفة تم العثور عليها.',
 
 	'MODULE_ERROR'						=> 'حدث خطًا أثناء إنشاء الموديول: %s',
-	'MODULE_EXISTS'						=> 'الموديول موجودة فعلاً: %s',
+	'MODULE_EXISTS'						=> 'الموديول موجودة فعلًا: %s',
 	'MODULE_EXIST_MULTIPLE'				=> 'العديد من الموديولات موجودة بنفس الاسم : %s. حاول استخدام المفاتيح السابق/التالي لمعرفة موضع الموديول بوضوح.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'هناك ملف بيانات موديول ضروري مفقود: %2$s',
 	'MODULE_NOT_EXIST'					=> 'هناك موديول ضروري مفقود: %s',

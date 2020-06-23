@@ -100,7 +100,8 @@ $lang = array_merge($lang, array(
 	'RECENT_SEARCHES'		=> 'عمليات بحث حديثة',
 	'RESULT_DAYS'			=> 'حدد النتائج بوقت سابق',
 	'RESULT_SORT'			=> 'ترتيب النتائج بواسطة',
-	'RETURN_FIRST'			=> 'ابحث في أول',
+	'RETURN_FIRST'			=> 'أظهر أول',
+	'RETURN_FIRST_EXPLAIN'	=> 'اضبط إلى 0 لعرض المشاركة كاملة.',
 	'GO_TO_SEARCH_ADV'	=> 'الذهاب إلى البحث المتقدم',
 
 	'SEARCHED_FOR'				=> 'كلمة البحث المستخدمة',

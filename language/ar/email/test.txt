@@ -4,6 +4,10 @@ Subject: phpBB مكون لإرسال البريد الإلكتروني
 
 نهنئك، إذا استلمت هذا البريد، فإن phpBB تم تكوينه لإرسال البريد بصورة صحيحة.
 
+<!-- IF MESSAGE -->
+{MESSAGE}
+
+<!-- ENDIF -->
 في حالة احتياجك لمساعدة زر منتدى دعم phpBB  https://www.phpbb.com/community/
 
 {EMAIL_SIG}

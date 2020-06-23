@@ -51,7 +51,9 @@ $lang = array_merge($lang, array(
 	'CONTINUE_INDEXING_EXPLAIN'				=> 'لقد حدثت عملية فهرسة سابقًا. لكي تصل إلى صفحة فهرسة البحث عليك أن تنهي هذه الفهرسة أو تلغيها',
 	'CREATE_INDEX'							=> 'إنشاء فهرس',
 
-	'DELETE_INDEX'							=> 'إلغاء فهرس',
+	'DEFAULT_SEARCH_RETURN_CHARS'			=> 'العدد الافتراضي للأحرف',
+	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> ' العدد الافتراضي للأحرف التي ستظهر في نتيجة البحث. القيمة 0 ستظهر المشاركة كاملة.',
+ 	'DELETE_INDEX'							=> 'إلغاء فهرس',
 	'DELETING_INDEX_IN_PROGRESS'			=> 'جاري حذف الفهرس حاليًا',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'خلفية البحث تلغي الفهرس حاليًا. قد يستغرق هذا العمل بعض الدقائق',
 

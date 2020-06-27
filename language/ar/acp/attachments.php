@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 	'NO_ATTACHMENTS'			=> 'لم يتم إيجاد مرفقات في هذه الفترة.',
 	'NO_EXT_GROUP'				=> 'لا شيء',
 	'NO_EXT_GROUP_ALLOWED_PM'	=> 'لا يوجد <a href="%s">مجموعات امتداد مسموح بها</a> للرسائل الخاصة.',
-+	'NO_EXT_GROUP_ALLOWED_POST'	=> 'لا يوجد <a href="%s">مجموعات امتداد مسموح بها</a> للمشاركات.',
+	'NO_EXT_GROUP_ALLOWED_POST'	=> 'لا يوجد <a href="%s">مجموعات امتداد مسموح بها</a> للمشاركات.',
 	'NO_EXT_GROUP_NAME'			=> 'لم تدخل اسم المجموعة',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'لم يحدّد أية مجموعة امتداد.',
 	'NO_FILE_CAT'				=> 'لا شيء',

@@ -95,7 +95,6 @@ $lang = array_merge($lang, array(
 	'FIELD_DESCRIPTION'			=> 'وصف الحقل',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'شرح الحقل الذي سيظهر للعضو',
 	'FIELD_DROPDOWN'			=> 'قائمة منسدلة',
-	'FIELD_GOOGLEPLUS'			=> 'Google+',
 	'FIELD_IDENT'				=> 'تعريف الحقل',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'التعريف المختار للحقل موجود مسبقًا، رجاء اختر اسم أخر',
 	'FIELD_IDENT_EXPLAIN'		=> 'تعريف الحقل هو اسم "بالإنجليزية" لتعريف الحقل داخل قاعدة البيانات وقوالب الإدارة',

@@ -323,7 +323,6 @@ $lang = array_merge($lang, array(
 	'GB'						=> 'جيجابايت',
 	'GIB'						=> 'GiB',
 	'GO'						=> 'انتقال',
-	'GOOGLEPLUS'				=> 'Google+',
 	'GOTO_FIRST_POST'			=> 'اذهب إلى أول مشاركة',
 	'GOTO_LAST_POST'			=> 'اذهب إلى آخر مشاركة',
 	'GOTO_PAGE'					=> 'الانتقال إلى صفحة',

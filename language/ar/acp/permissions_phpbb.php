@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'ACL_CAT_MISC'			=> 'عام',
 	'ACL_CAT_PERMISSIONS'	=> 'الصلاحيات',
 	'ACL_CAT_PM'			=> 'الرسائل الخاصة',
-	'ACL_CAT_POLLS'			=> 'الاستفتاءات',
+	'ACL_CAT_POLLS'			=> 'الاستطلاعات',
 	'ACL_CAT_POST'			=> 'المشاركة',
 	'ACL_CAT_POST_ACTIONS'	=> 'أفعال المشاركة',
 	'ACL_CAT_POSTING'		=> 'الكتابة',
@@ -141,8 +141,8 @@ $lang = array_merge($lang, array(
 	'ACL_F_SIGS'		=> 'يمكنه استخدام التواقيع',
 	'ACL_F_SMILIES'		=> 'يمكنه استخدام الابتسامات',
 
-	'ACL_F_POLL'		=> 'يمكنه إنشاء استفتاءات',
-	'ACL_F_VOTE'		=> 'يمكنه التصويت في الاستفتاءات',
+	'ACL_F_POLL'		=> 'يمكنه إنشاء استطلاعات',
+	'ACL_F_VOTE'		=> 'يمكنه التصويت في الاستطلاعات',
 	'ACL_F_VOTECHG'		=> 'يمكنه تغيير صوته الحالي',
 ));
 

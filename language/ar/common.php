@@ -878,7 +878,7 @@ $lang = array_merge($lang, array(
 		4	=> '%d رسالةً خاصة في المجمل',
 		5	=> '%d رسالة خاصة في المجمل',
 		),
-	'TOPIC_POLL'		=> 'هذا الموضوع يحتوي على استفتاء.',
+	'TOPIC_POLL'		=> 'هذا الموضوع يحتوي على استطلاع.',
 	'TOTAL_POSTS'		=> 'عدد المشاركات',
 	'TOTAL_POSTS_COUNT'	=> array(
 		2	=> 'عدد المشاركات <strong>%d</strong>',
@@ -965,7 +965,7 @@ $lang = array_merge($lang, array(
 	'VIEW_TOPIC_LOCKED'			=> 'مغلق:',
 	'VIEW_TOPIC_LOGS'			=> 'شاهد السجلات',
 	'VIEW_TOPIC_MOVED'			=> 'انتقل:',
-	'VIEW_TOPIC_POLL'			=> 'تصويت:',
+	'VIEW_TOPIC_POLL'			=> 'الاستطلاع:',
 	'VIEW_TOPIC_STICKY'			=> 'مثبت:',
 	'VISIT_WEBSITE'				=> 'زيارة الموقع',
 

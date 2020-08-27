@@ -48,9 +48,9 @@ $lang = array_merge($lang, array(
 
 	'LANGUAGE_DETAILS_UPDATED'			=> 'تحدّث تفاصيل اللغة بنجاح',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'هذه الحزمة مركبة مسبقا',
-	'LANGUAGE_PACK_DELETED'				=> 'حزمة اللغة <strong>%s</strong> حُذفَت بنجاح. الأعضاء كلهم الذين يستخدمون هذه اللغة حُوّلوا إلى اللغة الافتراضية',
+	'LANGUAGE_PACK_DELETED'				=> 'حزمة اللغة “%s” حُذفَت بنجاح. الأعضاء كلهم الذين يستخدمون هذه اللغة حُوّلوا إلى اللغة الافتراضية',
 	'LANGUAGE_PACK_DETAILS'				=> 'تفاصيل حزمة اللغة',
-	'LANGUAGE_PACK_INSTALLED'			=> 'حزمة اللغة <strong>%s</strong> تركبت بنجاح',
+	'LANGUAGE_PACK_INSTALLED'			=> 'حزمة اللغة “%s” تركبت بنجاح',
 	'LANGUAGE_PACK_CPF_UPDATE'			=> 'العبارات اللغوية الخاصة بحقول الملف الشخصي الإضافية تم نسخها من ملفات اللغة الافتراضية. يرجى تغييرها إذا لزم.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> 'الاسم المحلي',
@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'لا يوجد حزم لغة غير منصبة',
 
 	'THOSE_MISSING_LANG_FILES'			=> 'الملفات التالية مفقودة من حزمة اللغة %s',
-	'THOSE_MISSING_LANG_VARIABLES'		=> 'متغييرات اللغة التالية مفقودة من حزمة اللغة <strong>%s</strong>',
+	'THOSE_MISSING_LANG_VARIABLES'		=> 'متغييرات اللغة التالية مفقودة من حزمة اللغة “%s”',
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'حزم لغات غير منصبة',
 

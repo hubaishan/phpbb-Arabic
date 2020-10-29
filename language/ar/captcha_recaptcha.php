@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 
 	'RECAPTCHA_INCORRECT'			=> 'الكود المئي الذي قُدِّم غير صحيح',
 	'RECAPTCHA_NOSCRIPT'			=> 'الرجاء تفعيل جافا سكربت في متصفحك لتنفيد الاختبار.',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'إذا كنت تريد استخدام reCaptcha, ينبغي عليك تسجيل حساب في <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'إذا كنت تريد استخدام reCaptcha, ينبغي عليك تسجيل حساب في <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_INVISIBLE'			=> 'هذه الكابتشا غير مرئية في الواقع، للتحقق من أنها تعمل أيقونة صغيرة يجب أن تظهر في الزاوية اليمنى السفلية من هذه الصفحة.',
 
 	'RECAPTCHA_PUBLIC'				=> 'مفتاح الموقع',

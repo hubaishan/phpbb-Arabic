@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'ar',
 
 	// You can define different rules for the determination of plural forms here.
-	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
+	// See https://area51.phpbb.com/docs/dev/3.3.x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 12,
 
@@ -112,6 +112,8 @@ $lang = array_merge($lang, array(
 	'AVATAR_NOT_UPLOADED'			=> 'لم تُحَمّل الصورة الرمزية',
 	'AVATAR_NO_TEMP_DIR'			=> 'لم يتم العثور على المجلد المؤقت أو أنه غير قابل للكتابة.',
 	'AVATAR_NO_SIZE'				=> 'لم يتمكن النظام من الحصول على طول وعرض الصورة الرمزية، الرجاء القيام بذلك يدويًا',
+	'AVATAR_NO_UPLOAD_DIR'			=> 'مسار حفظ الصور الرمزية غير موجود أو غير قابل للقراءة.',
+	'AVATAR_NO_UPLOAD_PATH'			=> 'تحميل الصور الرمزية متاح، لكن المسار غير مضبوط.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'حُمِلّت الصورة جزئيا فقط',
 	'AVATAR_PHP_SIZE_NA'			=> 'حجم الصورة/الصور الرمزية كبير جدًا.<br />لا يستطيع النظام تحديد أقصى حجم المعرّف من قبل PHP في ملف php.ini',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'حجم الصورة الشخصيه اكبر من الحد المسموح. الحد المسموح هو %1$d %2$s.<br />الرجاء الانتباه إلى أنه لا يمكن تجاوز اعدادت ملف php.ini',
@@ -518,6 +520,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_REFERENCE'			=> '"%1$s"',
 	'NOTIFICATION_REASON'				=> '<em>السبب:</em> %1$s.',
 	'NOTIFICATION_REPORT_PM'			=> '<strong>تبليغ عن رسالة خاصة</strong> من %1$s:',
+	'NOTIFICATION_REPORT_PM_CLOSED'		=> '<strong>التبليع عن رسالة خاصة أغلقه</strong> %1$s:',
 	'NOTIFICATION_REPORT_POST'			=> '<strong>تبليغ عن مشاركة</strong> من %1$s:',
 	'NOTIFICATION_REPORT_CLOSED'		=> '<strong>تم إغلاق التقرير</strong> من %1$s الخاص بـ:',
 	'NOTIFICATION_TOPIC'				=> '<strong>موضوع جديد</strong> من %1$s:',

@@ -165,6 +165,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'ينبغي تسجيل الدخول قبل اقتباس مشاركة في هذا المنتدى',
 	'LOGIN_EXPLAIN_REPLY'		=> 'ينبغي تسجيل الدخول قبل إرسال رد في هذا المنتدى',
 
+	'MAX_ATTACHMENT_FILESIZE'	=> 'أقصى حجم ملف للمرفقات: %s.',
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'أكبر حجم خط يمكنك استعماله هو %1$d',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
 		1	=> 'ملفات الفلاش يجب أن لا يزيد ارتفاعها عن بكسل واحد.',

@@ -369,13 +369,15 @@ $lang = array_merge($lang, array(
 
 	// Environment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'إعدادات الحمل الزائد للدوال غير صحيحة',
-	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> يجب أن تكون 0 أو 4. يمكنك معرفة الإعداد الحالي في صفحة <samp>PHP information</samp>.',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> يجب أن تكون 0 أو 4. يمكنك معرفة الإعداد الحالي في صفحة <samp>معلومات PHP</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'إعدادات ترميز الحروف الشفافة غير صحيحة',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> يجب أن تكون 0. يمكنك معرفة الإعداد الحالي في صفحة <samp>PHP information</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> يجب أن تكون 0. يمكنك معرفة الإعداد الحالي في صفحة <samp>معلومات PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'إعدادات HTTP لتحويل الحروف المدخلة غير صحيحة',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> يجب أن تكون <samp>pass</samp>. يمكنك معرفة الإعداد الحالي في صفحة <samp>PHP information</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> يجب أن تترك فارغة. يمكنك معرفة الإعداد الحالي في صفحة <samp>معلومات PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'إعدادات HTTP لتحويل الحروف المخرجة غير صحيحة',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> يجب أن تكون <samp>pass</samp>. يمكنك معرفة الإعداد الحالي في صفحة <samp>PHP information</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> يجب أن تترك فارغة. يمكنك معرفة الإعداد الحالي في صفحة <samp>معلومات PHP</samp>.',
+	'ERROR_DEFAULT_CHARSET'							=> 'الترميز الافتراضي غير مضبوط بشكل صحيح',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'					=> '<var>default_charset</var> ينبغي أن يضبط إلى <samp>UTF-8</samp>. يمكنك معرفة الإعداد الحالي في صفحة <samp>معلومات PHP</samp>.',
 
 	'FILES_PER_DAY'		=> 'المرفقات لكل يوم',
 	'FORUM_STATS'		=> 'إحصائيات المنتدى',

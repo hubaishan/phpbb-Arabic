@@ -46,11 +46,12 @@ $lang = array_merge($lang, [
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha v2',
 	'CAPTCHA_RECAPTCHA_V3'			=> 'reCaptcha v3',
 
-	'RECAPTCHA_INCORRECT'			=> 'الكود المئي الذي قُدِّم غير صحيح',
-	'RECAPTCHA_NOSCRIPT'			=> 'الرجاء تفعيل جافا سكربت في متصفحك لتنفيد الاختبار.',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'إذا كنت تريد استخدام reCaptcha, ينبغي عليك تسجيل حساب في <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_INVISIBLE'			=> 'هذه الكابتشا غير مرئية في الواقع، للتحقق من أنها تعمل أيقونة صغيرة يجب أن تظهر في الزاوية اليمنى السفلية من هذه الصفحة.',
-
+	'RECAPTCHA_INCORRECT'				=> 'الكود المئي الذي قُدِّم غير صحيح',
+	'RECAPTCHA_NOSCRIPT'				=> 'الرجاء تفعيل جافا سكربت في متصفحك لتنفيد الاختبار.',
+	'RECAPTCHA_NOT_AVAILABLE'			=> 'إذا كنت تريد استخدام reCaptcha, ينبغي عليك تسجيل حساب في <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_INVISIBLE'				=> 'هذه الكابتشا غير مرئية في الواقع، للتحقق من أنها تعمل أيقونة صغيرة يجب أن تظهر في الزاوية اليمنى السفلية من هذه الصفحة.',
+	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'لقد تجاوزت الحد المسموح لمحاولات تسجيل الدخول.<br>يالإضافة إلى اسم المستخدم وكلمة المرور reCAPTCHA v3 الغير مرئية ستستعمل لمصادقة الجلسة.',
+ 
 	'RECAPTCHA_PUBLIC'				=> 'مفتاح الموقع',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> ' مفتاح reCAPTCHA لموقعك، يمكنك الحصول على المفاتيح من <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. الرجاء استعمال  reCAPTCHA v2 &gt; نوع Invisible reCAPTCHA badge',
 	'RECAPTCHA_V3_PUBLIC_EXPLAIN'	=> ' مفتاح reCAPTCHA لموقعك، يمكنك الحصول على المفاتيح من <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. الرجاء استعمال reCAPTCHA v3.',

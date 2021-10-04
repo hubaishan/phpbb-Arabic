@@ -72,7 +72,6 @@ $lang = array_merge($lang, array(
 	'START_RESTORE'			=> 'ابدأ الاستعادة',
 	'STORE_AND_DOWNLOAD'	=> 'تخزين وتحميل',
 	'STORE_LOCAL'			=> 'تخزين الملفات محليًا',
-	'STRUCTURE_ONLY'		=> 'البنية فقط',
 
 	'TABLE_SELECT'		=> 'تحديد جدول',
 	'TABLE_SELECT_ERROR'=> 'ينبغي عليك اختيار جدول واحد على الأقل',

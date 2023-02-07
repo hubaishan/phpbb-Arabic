@@ -734,6 +734,10 @@ $lang = array_merge($lang, array(
 	'RETURN_TOPIC'				=> '%sالرجوع إلى آخر موضوع قمت بزيارته%s',
 	'RETURN_TO'					=> 'العودة إلى ”%s“',
 	'RETURN_TO_INDEX'			=> 'العودة إلى فهرس المنتدى',
+
+	'ROUTE_NOT_FOUND'				=> 'المسار المطلوب “%s” لم يعثر عليه.',
+	'ROUTE_INVALID_MISSING_PARAMS'	=> 'وسائط مفقودة أو خاطئة أرسلت إلى المسار “%s”.',
+
 	'FEED'						=> 'التغذية - Feed',
 	'FEED_NEWS'					=> 'الأخبار - News',
 	'FEED_TOPICS_ACTIVE'		=> 'مواضيع نشيطة',

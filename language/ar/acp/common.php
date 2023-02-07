@@ -740,6 +740,10 @@ $lang = array_merge($lang, array(
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>إنشاء فهرس بحث لـ</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>حذف فهرس البحث لـ</strong><br />» %s',
 	'LOG_SPHINX_ERROR'			=> '<strong>خطأ Sphinx</strong><br />» %s',
+
+	'LOG_SPAMHAUS_OPEN_RESOLVER'		=> 'لا يسمح Spamhaus بالاستعلامات باستخدام محلل مفتوح. عُطِّل التحقق من القائمة السوداء. لمزيد من المعلومات طالع https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'تم تجاوز حد حجم استعلام Spamhaus. عُطِّل التحقق من القائمة السوداء. لمزيد من المعلومات، طالع https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	
 	'LOG_STYLE_ADD'				=> '<strong>إضافة استايل جديد</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>حذف الاستايل</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>تعديل الاستايل</strong><br />» %s',

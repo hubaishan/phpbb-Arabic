@@ -178,6 +178,14 @@ $lang = array_merge($lang, array(
 		4	=> '%d حرفًا',
 		5	=> '%d حرف',
 		),
+	// Special version to be used when describing ranges e.g. "min x characters and max y characters"
+	'CHARACTERS_XY'			=> array(
+		1	=> 'حرف واحد',
+		2	=> 'حرفان',
+		3	=> '%d حروف',
+		4	=> '%d حرفًا',
+		5	=> '%d حرف',
+		),
 	'COLLAPSE_VIEW'			=> 'عرض مصغر',
 	'CLOSE_WINDOW'			=> 'أغلق النافذة',
 	'CODE'					=> 'كود',

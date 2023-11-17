@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'BOARD_STYLE'					=> 'استايل المنتدى',
 	'CUSTOM_DATEFORMAT'				=> 'خاص…',
 	'DEFAULT_DATE_FORMAT'			=> 'صيغة التاريخ',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'صيغة التاريخ مثل دالة PHP <code><a href="https://secure.php.net/manual/function.date.php">date()</a></code>',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'صيغة التاريخ مثل الصيغة المستعملة من <a href="https://www.php.net/manual/datetime.format.php">دوال التاريخ</a> للغة PHP',
 	'DEFAULT_LANGUAGE'				=> 'اللغة الافتراضية',
 	'DEFAULT_STYLE'					=> 'هنا تحدد العمليات الأساسية في منتداك، أعط منتداك اسمًا وشرحًا مناسبًا ومن ضمن إعددات أخرى حدد الاختيار الافتراضي للتوقيت واللغة',
 	'DEFAULT_STYLE_EXPLAIN'			=> 'الاستايل الافتراضي للمستخدمين الجدد.',

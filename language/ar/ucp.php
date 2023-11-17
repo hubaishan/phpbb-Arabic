@@ -119,7 +119,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> 'تاريخ الميلاد',
 	'BIRTHDAY_EXPLAIN'			=> 'وضع السنة سوف يعرض عمرك بجوار اسم المستخدم عندما يأتي يوم ميلادك',
 	'BOARD_DATE_FORMAT'			=> 'صيغة التاريخ',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'الصيغة المستخدمة مطابقة لدالة  <a href="https://secure.php.net/manual/function.date.php">date()</a> للـ php',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'الصيغة المستخدمة مطابقة لصيغة <a href="https://www.php.net/manual/datetime.format.php">وظائف التاريخ في PHP</a>',
 	'BOARD_LANGUAGE'			=> 'اللغة',
 	'BOARD_STYLE'				=> 'ستايل المنتدى',
 	'BOARD_TIMEZONE'			=> 'خط الزمن',

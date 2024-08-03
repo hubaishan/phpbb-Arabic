@@ -161,9 +161,9 @@ $lang = array_merge($lang, array(
 	'ACL_M_MERGE'	=> 'يمكنه دمج المواضيع',
 
 	'ACL_M_INFO'		=> 'يمكنه رؤية تفاصيل المشاركة',
-	'ACL_M_WARN'		=> 'يمكنه إعطاء تحذيرات<br /><em>هذا الإعداد يكون عامًا وغير مرتبط بمنتدى معين.</em>',	// This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT'	=> 'يمكنه قفل وحذف تقارير الرسائل الخاصة<br /><em>هذا الإعداد يكون عامًا وغير مرتبط بمنتدى معين.</em>',	// This moderator setting is only global (and not local)
-	'ACL_M_BAN'			=> 'يمكنه إدارة الحظر<br /><em>هذا الإعداد يكون عامًا وغير مرتبط بمنتدى معين.</em>',	// This moderator setting is only global (and not local)
+	'ACL_M_WARN'		=> 'يمكنه إعطاء تحذيرات',	
+	'ACL_M_PM_REPORT'	=> 'يمكنه قفل وحذف تقارير الرسائل الخاصة',	
+	'ACL_M_BAN'			=> 'يمكنه إدارة الحظر',	
 ));
 
 // Admin Permissions

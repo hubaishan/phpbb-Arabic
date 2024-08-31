@@ -110,6 +110,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'إرسال بريد تفعيل إلى المستخدم الجديد(لا يرسل افتراضيًا(',
 	'CLI_DESCRIPTION_USER_DELETE'				=> 'حذف حساب مستخدم.',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'اسم المستخدم المراد حذفه',
+	'CLI_DESCRIPTION_USER_DELETE_ID'			=> 'حذف حسابات مستخدمين عبر المعرف.',
+	'CLI_DESCRIPTION_USER_DELETE_ID_OPTION_ID'	=> 'معرفات المستخدمين للحذف',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'حذف جميع مشاركات المستخدم، بدون هذا الخيار سيتم إبقاء مشاركات المستخدم.',
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'إعادة تنظيف أسماء المستخدمين.',
 
@@ -157,10 +159,14 @@ $lang = array_merge($lang, array(
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'لا يوجد مصغرات لإعادة الإنشاء.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'لا يوجد مصغرات للحذف.',
 
-	'CLI_USER_ADD_SUCCESS'		=> 'أضيف العضو %s بنجاح.',
-	'CLI_USER_DELETE_CONFIRM'	=> 'هل أنت متأكد أنك تريد حذف ‘%s’? [y/N]',
-	'CLI_USER_RECLEAN_START'	=> 'إعادة تنظيف أسماء الأعضاء',
-	'CLI_USER_RECLEAN_DONE'		=> [
+	'CLI_USER_ADD_SUCCESS'			=> 'أضيف العضو %s بنجاح.',
+	'CLI_USER_DELETE_CONFIRM'		=> 'هل أنت متأكد أنك تريد حذف ‘%s’? [y/N]',
+	'CLI_USER_DELETE_ID_CONFIRM'	=> 'هل أنت متأكد من حذف المستخدمين عبر المعرف ‘%s’? [y/N]',
+	'CLI_USER_DELETE_ID_SUCCESS'	=> 'نجح حذف معرفات المستخدمين.',
+	'CLI_USER_DELETE_ID_START'		=> 'حذف المستخدمين عبر المعرفات',
+	'CLI_USER_DELETE_NONE'			=> 'لا مستخدم حذف عبر المعرف.',
+	'CLI_USER_RECLEAN_START'		=> 'إعادة تنظيف أسماء الأعضاء',
+	'CLI_USER_RECLEAN_DONE'			=> [
 		0	=> 'تم إعادة التنظيف. لا أسماء أعضاء تحتاج إلى تنظيف.',
 		1	=> 'تم إعادة التنظيف. اسم عضو واحد تم تنظيفه.',
 		2	=> 'تم إعادة التنظيف. اسما عضوين تم تنظيفهما.',

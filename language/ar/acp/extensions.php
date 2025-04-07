@@ -49,8 +49,9 @@ $lang = array_merge($lang, array(
 
 	'DETAILS'				=> 'التفاصيل',
 
-	'EXTENSIONS_DISABLED'	=> 'الإضافات المعطلة',
-	'EXTENSIONS_ENABLED'	=> 'الإضافات المفعلة',
+	'EXTENSIONS_NOT_INSTALLED'	=> 'لا يوجد إضافات مثبتة',
+	'EXTENSIONS_DISABLED'		=> 'الإضافات المعطلة',
+	'EXTENSIONS_ENABLED'		=> 'الإضافات المفعلة',
 
 	'EXTENSION_DELETE_DATA'	=> 'حذف البيانات',
 	'EXTENSION_DISABLE'		=> 'تعطيل',

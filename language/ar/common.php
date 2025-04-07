@@ -386,6 +386,10 @@ $lang = array_merge($lang, array(
 	'HIDE_ME'						=> 'أخفِ حالة وجودي في المنتدى هذه المرة',
 	'HOURS'							=> 'ساعات',
 	'HOME'							=> 'الرئيسية',
+	'HTTP_HANDLER_NOT_FOUND'		=> 'لا يمكن أن تتم العملية بسبب أن ملحقة cURL ل PHP و إعداد allow_url_fopen في PHP ini معطلين ولا يوجد متحكم PHP بديل.',
+ 
+ 	'ICQ'						=> 'ICQ',
+ 	'IF'						=> 'If',
 
 	'ICQ'						=> 'ICQ',
 	'IF'						=> 'إذا',

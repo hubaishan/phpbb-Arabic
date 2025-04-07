@@ -77,6 +77,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'يعيد معالجة النص المخزن باستخدام خدمات text_formatter الحالية.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'نوع النص لإعادة معالجته، اتركه فارغًا لإعادة معالجة كل شيء.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'لا تحفظ أي شيء فقط اطبع ما يمكن أن يحدث',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_FORCE_BBCODE'	=> 'معالجة كل بي بي كود بدون استثناء. لاحظ أن أي أكد معطلة مسبقًا ستعاد معالجاتها وتفعل وستنتج بالكامل.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'أدنى معرف سجل للمعالجة',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'أعلى معرف سجل للمعالجة',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'العدد التقريبي للسجلات التي سيتم معالجتها في كل مرة',

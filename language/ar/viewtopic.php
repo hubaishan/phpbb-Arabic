@@ -120,6 +120,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INFO'				=> 'تفاصيل المشاركة',
 	'VIEW_NEXT_TOPIC'		=> 'الموضوع التالي',
 	'VIEW_PREVIOUS_TOPIC'	=> 'الموضوع السابق',
+	'VIEW_QUOTED_POST'		=> 'عرض المشاركة المقتبسة',
 	'VIEW_RESULTS'			=> 'مشاهدة النتائج',
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> 'مشاركة واحدة',

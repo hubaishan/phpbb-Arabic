@@ -495,7 +495,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'مسار تحت مجلد المنتدى مثال <samp>images/smilies</samp>',
 	'UPLOAD_ICONS_PATH'			=> 'مسار تخزين صور امتدادت الملفات',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'مسار تحت مجلد المنتدى مثال <samp>images/upload_icons</samp>',
-	'USE_SYSTEM_CRON'		=> 'تنفيذ مهمات دورية من ملف النظام cron',
+	'USE_SYSTEM_CRON'		=> 'تنفيذ مهمات دورية من ملف نظام التشغيل cron',
 	'USE_SYSTEM_CRON_EXPLAIN'		=> 'عندما تكون معطلة، المنتدى سيقوم بتجهيز مهمات دورية ليتم تنفذيها آليًا. عندما تكون مفعلة، المنتدى لن يقوم بوضع أي مهام على جدوله تلقائيًا؛ مدير المنتدى يجب أن يقوم بتجهيز المهام لتنفيذها عن طريق <code>cron.php</code> ليتم تنفذيها على فترات زمنية منتظمة (مثلًا كل 5 دقائق).',
 ));
 
